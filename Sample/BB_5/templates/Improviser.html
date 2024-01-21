@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+
+        @import url(https://fonts.googleapis.com/css?family=Roboto);
+        @import url(https://fonts.googleapis.com/css?family=Handlee);
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(173, 216, 230, 1));
+
+        }
+
+        .quote-container {
+            background-color: white;
+            margin-top: 35px;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .container {
+            border: 2px solid black;
+            margin-top: 35px;
+            background-color: aquamarine;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .paper {
+            position: relative;
+            width: 95%;
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            min-width: 400px;
+            height: 1000px;
+            margin: 30px auto;
+            background: #f7f6fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+            overflow: hidden;
+        }
+
+        .paper:before {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+            background-size: 30px 30px;
+            border-right: 3px solid #D44147;
+            box-sizing: border-box;
+        }
+
+        .paper-content {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            bottom: 30px;
+            left: 60px;
+            background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+            background-size: 30px 30px;
+        }
+
+        .paper-content textarea {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            max-height: 100%;
+            line-height: 30px;
+            padding: 0 10px;
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: mediumblue;
+            font-family: 'Handlee', cursive;
+            font-weight: bold;
+            font-size: 18px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        #paperStyles {
+            margin-top: 200px;
+        }
+
+        .scrollable-container {
+            width: 95%;
+            /* Set a fixed width or adjust as needed */
+            height: 400px;
+            /* Set a fixed height or adjust as needed */
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9 container mx-auto">
+                <h1>Bliss Bridge Improviser</h1>
+
+            </div>
+            <div class="col-9 quote-container mx-auto">
+                <h2>Quote for you</h2>
+                <p id="quoteText"></p>
+                <p id="authorText"></p>
+            </div>
+            <div class="col-9 quote-container mx-auto">
+                <h4>A book is a gift you can open again and again</h4>
+                <form action="{{ url_for('get_popular_books') }}" method="post">
+                    <button type="submit" class="btn btn-primary mt-3">Get Popular Books</button>
+                </form>
+
+                {% if popular_books %}
+                <h3>Popular Books:</h3>
+                <div class="book-blocks d-flex flex-wrap">
+                    {% for book in popular_books %}
+                    <div class="book-block card m-2 p-3 shadow">
+                        <h6>{{ book['Book-Title'] }}</h6>
+                        <!-- Add any other book details or images here -->
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-9 quote-container mx-auto">
+                <h2>Enhance your Mood 🎵</h2>
+                <form id="musicPreferencesForm" method="POST" action="{{ url_for('get_music_recommendations') }}">
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="valence">Valence (0.5 to 1):</label>
+                            <input type="number" step="0.01" min="0.5" max="1" class="form-control" id="valence"
+                                name="valence" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="danceability">Danceability (0.5 to 1):</label>
+                            <input type="number" step="0.01" min="0.5" max="1" class="form-control" id="danceability"
+                                name="danceability" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="energy">Energy (0.5 to 1):</label>
+                            <input type="number" step="0.01" min="0.5" max="1" class="form-control" id="energy"
+                                name="energy" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="genre">Genre:</label>
+                            <select class="form-control" id="genre" name="genre" required>
+                                <option value="" disabled selected>Select a Genre</option>
+                                <option value="accoustic">accoustic</option>
+                                <option value="acoustic"> acoustic </option>
+                                <option value="afrobeat"> afrobeat </option>
+                                <option value="alt-rock"> alt-rock </option>
+                                <option value="alternative"> alternative </option>
+                                <option value="ambient"> ambient </option>
+                                <option value="anime"> anime </option>
+                                <option value="black-metal"> black-metal </option>
+                                <option value="bluegrass"> bluegrass </option>
+                                <option value="blues"> blues </option>
+                                <option value="brazil"> brazil </option>
+                                <option value="breakbeat"> breakbeat </option>
+                                <option value="british"> british </option>
+                                <option value="cantopop"> cantopop </option>
+                                <option value="chicago-house"> chicago-house </option>
+                                <option value="children"> children </option>
+                                <option value="chill"> chill </option>
+                                <option value="classical"> classical </option>
+                                <option value="club"> club </option>
+                                <option value="comedy"> comedy </option>
+                                <option value="country"> country </option>
+                                <option value="dance"> dance </option>
+                                <option value="dancehall"> dancehall </option>
+                                <option value="death-metal"> death-metal </option>
+                                <option value="deep-house"> deep-house </option>
+                                <option value="detroit-techno"> detroit-techno </option>
+                                <option value="disco"> disco </option>
+                                <option value="disney"> disney </option>
+                                <option value="drum-and-bass"> drum-and-bass </option>
+                                <option value="dub"> dub </option>
+                                <option value="dubstep"> dubstep </option>
+                                <option value="edm"> edm </option>
+                                <option value="electro"> electro </option>
+                                <option value="electronic"> electronic </option>
+                                <option value="emo"> emo </option>
+                                <option value="folk"> folk </option>
+                                <option value="forro"> forro </option>
+                                <option value="french"> french </option>
+                                <option value="funk"> funk </option>
+                                <option value="garage"> garage </option>
+                                <option value="german"> german </option>
+                                <option value="gospel"> gospel </option>
+                                <option value="goth"> goth </option>
+                                <option value="grindcore"> grindcore </option>
+                                <option value="groove"> groove </option>
+                                <option value="grunge"> grunge </option>
+                                <option value="guitar"> guitar </option>
+                                <option value="happy"> happy </option>
+                                <option value="hard-rock"> hard-rock </option>
+                                <option value="hardcore"> hardcore </option>
+                                <option value="hardstyle"> hardstyle </option>
+                                <option value="heavy-metal"> heavy-metal </option>
+                                <option value="hip-hop"> hip-hop </option>
+                                <option value="honky-tonk"> honky-tonk </option>
+                                <option value="house"> house </option>
+                                <option value="idm"> idm </option>
+                                <option value="indian"> indian </option>
+                                <option value="indie-pop"> indie-pop </option>
+                                <option value="indie"> indie </option>
+                                <option value="industrial"> industrial </option>
+                                <option value="iranian"> iranian </option>
+                                <option value="j-dance"> j-dance </option>
+                                <option value="j-idol"> j-idol </option>
+                                <option value="j-pop"> j-pop </option>
+                                <option value="j-rock"> j-rock </option>
+                                <option value="jazz"> jazz </option>
+                                <option value="k-pop"> k-pop </option>
+                                <option value="kids"> kids </option>
+                                <option value="latin"> latin </option>
+                                <option value="latino"> latino </option>
+                                <option value="malay"> malay </option>
+                                <option value="mandopop"> mandopop </option>
+                                <option value="metal"> metal </option>
+                                <option value="metalcore"> metalcore </option>
+                                <option value="minimal-techno"> minimal-techno </option>
+                                <option value="mpb"> mpb </option>
+                                <option value="new-age"> new-age </option>
+                                <option value="opera"> opera </option>
+                                <option value="pagode"> pagode </option>
+                                <option value="party"> party </option>
+                                <option value="piano"> piano </option>
+                                <option value="pop-film"> pop-film </option>
+                                <option value="pop"> pop </option>
+                                <option value="power-pop"> power-pop </option>
+                                <option value="progressive-house"> progressive-house </option>
+                                <option value="psych-rock"> psych-rock </option>
+                                <option value="punk-rock"> punk-rock </option>
+                                <option value="punk"> punk </option>
+                                <option value="r-n-b"> r-n-b </option>
+                                <option value="reggae"> reggae </option>
+                                <option value="reggaeton"> reggaeton </option>
+                                <option value="rock-n-roll"> rock-n-roll </option>
+                                <option value="rock"> rock </option>
+                                <option value="rockabilly"> rockabilly </option>
+                                <option value="romance"> romance </option>
+                                <option value="sad"> sad </option>
+                                <option value="salsa"> salsa </option>
+                                <option value="samba"> samba </option>
+                                <option value="sertanejo"> sertanejo </option>
+                                <option value="show-tunes"> show-tunes </option>
+                                <option value="singer-songwriter"> singer-songwriter </option>
+                                <option value="ska"> ska </option>
+                                <option value="sleep"> sleep </option>
+                                <option value="songwriter"> songwriter </option>
+                                <option value="soul"> soul </option>
+                                <option value="spanish"> spanish </option>
+                                <option value="study"> study </option>
+                                <option value="swedish"> swedish </option>
+                                <option value="synth-pop"> synth-pop </option>
+                                <option value="tango"> tango </option>
+                                <option value="techno"> techno </option>
+                                <option value="trance"> trance </option>
+                                <option value="trip-hop"> trip-hop </option>
+                                <option value="turkish"> turkish </option>
+                                <option value="world-music"> world-music </option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+            <div class="col-9 quote-container mx-auto">
+                <h2>Music for you</h2>
+                <div class="music-blocks d-flex flex-wrap">
+                    {% if music_recommendations %}
+                    <h3>Music Recommendations:</h3>
+                    <div class="music-blocks d-flex flex-wrap">
+                        {% for track in music_recommendations %}
+                        <div class="music-block card m-2 p-3 shadow">
+                            <p class="track-name">{{ track['track_name'] }}</p>
+                            <p class="artist-name">{{ track['artists'] }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <button class="btn btn-primary mt-3 music_submit" onclick="clearRecommendations()">Clear
+                    Recommendations</button>
+            </div>
+        </div>
+    </div>
+    <!-- Other components below the quote -->
+    <div class="row">
+        <div class="col-12" id="paperStyles">
+
+        </div>
+    </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script>
+        
+            // Fetch and display a random quote
+            fetchRandomQuote();
+
+            // Function to fetch and display a random quote
+            function fetchRandomQuote() {
+                // Fetch the CSV file containing quotes and authors
+                fetch("{{ url_for('static', filename='csv/quotes11.tsv') }}")
+                    .then(response => response.text())
+                    .then(csvData => {
+                        // Parse CSV data
+                        const rows = csvData.split('\n');
+
+                        // Ensure there are rows available
+                        if (rows.length > 0) {
+                            const randomIndex = Math.floor(Math.random() * rows.length);
+                            const randomQuote = rows[randomIndex].split('\t'); // Use '\t' as the delimiter
+
+                            // Ensure the random quote array has both elements
+                            if (randomQuote.length === 2) {
+                                // Display the random quote in the HTML
+                                document.getElementById('quoteText').textContent = `"${randomQuote[0].trim()}"`;
+                                document.getElementById('authorText').textContent = `by: ${randomQuote[1].trim()}`;
+                            } else {
+                                console.error('Invalid format for random quote:', randomQuote);
+                            }
+                        } else {
+                            console.error('No rows found in CSV data');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching quotes:', error);
+                    });
+            }
+
+        
+        function clearRecommendations() {
+            document.querySelector('.music-blocks').innerHTML = '';
+        }
+
+    </script>
+
+</body>
+
+</html>

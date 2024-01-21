@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Bridge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        #sidebar {
+            position: fixed;
+            height: 100%;
+            width: 0;
+            top: 0;
+            left: 0;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.582), rgba(173, 216, 230, 1));
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            z-index: 1;
+        }
+
+        #sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #sidebar a:hover {
+            background-color: #0056b3;
+        }
+
+        #menuBtn {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            font-size: 25px;
+            cursor: pointer;
+            z-index: 2;
+            color: #f8fafb;
+        }
+
+        #content {
+            margin-left: 0;
+            /* Initialize margin-left to 0 */
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            #sidebar {
+                width: 100%;
+            }
+
+            #content {
+                margin-left: 0;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #sidebar {
+                width: 250px;
+            }
+
+            #content {
+                margin-left: 250px;
+            }
+        }
+
+        .active {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    {% if session['logged_in'] %}
+    <div id="sidebar" class="bg-primary">
+        <a href="{{ url_for('main_page') }}">Home</a>
+        <a href="{{ url_for('bliss_boat_page') }}">Bliss Boat</a>
+        <a href="{{ url_for('improviser_page') }}">Improviser</a>
+        <a href="{{ url_for('resources_page') }}">Resources</a>
+        <a href="{{ url_for('contribute_page') }}">Contribute</a>
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('aboutUs') }}">About Us</a>
+        <a href="{{ url_for('trending_page') }}">Trends</a>
+
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+    {% endif %}
+
+    <div id="content">
+        {% block content %}{% include 'MainPage_1.html' %}{% endblock %}
+    </div>
+    {% block javascript %}{% endblock %}
+    <div id="menuBtn">&#9776; Menu</div>
+
+    <!-- In webmainpage.html, dashboard.html, Resources.html, tryblissbot.html, tryfundpage.html, imroviser.html -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        // script.js
+        $(document).ready(function () {
+            const $sidebarLinks = $('#sidebar a');
+            const $mainContent = $('#content');
+
+            $sidebarLinks.on('click', function (event) {
+                event.preventDefault();
+                const target = $(this).attr('href');
+
+                // Check if the clicked link is the logout link
+                if (target === '{{ url_for("logout") }}') {
+                    // If yes, hide the sidebar
+                    $('#sidebar').hide();
+
+                    // After hiding the sidebar, perform the redirection
+                    window.location.href = target;
+                } else {
+                    // If no, fetch and display new content
+                    $.get(target, function (content) {
+                        $mainContent.html(content);
+                    });
+
+                    // Update active link
+                    $sidebarLinks.removeClass('active');
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

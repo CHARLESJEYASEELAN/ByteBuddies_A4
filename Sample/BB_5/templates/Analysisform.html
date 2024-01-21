@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyZ9+ISBauBp2Qxh4cQ9g/nJW18jUlrL4M" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #003180;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #80b3eb;
+        }
+
+        @media only screen and (max-width: 576px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Mental Health Analysis Form</h2>
+        <form id="analysisForm" action="/submit_form" method="post">
+            <!-- Patient Information -->
+            <label for="fullName">Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="123 Main St, City, Country" rows="4" required></textarea>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="Format: 123-456-7890" required>
+
+            <label for="emergencyContact">Emergency Contact:</label>
+            <input type="text" id="emergencyContact" name="emergencyContact" placeholder="Emergency Contact Name"
+                required>
+
+            <!-- Presenting Concerns -->
+            <label for="reasonForAssessment">Reason for Seeking Mental Health Assessment:</label>
+            <textarea id="reasonForAssessment" name="reasonForAssessment" rows="4" required></textarea>
+
+            <label for="durationOfSymptoms">Duration of Symptoms:</label>
+            <input type="text" id="durationOfSymptoms" name="durationOfSymptoms"
+                placeholder="e.g., weeks, months, years" required>
+
+            <!-- Medical History -->
+            <label for="currentMedications">Current Medications:</label>
+            <textarea id="currentMedications" name="currentMedications" rows="4" required></textarea>
+
+            <label for="pastMedicalHistory">Past Medical History (including psychiatric conditions):</label>
+            <textarea id="pastMedicalHistory" name="pastMedicalHistory" rows="4" required></textarea>
+
+            <!-- Family History -->
+            <label for="familyHistory">Family History of Mental Health Conditions:</label>
+            <textarea id="familyHistory" name="familyHistory" rows="4" required></textarea>
+
+            <!-- Psychosocial History -->
+            <label for="educationLevel">Education Level:</label>
+            <input type="text" id="educationLevel" name="educationLevel" placeholder="Highest level of education"
+                required>
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Current occupation" required>
+
+            <label for="livingSituation">Living Situation:</label>
+            <input type="text" id="livingSituation" name="livingSituation" placeholder="Current living situation"
+                required>
+
+            <label for="relationships">Relationships and Support Systems:</label>
+            <textarea id="relationships" name="relationships" rows="4" required></textarea>
+
+            <!-- Mental Health Assessment -->
+            <label for="symptomsDescription">Description of Presenting Symptoms:</label>
+            <textarea id="symptomsDescription" name="symptomsDescription" rows="4" required></textarea>
+
+            <label for="severity">Severity of Symptoms (Scale 1-10):</label>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="depression">Depression:</label>
+                    <input type="number" id="depression" name="depression" min="1" max="10" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="anxiety">Anxiety:</label>
+                    <input type="number" id="anxiety" name="anxiety" min="1" max="10" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="sleepDisturbance">Sleep Disturbance:</label>
+                    <input type="number" id="sleepDisturbance" name="sleepDisturbance" min="1" max="10" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="substanceUse">Substance Use:</label>
+                    <input type="number" id="substanceUse" name="substanceUse" min="1" max="10" required>
+                </div>
+            </div>
+            <label for="otherSymptoms">Other Symptoms (Specify):</label>
+            <input type="text" id="otherSymptoms" name="otherSymptoms">
+
+            <label for="suicidalIdeation">Suicidal or Homicidal Ideation:</label>
+            <textarea id="suicidalIdeation" name="suicidalIdeation" rows="4" required></textarea>
+
+            <label for="previousTreatments">Previous Mental Health Treatments:</label>
+            <textarea id="previousTreatments" name="previousTreatments" rows="4" required></textarea>
+
+            <label for="stressors">Stressors or Triggers:</label>
+            <textarea id="stressors" name="stressors" rows="4" required></textarea>
+
+            <!-- Additional Information -->
+            <label for="culturalReligious">Cultural or Religious Considerations:</label>
+            <textarea id="culturalReligious" name="culturalReligious" rows="4" required></textarea>
+
+            <label for="legalEthical">Legal or Ethical Concerns:</label>
+            <textarea id="legalEthical" name="legalEthical" rows="4" required></textarea>
+
+            <!-- Clinician's Observations -->
+            <label for="clinicalObservations">Clinical Impressions and Initial Observations:</label>
+            <textarea id="clinicalObservations" name="clinicalObservations" rows="4" required></textarea>
+
+            <!-- Plan of Care -->
+            <label for="recommendedInterventions">Recommended Interventions:</label>
+            <textarea id="recommendedInterventions" name="recommendedInterventions" rows="4" required></textarea>
+
+            <label for="followUpPlan">Follow-up Plan:</label>
+            <textarea id="followUpPlan" name="followUpPlan" rows="4" required></textarea>
+
+            <!-- Consent and Signature -->
+            <label for="consent">I, the undersigned, understand and consent to the mental health assessment and
+                agree to comply with the recommended plan of care.</label>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="patientSignature">Patient's Signature:</label>
+                    <input type="text" id="patientSignature" name="patientSignature" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="signatureDate">Date:</label>
+                    <input type="date" id="signatureDate" name="signatureDate" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIEX16SbTN6MElIAbkzP7UNn9XWZXeI9k3zIyp5R8b0JZqLIWQ8gNQO6"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyZ9+ISBauBp2Qxh4cQ9g/nJW18jUlrL4M"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('analysisForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Assuming you have a JavaScript function to submit the form
+            // This might involve AJAX or other methods if needed
+            // For simplicity, I'm using the fetch API here
+            fetch('/submit_form', {
+                method: 'POST',
+                body: new FormData(document.getElementById('analysisForm'))
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Redirect to the home page after successful form submission
+                        window.location.href = '/home';
+                    } else {
+                        console.error('Form submission failed.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+
+</html>

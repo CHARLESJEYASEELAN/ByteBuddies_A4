@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background:radial-gradient(white,rgb(91, 186, 224));   
+       
+
+           }
+        .lines {
+            padding-top: 50px;
+        }
+        .col-md-6{
+            size: 90px;
+            font-size: larger;
+         
+        }
+       .img-fluid rounded{box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(1, 1, 1, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(190, 97, 97, 0.09) 0px 32px 16px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center mt-5">
+            <h1 class="lines">About US </h1>
+            <h1 class="lines">Our Mission</h1>
+        </header>
+        <section class="my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>We are a tech company committed to improving mental well-being for all individuals. Our mission is to make support easily accessible, leveraging technology to transform lives.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='images/p2.jpg') }}" alt="Team Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+        <section class="my-5">
+            <h2 class="text-center">Our Team</h2>
+            <div class="row">
+                <!-- Add team members with their information -->
+                <div class="col-md-4 mb-4">
+                    <img src="{{ url_for('static', filename='p1.jpg') }}" alt="Team Member 1" class="img-fluid rounded">
+                    <h4 class="mt-3">John Doe</h4>
+                    <p>CEO</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="{{ url_for('static', filename='images/Ambassador 1.jpg') }}" alt="Team Member 2" class="img-fluid rounded">
+                    <h4 class="mt-3">Jane Smith</h4>
+                    <p>CTO</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="{{ url_for('static', filename='images/Ambassador 2.jpg') }}" alt="Team Member 3" class="img-fluid rounded">
+                    <h4 class="mt-3">Alex Johnson</h4>
+                    <p>COO</p>
+                </div>
+            </div>
+        </section>
+       
+        <section class="my-5">
+            <h2 class="text-center">Top Therapists</h2>
+            <p>Meet our exceptional team of therapists dedicated to providing quality mental health support.</p>
+            <ul>
+                <li>Therapist 1: Dr. Emily Parker</li>
+                <li>Therapist 2:Prof. Jonathan Smith</li>
+                <li>Therapist 3:Dr. Sarah Johnson</li>
+            </ul>
+        </section>
+        
+        <section class="my-5">
+            <h2 class="text-center">Top Fund Donors</h2>
+            <p>We extend our heartfelt gratitude to our top fund donors who have generously supported our mission.</p>
+            <ul>
+                <li>Donor 1:Mr. Michael Anderson</li>
+                <li>Donor 2:Mrs. Elizabeth Turner</li>
+                <li>Donor 3:Dr. Robert Mitchell</li>
+            </ul>
+        </section>
+
+        <section class="my-5">
+            <h2 class="text-center">Inspiration</h2>
+            <p>Our portal was inspired by a collective desire to create a positive change in mental health awareness and support, driven by personal experiences and a commitment to a healthier, happier world.</p>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js CDN links (for Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <p class="text-center"><b><i>THANK YOU </i></b></p>
+</body>
+</html>

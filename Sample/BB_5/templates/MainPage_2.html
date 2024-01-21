@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Bridge AI Web Portal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <style>
+        :root {
+            --paper-shadow: #c9bf8d;
+            --background-gradient: linear-gradient(135deg, #c6ba80 30%, #eccc1a);
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 30px;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(173, 216, 230,1));
+        
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        #progress-bar {
+            border: 2px solid black;
+
+            height: 30px;
+            margin-top: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        #progress-fill {
+            height: 100%;
+            width: 0;
+            background-color: #5bc0de;
+            transition: width 0.5s ease-in-out;
+        }
+
+        .text-center .badge-label,
+        .text-center #current_Badge {
+            margin-top: 7px !important;
+        }
+
+        .quote-container {
+            background-color: white;
+            margin-top: 45px;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: auto;
+        }
+
+        .slider {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .pull-left ul {
+            list-style-position: inside;
+            font-size: large;
+            /* Aligns the bullet points with the text */
+            padding-left: 0;
+            /* Removes left padding */
+            margin-left: 0;
+            /* Removes left margin */
+        }
+
+        .pull-left ul li {
+            text-align: left;
+            /* Aligns the text to the left */
+        }
+
+        h4 {
+            margin-top: 0;
+            /* Removes top margin */
+            padding-top: 0;
+            /* Removes top padding */
+        }
+
+        .paper {
+            position: relative;
+            width: 95%;
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            min-width: 400px;
+            height: 400px;
+            margin: 30px auto;
+            background: #f7f6fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+            overflow: hidden;
+        }
+
+        .paper:before {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+            background-size: 30px 30px;
+            border-right: 3px solid #dc0f16;
+            box-sizing: border-box;
+        }
+
+        .paper-content {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            bottom: 30px;
+            left: 60px;
+            background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+            background-size: 30px 30px;
+        }
+
+        .paper-content textarea {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            max-height: 100%;
+            line-height: 30px;
+            padding: 0 10px;
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: mediumblue;
+            font-family: 'Handlee', cursive;
+            font-weight: bold;
+            font-size: 18px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        #formButton {
+            width: 100%;
+        }
+
+        h5 {
+            margin-top: 20px;
+            /* Adjust as needed */
+            margin-bottom: 0px;
+            /* Adjust as needed */
+        }
+
+        .shadow {
+            position: absolute;
+            top: 18px;
+            left: -8px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: radial-gradient(var(--paper-shadow), 20%, rgba(201, 191, 141, 0));
+        }
+
+        .metal {
+            position: absolute;
+            width: 5px;
+            height: 20px;
+            background: linear-gradient(to right, #808080 40%, #eae8e8 50%, #808080);
+            border-radius: 0 0 30% 30%;
+            transform: rotate(50deg);
+            transform-origin: bottom left;
+            top: 15px;
+            border-bottom: 1px solid #808080;
+        }
+
+        .bottom-circle {
+            position: absolute;
+            right: 15px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: var(--pin-color);
+            background: radial-gradient(circle at bottom right,
+                    var(--pin-light) 25%, var(--pin-dark) 90%, var(--pin-color));
+        }
+
+        /* Barrel */
+        .bottom-circle::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -2px;
+            width: 20px;
+            height: 30px;
+            transform: rotate(55deg);
+            transform-origin: 100% 100%;
+            border-radius: 0 0 40% 40%;
+            background: linear-gradient(to right,
+                    var(--pin-dark) 30%, var(--pin-color) 90%, var(--pin-light));
+        }
+
+        /* Top circle */
+        .bottom-circle::after {
+            content: "";
+            position: absolute;
+            right: -10px;
+            top: -5px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: radial-gradient(circle at right,
+                    var(--pin-light) 30%, var(--pin-color) var(--pin-dark) 80%);
+        }
+
+        .text {
+            width: 560px;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #050505;
+            border-radius: 10px;
+        }
+
+        .select {
+            width: 560px;
+            padding: 10px;
+        }
+
+        .submit {
+            color: black;
+            font-weight: 29px;
+            background-color: rgb(17, 87, 218);
+            width: 200px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit:hover {
+            background-color: #50b5d9;
+            /* Adjust the color as per your preference */
+        }
+
+        .select {
+            width: 95%;
+        }
+
+        .paper_1 {
+            --paper-dark: #e5c93d;
+            --paper-color: #ffed87;
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 325px;
+            min-height: 90px;
+            background: var(--background-gradient);
+            box-shadow: 3px 3px 2px var(--paper-shadow);
+
+            transform-origin: top left;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .paper_1 p {
+            margin: auto;
+            color: #0f0f0f;
+        }
+
+        .pin_1 {
+            --pin-color: #d02627;
+            --pin-dark: #530405;
+            --pin-light: #fc7e7d;
+
+            position: absolute;
+            left: 20px;
+            width: 60px;
+            height: 50px;
+        }
+
+        .paper_2 {
+            position: relative;
+            width: 95%;
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            min-width: 400px;
+            height: 210px;
+            margin: 30px auto;
+            background: #f7f6fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+            overflow: hidden;
+        }
+
+        .paper_2:before {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+            background-size: 30px 30px;
+            border-right: 3px solid #D44147;
+            box-sizing: border-box;
+        }
+
+        .paper-content_2 {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            bottom: 30px;
+            left: 60px;
+            background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+            background-size: 30px 30px;
+        }
+
+        .paper-content_2 textarea {
+            cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png) 0 30, progress;
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            max-height: 100%;
+            line-height: 30px;
+            padding: 0 10px;
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: mediumblue;
+            font-family: 'Handlee', cursive;
+            font-weight: bold;
+            font-size: 18px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Bliss Bridge AI Web Portal</h1>
+        <h5 class="text-center">Perform Bliss Activites to Earn Points</h5>
+        <div id="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+
+        <div class="text-center">
+            <span class="badge-label pull-left">0</span>
+
+            <span class="badge-label pull-right">100</span>
+        </div>
+        <form id="blissactivity1" action="{{ url_for('bliss_activity_one') }}" method="POST">
+            <div class="quote-container">
+                <h4>When you repeat them often, and believe in them, you can start to make positive changes.</h4>
+                <div class="input-group mx-auto">
+                    <input type="text" class="form-control" placeholder="Enter your affirmations"
+                        aria-describedby="basic-addon2" name="affirmation">
+                    <span class="input-group-btn">
+                        <button type ='submit' id="submitBtn" class="btn btn-primary" type="button">Submit</button>
+                    </span>
+                </div>
+            </div>
+        </form>
+
+
+
+        <form id="blissactivity2" action="{{ url_for('bliss_activity_two') }}" method="POST">
+            <div class="quote-container">
+                <h4>What you are grateful for today?</h4>
+                <div class="paper scrollable-container">
+                    <div class="paper-content" id="paperContent">
+                        <textarea name="gratitudeTextArea" id="gratitudeTextArea" placeholder="Write what you are grateful for?"
+                            autofocus></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Save Note</button>
+            </div>
+        </form>
+
+
+
+
+
+        <div class="quote-container">
+            <h4>Your Next Blissful Activity</h4>
+            <div class="paper_1">
+                <div class="pin_1">
+                    <div class="shadow"></div>
+                    <div class="metal"></div>
+                    <div class="bottom-circle"></div>
+                </div>
+                <p>YoUr dAILY FoRm</p>
+            </div>
+
+
+
+
+
+
+
+            <form id="blissactivity3" action="{{ url_for('bliss_activity_three') }}" method="POST">
+                <h2>Daily Reflection Form</h2>
+
+                <label for="day">How was your day? (1 mark)</label><br>
+                <select class="select" id="day" name="day">
+                    <option value="1">1 (Bad)</option>
+                    <option value="2">2</option>
+                    <option value="3">3 (Average)</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Excellent)</option>
+                </select><br><br>
+
+                <div class="checkbox-container">
+                    <h4 class="checkbox-group">Activities you engaged in today (4 marks):</h4><br>
+                    <label><input type="checkbox" name="bliss"> Bliss</label>
+                    <label><input type="checkbox" name="meditation"> Meditation</label>
+                    <label><input type="checkbox" name="sleep"> 8 hours of sleep</label>
+                    <label><input type="checkbox" name="recreational"> Recreational activity</label>
+                </div><br>
+
+                <h4 for="memorableMoments">Memorable Moments (2 marks):</h4>
+                <div class="paper_2 scrollable-container">
+                    <div class="paper-content_2" id="paperContent">
+                        <textarea name="memorableMoments" placeholder="Write atleast 2 things" autofocus></textarea>
+                    </div>
+                </div><br>
+
+                <h4 for="actOfKindness">Act of Kindness (2 marks):</h4>
+                <div class="paper_2 scrollable-container">
+                    <div class="paper-content_2" id="paperContent">
+                        <textarea name="actOfKindness" placeholder="Write atleast 2 things" autofocus></textarea>
+                    </div>
+                </div><br>
+
+                <h4 for="problemsFaced">Problems Faced (1 mark):</h4>
+                <div class="paper_2 scrollable-container">
+                    <div class="paper-content_2" id="paperContent">
+                        <textarea name="problemsFaced" placeholder="Write atleast 2 things" autofocus></textarea>
+                    </div>
+                </div><br>
+
+                <h4 for="expressContent">What you felt about today?  - 2 Points</h4>
+                <div class="paper scrollable-container">
+                    <div class="paper-content" id="paperContent">
+                        <textarea name="expressContent"
+                            placeholder="Share your thoughts and feelings here. This is a safe space for you to express yourself. You are not alone.
+                                        which will be helpful to analyse you mood."
+
+                            autofocus></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button class="btn btn-danger delete-btn" onclick="crushAndDelete()">Delete</button>
+                <button class="btn btn-primary" onclick="saveAsTxt()">Save Note</button>
+            </form>
+            
+        </div>
+
+        <div class="quote-container">
+            <h4>"Do not be afraid, but go on speaking and do not be silent, for I am with you"</h4>
+            <button class="btn btn-primary" onclick="toggleRecording()">Record Your Voice</button>
+            <button class="btn btn-danger" onclick="clearRecording()">Delete Recording</button>
+            <button class="btn btn-success" onclick="stopRecording()">Stop Recording</button>
+            <button class="btn btn-info" onclick="playRecording()">Play Recording</button>
+            <button class="btn btn-warning" onclick="submitRecording()">Submit</button>
+            <div id="recordingTimer">Recording Time: 00:00:000</div>
+            <div id="playbackTimer">Playback Time: 00:00:000</div>
+            <div id="waveform"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        // Example: Update progress bar to 50%
+        var progressPercentage = 50;
+        var progressBar = document.getElementById('progress-fill');
+        progressBar.style.width = progressPercentage + '%';
+
+        let wavesurfer;
+        let mediaRecorder;
+        let audioChunks = [];
+        let isRecording = false;
+        let startTime;
+        let playbackStartTime;
+        let playbackTimerInterval;
+
+        function toggleRecording() {
+            if (isRecording) {
+                stopRecording();
+            } else {
+                startRecording();
+            }
+        }
+
+        function startRecording() {
+            if (wavesurfer) {
+                wavesurfer.destroy();
+            }
+
+            navigator.mediaDevices.getUserMedia({ audio: true })
+                .then(function (stream) {
+                    mediaRecorder = new MediaRecorder(stream);
+                    startTime = new Date().getTime();
+
+                    mediaRecorder.ondataavailable = function (e) {
+                        if (e.data.size > 0) {
+                            audioChunks.push(e.data);
+                            wavesurfer.loadBlob(e.data);
+                        }
+                    };
+
+                    mediaRecorder.onstop = function () {
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                        const audioUrl = URL.createObjectURL(audioBlob);
+                        wavesurfer.load(audioUrl);
+                    };
+
+                    mediaRecorder.start();
+                    isRecording = true;
+                    updateRecordingTimer();
+                })
+                .catch(function (err) {
+                    console.error('Error accessing microphone: ', err);
+                });
+
+            wavesurfer = WaveSurfer.create({
+                container: '#waveform',
+                waveColor: 'violet',
+                progressColor: 'purple',
+                backend: 'MediaElement'
+            });
+
+            wavesurfer.clearWave();
+        }
+
+        function stopRecording() {
+            mediaRecorder.stop();
+            isRecording = false;
+            clearInterval(recordingTimerInterval);
+        }
+
+        function playRecording() {
+            playbackStartTime = new Date().getTime();
+            wavesurfer.play();
+            updatePlaybackTimer();
+            wavesurfer.on('finish', function () {
+                clearInterval(playbackTimerInterval);
+                const playbackTimerElement = document.getElementById('playbackTimer');
+                playbackTimerElement.textContent = `Playback Time: ${formatTime(wavesurfer.getDuration() * 1000)}`;
+            });
+        }
+
+        function submitRecording() {
+            // Placeholder action for submitting recording
+            alert('Recording submitted!');
+        }
+
+        function clearRecording() {
+            audioChunks = [];
+            wavesurfer.clearWave();
+            stopRecording();
+        }
+
+        function updateRecordingTimer() {
+            recordingTimerInterval = setInterval(function () {
+                if (isRecording) {
+                    const elapsedMilliseconds = new Date().getTime() - startTime;
+                    const recordingTimerElement = document.getElementById('recordingTimer');
+                    recordingTimerElement.textContent = `Recording Time: ${formatTime(elapsedMilliseconds)}`;
+                }
+            }, 10);
+        }
+
+        function updatePlaybackTimer() {
+            playbackTimerInterval = setInterval(function () {
+                if (wavesurfer.isPlaying()) {
+                    const elapsedMilliseconds = new Date().getTime() - playbackStartTime;
+                    const playbackTimerElement = document.getElementById('playbackTimer');
+                    playbackTimerElement.textContent = `Playback Time: ${formatTime(elapsedMilliseconds)}`;
+                }
+            }, 10);
+        }
+
+        function formatTime(milliseconds) {
+            const minutes = Math.floor(milliseconds / 60000);
+            const seconds = Math.floor((milliseconds % 60000) / 1000);
+            const millisecondsPart = milliseconds % 1000;
+            return `${minutes}:${seconds}:${millisecondsPart}`;
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

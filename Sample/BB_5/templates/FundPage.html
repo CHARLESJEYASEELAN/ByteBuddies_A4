@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Fundraising</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #003180;
+            font-family: Arial, sans-serif;
+
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 15px;
+        }
+
+        .fundraising-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ambassador-section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ambassador {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .ambassador img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .ambassador p {
+            color: #091A7A;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        p {
+            color: #091A7A;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #091A7A;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4553a0;
+        }
+
+        .container {
+            max-width: 100%;
+            align-items: center;
+            padding: 20px;
+            margin: 0 auto;
+
+        }
+
+        @media (max-width: 768px) {
+            #sidebar {
+                width: 100%;
+            }
+
+            #content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container col-9">
+        <div class="fundraising-container col-9">
+            <h2>Mental Health Fundraising: MIND BOOST BANK</h2>
+            <p>Welcome to Mind Boost Bank (MBB), a beacon of hope and a compassionate platform committed to championing
+                mental health initiatives. Your invaluable contribution to MBB serves as a lifeline, making a profound
+                impact on the lives of individuals navigating the complexities of mental health challenges.</p>
+
+            <p>In a world where the importance of mental well-being cannot be overstated, MBB stands as a sanctuary for
+                those seeking solace, understanding, and support. By joining hands with us, you become a vital part of a
+                community dedicated to destigmatizing mental health issues and fostering an environment of healing and
+                resilience.</p>
+
+            <p>Your generosity fuels our mission to advance mental health awareness, fund groundbreaking research, and
+                extend a helping hand to those in need. Together, we are on a journey to uplift minds, break down
+                barriers, and create a positive ripple effect that resonates throughout communities.</p>
+
+            <p>Whether you are considering a one-time donation or opting for a monthly recurring commitment, every act
+                of kindness amplifies our collective impact. Your support not only transforms individual lives but
+                contributes to the larger narrative of societal change, promoting a world where mental health is
+                prioritized and celebrated.</p>
+
+            <p>Thank you for considering Mind Boost Bank as your ally in this crucial mission. With your support, we are
+                not only fostering hope but also building a future where mental well-being is a fundamental right for
+                all.</p>
+        </div>
+
+        <div class="fundraising-container">
+            <!-- Fundraising Form -->
+            <form action="/" method="post">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="donationAmount">Donation Amount:</label>
+                <input type="number" id="donationAmount" name="donationAmount" required>
+
+
+
+                <label for="creditCard">Credit Card Number:</label>
+                <input type="text" id="creditCard" name="creditCard" required>
+
+                <label for="expirationDate">Expiration Date (MM/YYYY):</label>
+                <input type="text" id="expirationDate" name="expirationDate" pattern="(0[1-9]|1[0-2])\/[0-9]{4}"
+                    placeholder="MM/YYYY" required>
+
+                <label for="securityCode">Security Code (CVV):</label>
+                <input type="text" id="securityCode" name="securityCode" required>
+
+                <label for="billingAddress">Billing Address:</label>
+                <input type="text" id="billingAddress" name="billingAddress">
+
+                <label for="purpose">Purpose of Donation:</label>
+                <select id="purpose" name="purpose">
+                    <option value="general">General Fund</option>
+                    <option value="campaign">Specific Campaign/Project</option>
+                </select>
+
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+
+        </div>
+        <div class="fundraising-container">
+
+            <div class="ambassador-section">
+                <h2>Our Ambassadors</h2>
+
+                <!-- Ambassador 1 -->
+                <div class="ambassador">
+                    <img src="{{ url_for('static', filename='images/Ambassador 1.jpg') }}" alt="Ambassador 1">
+                    <p><strong>Ambassador Jane Doe</strong></p>
+                    <p>Experience: As a mental health advocate for the past 5 years, Jane has been dedicated to raising
+                        awareness about the importance of mental well-being. Her journey includes organizing community
+                        events, facilitating support groups, and collaborating with mental health professionals to make
+                        a positive impact.</p>
+                </div>
+
+                <!-- Ambassador 2 -->
+                <div class="ambassador">
+                    <img src="{{ url_for('static', filename='images/Ambassador 2.jpg') }}" alt="Ambassador 2">
+                    <p><strong>Ambassador John Smith</strong></p>
+                    <p>Experience: John is a licensed therapist specializing in cognitive-behavioral therapy. With over
+                        a decade of experience in the mental health field, he has worked with diverse populations,
+                        providing counseling and support. John is passionate about reducing stigma and promoting
+                        accessible mental health resources.</p>
+                </div>
+
+                <!-- Add more ambassadors as needed -->
+            </div>
+        </div>
+        <!-- Ambassador Section -->
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // If you had a menu button, you can add it here
+        });
+    </script>
+</body>
+
+</html>

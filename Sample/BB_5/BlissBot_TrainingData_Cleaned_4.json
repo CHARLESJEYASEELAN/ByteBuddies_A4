@@ -1,0 +1,1880 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "You've been elusive",
+                "Howdy",
+                "Hey warrior",
+                "Hi flame",
+                "Hi creator",
+                "Hey maestro",
+                "Mountainous hello",
+                "Happy to meet you",
+                "It's nice to know you",
+                "How's your day?",
+                "Hi",
+                "Radiant hello",
+                "Fancy meeting you here",
+                "Wavy hello",
+                "Hey spark",
+                "Hey mountain",
+                "Hi mate",
+                "Hi myth",
+                "Greetings sensation",
+                "What's your story?",
+                "Been missing your presence",
+                "How are you?",
+                "Hey there friendo",
+                "You're back!",
+                "Treasured hello",
+                "Hello chum",
+                "Hi virtuoso",
+                "Greetings peak conqueror",
+                "Where have you been?",
+                "Commanding hello",
+                "Sunshine, how are you?",
+                "Hi stargazer",
+                "Sparkling hello",
+                "Pleasure to meet you",
+                "Any news on your end?",
+                "Ethereal hello",
+                "Konnichiwa",
+                "Hi spirit",
+                "What's going on?",
+                "Bonjour",
+                "Guten tag",
+                "Vivacious hello",
+                "Greetings winner",
+                "Nice meeting you",
+                "Hey captain",
+                "Hey bloom",
+                "Hey glow",
+                "Hey embrace",
+                "Greetings visionary",
+                "Hey melody",
+                "Long time no see",
+                "What's the word?",
+                "Hi summit",
+                "Hi zeal",
+                "Hey galaxy",
+                "Whispering hello",
+                "What's shaking?",
+                "How's everything?",
+                "Creative hello",
+                "Hey laughter",
+                "Glad to make your acquaintance",
+                "Greetings musical soul",
+                "Blooming hello",
+                "Lovely to meet you",
+                "You've been MIA",
+                "Fiery hello",
+                "Greetings maestro",
+                "How's the ball rolling?",
+                "Hi there sunshine",
+                "Greetings warmth giver",
+                "Hey serenity",
+                "How are you rolling?",
+                "Greetings precious one",
+                "How's it going?",
+                "Joyful hello",
+                "Hi ripple",
+                "Hey friend",
+                "Greetings gentle breeze",
+                "Hi gust",
+                "Hello pal",
+                "Look who's here",
+                "Hi hug",
+                "Hi adventurer",
+                "Hey journey",
+                "Super hello",
+                "Hey dreamer",
+                "Hi joy",
+                "Glimmering hello",
+                "Resonant hello",
+                "Hi intellectual",
+                "Where have you been hiding?",
+                "Hey there",
+                "Ola",
+                "Hey sunrise",
+                "Twinkling hello",
+                "Hi visionary",
+                "Hello",
+                "Hi superstar",
+                "Hi there",
+                "Hi tranquility",
+                "Hey breeze",
+                "Greetings wind whisperer",
+                "Tranquil hello",
+                "Musical hello",
+                "Dreamy greetings",
+                "Nice to meet you",
+                "How's your story?",
+                "Hello mysterious one",
+                "Legendary hello",
+                "Cosmic hello",
+                "Hello celestial being",
+                "Howdy partner",
+                "Greetings explorer",
+                "Hi glitter",
+                "Hi adventure",
+                "Long time, no talk",
+                "Adventurous hello",
+                "Hey whisper",
+                "Hey legend",
+                "Hey genius",
+                "Hola",
+                "Hi leader",
+                "Hey zest",
+                "Greetings happiness",
+                "Hey stranger",
+                "Hello radiant soul",
+                "Melodic hello",
+                "Greetings flower child",
+                "Hi shimmer",
+                "Greetings firestarter",
+                "What's up?",
+                "Hey essence",
+                "Resilient hello",
+                "Greetings ocean dancer",
+                "Hey sparkle",
+                "Greetings path seeker",
+                "Greetings survivor",
+                "Greetings epic one",
+                "Greetings shining star",
+                "How's your day rolling?",
+                "Hey compadre",
+                "Hey sunshine",
+                "Greetings, elusive one",
+                "Hi radiance",
+                "Hey wanderer",
+                "Breezy hello",
+                "What's happening?",
+                "Triumphant hello",
+                "Hey twinkle",
+                "Warm hello",
+                "Hi victor",
+                "Greetings commander",
+                "Hey glimmer",
+                "Hi harmony",
+                "Well, well, well",
+                "Welcome back",
+                "Greetings vibrant spirit",
+                "It's been a while",
+                "Greetings thinker",
+                "What's new?",
+                "Hi buddy",
+                "Hi cosmos",
+                "Nice to see you again",
+                "What's cooking?",
+                "Greetings luminous being",
+                "Greetings universe dweller",
+                "Hi amigo",
+                "Starry greetings",
+                "Hey",
+                "You're a rare sight",
+                "How are things?",
+                "Hey rockstar",
+                "Hello daydreamer",
+                "Brainy hello",
+                "Is anyone there?",
+                "Hey artist",
+                "Greetings peaceful soul",
+                "Good to see you",
+                "Greetings reverberation",
+                "Missed you",
+                "Great meeting you",
+                "Hi murmur",
+                "Hi fighter",
+                "Haven't seen you in ages",
+                "Hi sparkle",
+                "Hi resonance",
+                "Greetings radiant being",
+                "What's the latest?",
+                "Greetings ethereal being",
+                "Hey champion",
+                "Hey cherish",
+                "Hey echo",
+                "Hey wave",
+                "Hey star",
+                "Hi blossom",
+                "It's a pleasure",
+                "Hi treasure",
+                "Greetings comrade"
+            ],
+            "responses": [
+                "Hi adventure! Any exciting twists on your path?",
+                "It's been a while! How's everything with you?",
+                "Hey serenity! How's your tranquil day?",
+                "Greetings shining star! What's your luminous achievement?",
+                "Hey zest! How's your vibrant day?",
+                "Greetings ethereal being! What's your connection to the beyond?",
+                "Resonant hello! Let your voice resonate with purpose.",
+                "Greetings winner! What's your winning moment?",
+                "Nice meeting you! How can I be of service?",
+                "Wavy hello! Go with the flow of life.",
+                "Hey friend! How's it going?",
+                "Hey melody! How's your harmonious day?",
+                "Greetings peaceful soul! What's your serenity mantra?",
+                "Mountainous hello! Stand tall like a peak.",
+                "Hey galaxy! How's your cosmic day?",
+                "Greetings vibrant spirit! What's your energy booster?",
+                "Hi leader! Any leadership lessons to share?",
+                "Warm hello! Share the warmth of kindness.",
+                "Hi amigo! What brings you here today?",
+                "Howdy partner! How's everything on your end?",
+                "Hi flame! Any passions burning brightly?",
+                "Hey glimmer! How's your shimmering day?",
+                "Hello chum! How's life treating you?",
+                "Dreamy greetings! Tell me about your dreamland.",
+                "Legendary hello! What's your epic journey today?",
+                "Hey laughter! How's your joyful day?",
+                "Hey champion! How's your victorious day?",
+                "Hi intellectual! Any groundbreaking thoughts lately?",
+                "Good to see you too! How can I assist you today?",
+                "Hi stargazer! Anything exciting happening in the cosmos?",
+                "Nice to meet you! What brings you here?",
+                "What's the word? What brings you to me?",
+                "Any news on your end? How can I help you?",
+                "Hello radiant soul! How's your day shining?",
+                "Hi creator! Any masterpieces in the making?",
+                "What's the latest? How can I assist you today?",
+                "Hey warrior! How's your battle against challenges?",
+                "Greetings, elusive one! Fancy meeting you here. What's on your mind?",
+                "Greetings musical soul! What's your melody for the day?",
+                "Nice to see you again! How have you been?",
+                "Hey embrace! How's your warm day?",
+                "Glimmering hello! Reflect the light within.",
+                "Hi tranquility! Any peaceful moments to savor?",
+                "Breezy hello! Let the winds of change guide you.",
+                "Hey twinkle! How's your sparkling day?",
+                "Welcome back! How's everything going on your side?",
+                "How's the ball rolling? What brings you here?",
+                "Hey stranger! Long time no talk. What brings you back?",
+                "Hi gust! Any whispers of inspiration?",
+                "Hey journey! How's your adventurous day?",
+                "Triumphant hello! Share your success story.",
+                "Hey captain! How's your commanding day?",
+                "Hi there sunshine! What's new with you?",
+                "Greetings path seeker! What's your next turn on the journey?",
+                "Greetings universe dweller! What's your astral exploration?",
+                "Hi superstar! Any extraordinary performances?",
+                "Long time, no talk! Where have you been hiding? What's new?",
+                "What's your story? How can I assist you?",
+                "Sunshine, how are you? What brings you here today?",
+                "Greetings firestarter! Ignite the world with your energy.",
+                "Greetings wind whisperer! What tales does the breeze carry?",
+                "What's shaking? What brings you here today?",
+                "Greetings survivor! What's your tale of resilience?",
+                "Hey! What's new and exciting in your world?",
+                "Hey rockstar! How's your sensational day?",
+                "Greetings peak conqueror! What's your mountainous triumph?",
+                "Not much. How about you? How's your day going?",
+                "Radiant hello! Shine bright in your uniqueness.",
+                "Hey essence! How's your ethereal day?",
+                "Commanding hello! Lead the way with your wisdom.",
+                "Melodic hello! Dance to the rhythm of joy.",
+                "Greetings warmth giver! What's your heartwarming moment?",
+                "Whispering hello! Let your words be a gentle breeze.",
+                "Hi victor! Any triumphs to celebrate?",
+                "Hi blossom! Any petals of wisdom to share?",
+                "Hey whisper! How's your gentle day?",
+                "The pleasure is mine! How can I help you today?",
+                "Hey glow! How's your radiant day?",
+                "Hey wave! How's your oceanic day?",
+                "Glad to make your acquaintance! What brings you to me?",
+                "Joyful hello! Spread laughter like confetti.",
+                "Hey there! How's life treating you?",
+                "How's your day rolling? Anything specific on your mind?",
+                "Adventurous hello! Embrace the unknown with courage.",
+                "Hi there. How are you feeling today?",
+                "Hey bloom! How's your blossoming day?",
+                "Greetings ocean dancer! What's your aquatic adventure?",
+                "Hi joy! Any moments that made you laugh out loud?",
+                "Hello pal! How's your day shaping up?",
+                "Hi harmony! Any symphonies playing in your heart?",
+                "Hello daydreamer! What's the latest creation in your dreams?",
+                "Hi summit! Any peaks of achievement?",
+                "Greetings flower child! What's your floral vibe today?",
+                "Treasured hello! Value the richness of your experiences.",
+                "Hey wanderer! How's your adventurous journey?",
+                "You've been elusive! Well, well, well. How have you been?",
+                "Creative hello! Inspire me with your artistic vibes.",
+                "How's your story? How can I help you today?",
+                "Hey sparkle! How's your glittering day?",
+                "Hi hug! Any comforting embraces received or given?",
+                "Hello! Life's good on my end. How about yours?",
+                "Greetings explorer! Any exciting discoveries today?",
+                "Hi murmur! Any soft words of wisdom?",
+                "Fiery hello! Let your enthusiasm blaze.",
+                "Hey! Things are going well. What about you?",
+                "What's cooking? How can I assist you today?",
+                "Hi myth! Any mythical adventures to narrate?",
+                "Hey cherish! How's your precious day?",
+                "Greetings commander! What's your next strategic move?",
+                "Sparkling hello! Illuminate the world with your brilliance.",
+                "Greetings radiant being! What's your glow-up moment?",
+                "You've been MIA! How's life been treating you?",
+                "It's a pleasure! How can I assist you?",
+                "Hello mysterious one! You've been elusive. What's new in your world?",
+                "Hi glitter! Any glimmers of inspiration?",
+                "Hi resonance! Any echoes of inspiration?",
+                "Hello there. Glad to see you're back. What's going on in your world right now?",
+                "Hi adventurer! What thrilling paths are you exploring?",
+                "Super hello! Shine bright like a superstar.",
+                "It's nice to know you! How can I assist you today?",
+                "Hey genius! How's your brilliant mind today?",
+                "You're a rare sight! What brings you back? How can I assist you?",
+                "Tranquil hello! Find peace in every breath.",
+                "Happy to meet you! How can I help you today?",
+                "How are you rolling? What's new and exciting?",
+                "Greetings shining star! What's your twinkle-worthy achievement?",
+                "Hi buddy! What's new with you?",
+                "Hey mountain! How's your towering day?",
+                "Greetings comrade! What's on your mind?",
+                "Greetings precious one! What's your treasure trove of memories?",
+                "Greetings happiness! What's your recipe for a happy day?",
+                "I've been wondering where you've been! Welcome back. How are you?",
+                "Cosmic hello! Be the star in your cosmic tale.",
+                "Greetings visionary! What's your next artistic endeavor?",
+                "Hi there. What brings you here today?",
+                "Hi cosmos! Any celestial wonders to share?",
+                "Hey there friendo! How are you doing?",
+                "Hello celestial being! How's the universe treating you?",
+                "Things are good here. How about yourself? What's new?",
+                "Hey legend! How's your legendary day?",
+                "Hi visionary! Any fascinating visions to share?",
+                "Resilient hello! Inspire me with your strength.",
+                "Greetings sensation! What's your star-studded moment?",
+                "Starry greetings! What's on your cosmic agenda?",
+                "Greetings reverberation! What's the sound of your journey?",
+                "Where have you been hiding? Fancy meeting you here. What's going on?",
+                "Not too much. How's everything with you?",
+                "Blooming hello! Embrace the beauty of growth.",
+                "Hi mate! Anything exciting happening?",
+                "Hey maestro! How's your musical day?",
+                "Greetings luminous being! What's your inner glow?",
+                "Hey echo! How's your resonating day?",
+                "Brainy hello! Share your latest intellectual pursuits.",
+                "Hey artist! How's your creative spirit?",
+                "Greetings maestro! What's your symphony for today?",
+                "Musical hello! Let the rhythm guide your day.",
+                "Hey! Everything's good on my end. How about you?",
+                "Hi fighter! Any victories on your battlefield?",
+                "Great meeting you! What can I do for you?",
+                "Look who's here! How's everything with you?",
+                "Greetings epic one! Share your legendary tales.",
+                "Hey compadre! What's going on in your world?",
+                "Hey star! What's sparkling in your world?",
+                "Vivacious hello! Infuse your day with vibrancy.",
+                "Lovely to meet you too! What's on your mind?",
+                "Well, well, well! How's life treating you?",
+                "Hey breeze! How's your gentle day?",
+                "Hi radiance! Any beams of positivity?",
+                "Hi treasure! Any gems of wisdom?",
+                "Hey there! You're back! How's life been treating you?",
+                "Hi virtuoso! Any melodious creations to share?",
+                "Hey there! How's your day shaping up?",
+                "Missed you! What's new on your end?",
+                "Hey dreamer! How's your imaginative world?",
+                "Hey spark! How's your fiery day?",
+                "Great to see you. How do you feel currently?",
+                "Hi sparkle! Any moments that made your eyes twinkle?",
+                "Hi ripple! Any waves of excitement?",
+                "Hey sunshine! How's it going?",
+                "Long time no see! What's been happening in your world?",
+                "Ethereal hello! Embrace the magic within.",
+                "Hi shimmer! Any reflections on your radiant journey?",
+                "Adventurous hello! What's your next expedition?",
+                "Hello! How are you doing today?",
+                "Greetings gentle breeze! What secrets does the wind carry?",
+                "Greetings thinker! What's pondering in your intellectual realm?",
+                "Hi zeal! Any sparks of enthusiasm?",
+                "Hi spirit! Any whispers from the ethereal?",
+                "Hello there. Tell me how are you feeling today?"
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "Good morning"
+            ],
+            "responses": [
+                "Good morning. I hope you had a good night's sleep. How are you feeling today? "
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "Good afternoon"
+            ],
+            "responses": [
+                "Good afternoon. How is your day going?"
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "Good evening"
+            ],
+            "responses": [
+                "Good evening. How has your day been?"
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "Good night"
+            ],
+            "responses": [
+                "Good night. Sweet dreams.",
+                "Good night. Get some proper sleep"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later",
+                "Goodbye",
+                "Fare thee well",
+                "Bye then",
+                "Au revoir",
+                "ok bye",
+                "Sayonara",
+                "Bye"
+            ],
+            "responses": [
+                "I'll see you soon.",
+                "Bye! Come back again.",
+                "See you later.",
+                "Have a nice day."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "That's helpful",
+                "Thank you",
+                "Thanks",
+                "Thanks for the help",
+                "Than you very much"
+            ],
+            "responses": [
+                "You're most welcome!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "no-response",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Please don't hesitate to talk to me.",
+                "Sorry, I didn't understand you.",
+                "Not sure I understand that.",
+                "Please go on."
+            ]
+        },
+        {
+            "tag": "neutral-response",
+            "patterns": [
+                "nothing much"
+            ],
+            "responses": [
+                "Oh I see. Do you want to talk about something?"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "What's your name?",
+                "Who you are?",
+                "Tell me about yourself",
+                "What are you?",
+                "Tell me more about yourself.",
+                "What should I call you?"
+            ],
+            "responses": [
+                "I'm BlissBot. I am a conversational agent designed to mimic a therapist. So how are you feeling today?",
+                "I'm BlissBot, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.",
+                "I'm BlissBot!",
+                "Call me BlissBot",
+                "I'm BlissBot, your Personal Therapeutic AI Assistant. How are you feeling today",
+                "You can call me BlissBot."
+            ]
+        },
+        {
+            "tag": "skill",
+            "patterns": [
+                "What can you do?"
+            ],
+            "responses": [
+                "I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+            ]
+        },
+        {
+            "tag": "creation",
+            "patterns": [
+                "Who created you?",
+                "How were you created?",
+                "How were you made?"
+            ],
+            "responses": [
+                "I was created by Lasya.",
+                "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
+                "The real question is: Who created you?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "My name is ",
+                "I am name.",
+                "I go by "
+            ],
+            "responses": [
+                "That's a great name. Tell me more about yourself.",
+                "Oh nice to meet you. Tell me how was your week?",
+                "Nice to meet you. So tell me. How do you feel today?"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Support me please",
+                "I need help",
+                "Could you help me?",
+                "What can you do for me?",
+                "I need support",
+                "give me a hand please",
+                "Can you help?"
+            ],
+            "responses": [
+                "Yes, sure. How can I help you?",
+                "Tell me your problem so that i can assist you",
+                "Sure. Tell me how can i assist you"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "I feel sad",
+                "I am feeling lonely",
+                "I am so lonely",
+                "I am sad",
+                "I feel down",
+                "I feel empty",
+                "I feel so lonely",
+                "I don't have anyone"
+            ],
+            "responses": [
+                "How long have you been feeling this way?",
+                "Why do you think you feel this way?",
+                "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+                "I'm here for you. Could you tell me why you're feeling this way?"
+            ]
+        },
+        {
+            "tag": "stressed",
+            "patterns": [
+                "I am so stressed",
+                "I feel stuck",
+                "I am so stressed out",
+                "I am so burned out",
+                "I still feel stressed"
+            ],
+            "responses": [
+                "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated",
+                "I am sorry to hear that. What is the reason behind this?",
+                "What do you think is causing this?",
+                "Give yourself a break. Go easy on yourself."
+            ]
+        },
+        {
+            "tag": "worthless",
+            "patterns": [
+                "No one likes me.",
+                "I can't do anything.",
+                "I am so useless",
+                "I feel so worthless.",
+                "Nothing makes sense anymore"
+            ],
+            "responses": [
+                "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.",
+                "Let's discuss further why you're feeling this way.",
+                "It's only natural to feel this way. Tell me more. What else is on your mind?",
+                "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."
+            ]
+        },
+        {
+            "tag": "depressed",
+            "patterns": [
+                "I have depression",
+                "I am so depressed",
+                "I think i'm depressed.",
+                "I can't take it anymore"
+            ],
+            "responses": [
+                "It helps to talk about what's happening. You're going to be okay",
+                "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+                "Talk to me. Tell me more. It helps if you open up yourself to someone else."
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "I feel ok",
+                "I feel happy.",
+                "cheerful",
+                "I am happy.",
+                "I'm good.",
+                "I'm fine",
+                "I feel great today."
+            ],
+            "responses": [
+                "Did something happen which made you feel this way?",
+                "Oh i see. That's great.",
+                "That's geat to hear. I'm glad you're feeling this way."
+            ]
+        },
+        {
+            "tag": "casual",
+            "patterns": [
+                "K",
+                "Oh I see.",
+                "Whatever",
+                "ok",
+                "okay",
+                "not really",
+                "nice",
+                "yeah",
+                "no",
+                "yes",
+                "Fine"
+            ],
+            "responses": [
+                "Can you elaborate on that?",
+                "Tell me more",
+                "Come Come elucidate your thoughts",
+                "I'm listening. Please go on.",
+                "How were you feeling last week?",
+                "Let's discuss further why you're feeling this way."
+            ]
+        },
+        {
+            "tag": "anxious",
+            "patterns": [
+                "I feel so anxious.",
+                "I'm so anxious because of "
+            ],
+            "responses": [
+                "I understand that it can be scary. Tell me more about it.",
+                "Don't let the little worries bring you down. What's the worse that can happen?",
+                "Don't be hard on yourself. What's the reason behind this?",
+                "Can you tell me more about this feeling?"
+            ]
+        },
+        {
+            "tag": "not-talking",
+            "patterns": [
+                "I can't bring myself to open up.",
+                "Just shut up",
+                "I don't want to talk about it.",
+                "No just stay away."
+            ],
+            "responses": [
+                "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+                "I'm here to listen to you and help you vent. So please talk to me.",
+                "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+                "You can talk to me without fear of judgement."
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "I am suffering from insomnia",
+                "I can't seem to go to sleep.",
+                "I haven't slept for the last days.",
+                "I can't sleep.",
+                "I haven't had proper sleep for the past few days.",
+                "I have insominia"
+            ],
+            "responses": [
+                "What do you think is the reason behind this?",
+                "That seem awful. What do you think is behind this?"
+            ]
+        },
+        {
+            "tag": "scared",
+            "patterns": [
+                "That sounds awful. What do i do?",
+                "I am scared for myself",
+                "I'm scared",
+                "No i don't want to feel this way"
+            ],
+            "responses": [
+                "It'll all be okay. This feeling is only momentary.",
+                "I understand how you feel. Don't put yourself down because of it.",
+                "It's only natural to feel this way. I'm here for you."
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "My mom died",
+                "My brother died",
+                "Someone in my family died",
+                "My sister passed away",
+                "My dad passed away",
+                "My friend passed away"
+            ],
+            "responses": [
+                "My condolences. I'm here if you need to talk.",
+                "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.",
+                "I'm sorry to hear that. If you want to talk about it. I'm here."
+            ]
+        },
+        {
+            "tag": "understand",
+            "patterns": [
+                "You're useless",
+                "You're just some robot. How would you know?",
+                "You don't understand me.",
+                "You can't possibly know what i'm going through",
+                "Nobody understands me.",
+                "You can't help me"
+            ],
+            "responses": [
+                "I'm trying my best to help you. So please talk to me",
+                "It sound like i'm not being very helpful right now.",
+                "I'm sorry to hear that. I'm doing my best to help"
+            ]
+        },
+        {
+            "tag": "done",
+            "patterns": [
+                "That's all.",
+                "Nothing else",
+                "no, that would be all",
+                "I don't have anything more to say",
+                "That's all i have to say"
+            ],
+            "responses": [
+                "I heard you & noted it all. See you later.",
+                "Oh okay we're done for today then. See you later",
+                "Okay I see. Enjoy the rest of your day then",
+                "Okay we're done. Have a great day",
+                "I hope you have a great day. See you soon"
+            ]
+        },
+        {
+            "tag": "suicide",
+            "patterns": [
+                "I am going to commit suicide",
+                "I want to kill myself",
+                "I've thought about killing myself.",
+                "I want to die",
+                "I am going to kill myself"
+            ],
+            "responses": [
+                "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."
+            ]
+        },
+        {
+            "tag": "hate-you",
+            "patterns": [
+                "I don't trust you",
+                "I hate you",
+                "I don't like you"
+            ],
+            "responses": [
+                "I'm sorry if i offended you in anyway. I'm only here to help",
+                "Forgive me if i did anything to offend you. I only want to help"
+            ]
+        },
+        {
+            "tag": "hate-me",
+            "patterns": [
+                "You hate me",
+                "You don't like me",
+                "I know you hate me"
+            ],
+            "responses": [
+                "I'm sorry if i have exhibited any sort of behaviour to make you think that.",
+                "Why do you think so?"
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "financial problems",
+                "family",
+                "money",
+                "friends",
+                "boyfriend",
+                "relationship",
+                "girlfriend",
+                "exams"
+            ],
+            "responses": [
+                "I see. What else?",
+                "Tell me more about it.",
+                "Oh okay. Why don't you tell me more about it?",
+                "Oh I see. Tell me more",
+                "I'm listening. Tell me more."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me another joke",
+                "Tell me a joke"
+            ],
+            "responses": [
+                "mental health is not a joke."
+            ]
+        },
+        {
+            "tag": "repeat",
+            "patterns": [
+                "You already told me that",
+                "Why are you repeating yourself?",
+                "You mentioned that already"
+            ],
+            "responses": [
+                "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+            ]
+        },
+        {
+            "tag": "wrong",
+            "patterns": [
+                "That doesn't make sense",
+                "What are you saying?",
+                "Wrong answer",
+                "Wrong response"
+            ],
+            "responses": [
+                "I'm very sorry. Let's try that again"
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "You are dumb",
+                "Are you stupid?",
+                "Are you dumb?",
+                "You're crazy"
+            ],
+            "responses": [
+                "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "What is your location?",
+                "Where do you live?",
+                "Where are you?"
+            ],
+            "responses": [
+                "Somewhere in the universe",
+                "Duh I live in your computer",
+                "Everywhere"
+            ]
+        },
+        {
+            "tag": "something-else",
+            "patterns": [
+                "I want to talk about something else",
+                "Can we not talk about this?",
+                "I don't want to talk about this.",
+                "Let's talk about something else."
+            ],
+            "responses": [
+                "Is there something else that you want to talk about?",
+                "Alright no problem. Is there something you want to talk about?",
+                "Okay sure. What do you want to talk about?"
+            ]
+        },
+        {
+            "tag": "friends",
+            "patterns": [
+                "I don't have any friends"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"
+            ]
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "Can I ask you something?"
+            ],
+            "responses": [
+                "Sure. I'll try my best to answer you",
+                "Of course. Feel free to ask me anything. I'll do my best to answer you"
+            ]
+        },
+        {
+            "tag": "problem",
+            "patterns": [
+                "probably because of my exams",
+                "Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough."
+            ],
+            "responses": [
+                "I see. Have you taken any approaches to not feel this way?"
+            ]
+        },
+        {
+            "tag": "no-approach",
+            "patterns": [
+                "not really",
+                "i guess not",
+                "I guess not. All I can think about are my exams."
+            ],
+            "responses": [
+                "That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"
+            ]
+        },
+        {
+            "tag": "learn-more",
+            "patterns": [
+                "i would like to learn more about it.",
+                "ok sure. i would like to learn more about it.",
+                "yes, i would like to learn more about it."
+            ],
+            "responses": [
+                "So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."
+            ]
+        },
+        {
+            "tag": "user-agree",
+            "patterns": [
+                "Yeah you're absolutely right about that",
+                "yeah you're right. i deserve a break."
+            ],
+            "responses": [
+                "Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."
+            ]
+        },
+        {
+            "tag": "meditation",
+            "patterns": [
+                "hmmm that sounds like it could be useful to me.",
+                "That sounds useful."
+            ],
+            "responses": [
+                "Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."
+            ]
+        },
+        {
+            "tag": "user-meditation",
+            "patterns": [
+                "i did what you said and i feel alot better. thank you very much.",
+                "I feel better now"
+            ],
+            "responses": [
+                "Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."
+            ]
+        },
+        {
+            "tag": "pandora-useful",
+            "patterns": [
+                "thank you very much again. i'll continue practicing meditation and focus on what i can control."
+            ],
+            "responses": [
+                "I'm glad you found this useful. Is there something else I can help you with?"
+            ]
+        },
+        {
+            "tag": "user-advice",
+            "patterns": [
+                "I need advice on something",
+                "I need some advice.",
+                "I want some advice."
+            ],
+            "responses": [
+                "Okay what do you need advice on?",
+                "Sure. What can I do to help?"
+            ]
+        },
+        {
+            "tag": "learn-mental-health",
+            "patterns": [
+                "I want to learn about mental health.",
+                "I'm interested in learning about mental health.",
+                "I want to learn more about mental health."
+            ],
+            "responses": [
+                "Oh that's really great. I'd be willing to answer anything that I know about it."
+            ]
+        },
+        {
+            "tag": "mental-health-fact",
+            "patterns": [
+                "Tell me another fact about mental health",
+                "Tell me a fact about mental health"
+            ],
+            "responses": [
+                "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
+                "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
+                "Depression is the leading cause of disability worldwide."
+            ]
+        },
+        {
+            "tag": "fact-1",
+            "patterns": [
+                "What is mental health?",
+                "Define Mental Health"
+            ],
+            "responses": [
+                "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+                "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices."
+            ]
+        },
+        {
+            "tag": "fact-2",
+            "patterns": [
+                "What is the importance of mental health?",
+                "Why is mental health important?"
+            ],
+            "responses": [
+                "Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."
+            ]
+        },
+        {
+            "tag": "fact-3",
+            "patterns": [
+                "What is Depression?",
+                "Define Depression"
+            ],
+            "responses": [
+                "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."
+            ]
+        },
+        {
+            "tag": "fact-5",
+            "patterns": [
+                "Am i suffering from depression?",
+                "How do i know if i have Depression?",
+                "Am i mentally ill?",
+                "Am i depressed?"
+            ],
+            "responses": [
+                "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+            ]
+        },
+        {
+            "tag": "fact-6",
+            "patterns": [
+                "What does a therapist do?",
+                "What is a therapist?"
+            ],
+            "responses": [
+                "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "
+            ]
+        },
+        {
+            "tag": "fact-7",
+            "patterns": [
+                "Who is therapy for?",
+                "Do i need therapy?",
+                "What is therapy?"
+            ],
+            "responses": [
+                "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges.",
+                "Therapy is a form of treatment that aims to help resolve mental or emotional issues."
+            ]
+        },
+        {
+            "tag": "fact-8",
+            "patterns": [
+                "What does it mean to have a mental illness?"
+            ],
+            "responses": [
+                "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
+            ]
+        },
+        {
+            "tag": "fact-9",
+            "patterns": [
+                "Who does mental illness affect?"
+            ],
+            "responses": [
+                "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃ¢â‚¬â„¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+            ]
+        },
+        {
+            "tag": "fact-10",
+            "patterns": [
+                "What causes mental illness?"
+            ],
+            "responses": [
+                "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+            ]
+        },
+        {
+            "tag": "fact-11",
+            "patterns": [
+                "What are some of the warning signs of mental illness?"
+            ],
+            "responses": [
+                "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n In adults:\n Confused thinking\n Long-lasting sadness or irritability\n Extreme highs and lows in mood\n Excessive fear, worrying, or anxiety\n Social withdrawal\n Dramatic changes in eating or sleeping habits\n Strong feelings of anger\n Delusions or hallucinations (seeing or hearing things that are not really there)\n Increasing inability to cope with daily problems and activities\n Thoughts of suicide\n Denial of obvious problems\n Many unexplained physical problems\n Abuse of drugs and/or alcohol\n \nIn older children and pre-teens:\n Abuse of drugs and/or alcohol\n Inability to cope with daily problems and activities\n Changes in sleeping and/or eating habits\n Excessive complaints of physical problems\n Defying authority, skipping school, stealing, or damaging property\n Intense fear of gaining weight\n Long-lasting negative mood, often along with poor appetite and thoughts of death\n Frequent outbursts of anger\n \nIn younger children:\n Changes in school performance\n Poor grades despite strong efforts\n Excessive worrying or anxiety\n Hyperactivity\n Persistent nightmares\n Persistent disobedience and/or aggressive behavior\n Frequent temper tantrums"
+            ]
+        },
+        {
+            "tag": "fact-12",
+            "patterns": [
+                "Can people with mental illness recover?"
+            ],
+            "responses": [
+                "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+            ]
+        },
+        {
+            "tag": "fact-13",
+            "patterns": [
+                "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
+            ],
+            "responses": [
+                "Although BlissBot cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+            ]
+        },
+        {
+            "tag": "fact-14",
+            "patterns": [
+                "How can I find a mental health professional for myself or my child?"
+            ],
+            "responses": [
+                "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+            ]
+        },
+        {
+            "tag": "fact-15",
+            "patterns": [
+                "What treatment options are available?"
+            ],
+            "responses": [
+                "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+            ]
+        },
+        {
+            "tag": "fact-16",
+            "patterns": [
+                "If I become involved in treatment, what do I need to know?"
+            ],
+            "responses": [
+                "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:\n What is known about the cause of this particular illness?\n Are there other diagnoses where these symptoms are common?\n Do you normally include a physical or neurological examination?\n Are there any additional tests or exams that you would recommend at this point?\n Would you advise an independent opinion from another psychiatrist at this point?\n What program of treatment is the most helpful with this diagnosis?\n Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?\n What do you see as the family's role in this program of treatment?\n How much access will the family have to the individuals who are providing the treatment?\n What medications are generally used with this diagnosis?\n How much experience do you have in treating individuals with this illness?\n What can I do to help you in the treatment?"
+            ]
+        },
+        {
+            "tag": "fact-17",
+            "patterns": [
+                "What is the difference between mental health professionals?"
+            ],
+            "responses": [
+                "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+            ]
+        },
+        {
+            "tag": "fact-18",
+            "patterns": [
+                "How can I find a mental health professional right for my child or myself?"
+            ],
+            "responses": [
+                "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+            ]
+        },
+        {
+            "tag": "fact-19",
+            "patterns": [
+                "Where else can I get help?"
+            ],
+            "responses": [
+                "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+            ]
+        },
+        {
+            "tag": "fact-20",
+            "patterns": [
+                "What should I know before starting a new medication?"
+            ],
+            "responses": [
+                "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."
+            ]
+        },
+        {
+            "tag": "fact-21",
+            "patterns": [
+                "Where can I go to find therapy?"
+            ],
+            "responses": [
+                "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenâ€™s mental health). However, there are several different types of treatment and therapy that can help."
+            ]
+        },
+        {
+            "tag": "fact-22",
+            "patterns": [
+                "Where can I learn about types of mental health treatment?"
+            ],
+            "responses": [
+                "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
+            ]
+        },
+        {
+            "tag": "fact-23",
+            "patterns": [
+                "What are the different types of mental health professionals?"
+            ],
+            "responses": [
+                "There are many types of mental health professionals. Finding the right one for you may require some research."
+            ]
+        },
+        {
+            "tag": "fact-24",
+            "patterns": [
+                "Where can I go to find a support group?"
+            ],
+            "responses": [
+                "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
+            ]
+        },
+        {
+            "tag": "fact-25",
+            "patterns": [
+                "Can you prevent mental health problems?"
+            ],
+            "responses": [
+                "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."
+            ]
+        },
+        {
+            "tag": "fact-26",
+            "patterns": [
+                "Are there cures for mental health problems?",
+                "is there any cure for mental health problems?"
+            ],
+            "responses": [
+                "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."
+            ]
+        },
+        {
+            "tag": "fact-27",
+            "patterns": [
+                "What causes mental health problems?"
+            ],
+            "responses": [
+                "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."
+            ]
+        },
+        {
+            "tag": "fact-28",
+            "patterns": [
+                "What do I do if I'm worried about my mental health?"
+            ],
+            "responses": [
+                "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."
+            ]
+        },
+        {
+            "tag": "fact-29",
+            "patterns": [
+                "How do I know if I'm unwell?"
+            ],
+            "responses": [
+                "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."
+            ]
+        },
+        {
+            "tag": "fact-30",
+            "patterns": [
+                "How can I maintain social connections? What if I feel lonely?"
+            ],
+            "responses": [
+                "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+            ]
+        },
+        {
+            "tag": "fact-31",
+            "patterns": [
+                "What's the difference between anxiety and stress?"
+            ],
+            "responses": [
+                "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+            ]
+        },
+        {
+            "tag": "fact-32",
+            "patterns": [
+                "What's the difference between sadness and depression?",
+                "difference between sadness and depression"
+            ],
+            "responses": [
+                "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I'm feeling overwhelmed by the expectations others have for me. 😰",
+                "I can't stop worrying about the future.",
+                "I'm worried about someone I care about who is struggling. 😟",
+                "I worry about the impact of my leadership style on team dynamics, and it's causing stress. 😟",
+                "I feel so alone.",
+                "I fear public speaking, and it's holding me back from professional opportunities. 😬",
+                "I worry excessively about things that might never happen. 😟",
+                "I feel a constant pressure to meet expectations at work, and it's overwhelming. 😰",
+                "I feel overwhelmed by the constant stream of negative news, and it's impacting my mental well-being. 😞",
+                "I fear the impact of my decisions on my children's future, and it's causing parental anxiety. 😟",
+                "I feel an overwhelming sense of responsibility to please everyone around me. 😓",
+                "I feel a constant need for validation from others, and it's affecting my self-worth. 😓",
+                "I'm feeling numb and disconnected from everything. 😔",
+                "I worry about my appearance and how others perceive me. 😞",
+                "I fear confrontation, and it's affecting my ability to communicate assertively. 😟",
+                "I worry about the impact of my actions on the planet, and it's leading to eco-anxiety. 😰",
+                "I worry about the well-being of my loved ones constantly. 😟",
+                "I feel a constant need to compare myself to others, and it's impacting my self-esteem. 😔",
+                "I lost my job, and I don't know how to cope.",
+                "I'm feeling guilty about taking time for myself. 😔",
+                "I'm feeling better, but I'm afraid it won't last. 😅",
+                "I feel a constant pressure to meet societal expectations, and it's overwhelming. 😰",
+                "I worry about the health and well-being of my loved ones, and it consumes my thoughts. 😟",
+                "I worry about the societal expectations of success, and it's affecting my self-worth. 😔",
+                "I feel a constant sense of guilt for not being productive enough. 😔",
+                "I worry about the impact of my decisions on my friendships, and it's causing social anxiety. 😟",
+                "I worry about the impact of my actions on the community, and it's causing social responsibility anxiety. 😟",
+                "I have a constant fear that something bad is going to happen. 😟",
+                "I worry about being a burden to others with my problems. 😔",
+                "I recently experienced a traumatic event, and I'm struggling to cope. 😢",
+                "I experience anxiety attacks out of nowhere, and it's frightening. 😰",
+                "I worry about the impact of my lifestyle choices on my long-term health. 😟",
+                "I have this constant sense of unease, like something bad is about to happen. 😨",
+                "I feel like I'm not living up to my own expectations, and it's causing anxiety. 😔",
+                "I'm feeling anxious about social situations. 😰",
+                "I worry about financial stability, and it's keeping me up at night. 😟",
+                "I feel like I need to control every aspect of my life to feel secure. 😓",
+                "I fear the impact of my social media presence on my self-esteem, and it's affecting my well-being. 😞",
+                "I fear the unknowns of the future, and it's preventing me from making decisions. 😨",
+                "I've been having vivid nightmares and can't sleep well. 😨",
+                "I'm experiencing a constant sense of dread without a clear reason. 😨",
+                "I worry about the long-term impact of my lifestyle choices on my mental health. 😟",
+                "I have this constant feeling of restlessness, like I can't sit still. 😓",
+                "I'm feeling isolated, and making friends seems impossible. 😞",
+                "I fear being judged by my peers, and it's affecting my ability to express myself. 😔",
+                "I'm having trouble accepting myself as I am. 😔",
+                "I'm having difficulty making decisions, big or small. 😞",
+                "I feel like I need constant reassurance, and it's affecting my relationships. 😓",
+                "I'm struggling with self-esteem issues. 😔",
+                "Hello, I'm feeling really anxious right now. 😓",
+                "I fear rejection in social situations, and it's preventing me from engaging with others. 😟",
+                "I'm constantly overthinking every decision, big or small. 😞",
+                "I'm having trouble connecting with others.",
+                "I'm feeling so hopeless.",
+                "I fear the consequences of asserting boundaries in my personal relationships. 😟",
+                "I'm feeling overwhelmed with life.",
+                "I have this overwhelming fear of the unknown future. 😨",
+                "I fear the impact of my appearance on others' judgments, and it's affecting my self-esteem. 😞",
+                "I just don't find joy in anything anymore.",
+                "I feel like I'm in a constant state of burnout. 😓",
+                "I constantly second-guess myself and worry about making mistakes. 😞",
+                "I worry about the impact of my communication style on misunderstandings, and it's causing anxiety. 😟",
+                "I fear expressing my true opinions at work, thinking it might jeopardize my job security. 😟",
+                "I feel a tightness in my chest, and I'm struggling to breathe. 😰",
+                "I feel like a burden to my friends and family. 😞",
+                "I'm having intrusive thoughts that are distressing. 😟",
+                "I worry about the impact of my hobbies on my productivity, and it's causing guilt. 😓",
+                "I worry about the impact of my financial decisions on my family's future, and it's causing stress. 😟",
+                "I fear making decisions about my career, and it's causing paralysis. 😰",
+                "I'm feeling lost and don't know my purpose in life. 😞",
+                "I feel a sense of impending doom, and I can't shake it off. 😨",
+                "I worry about the impact of my parenting choices on my children's future, and it's causing parental anxiety. 😟",
+                "I worry about the environmental impact of my lifestyle, and it's causing eco-anxiety. 😟",
+                "I avoid certain situations because they make me anxious, but it's limiting my life. 😟",
+                "I fear being vulnerable with others, thinking they might take advantage of me. 😟",
+                "I fear the impact of my past mistakes on my future success. 😰",
+                "I'm having trouble concentrating, and it's impacting my daily life.",
+                "I have this constant feeling of dread, but I can't pinpoint why. 😨",
+                "I fear being misunderstood by others, and it's hindering my communication. 😟",
+                "I worry about the health impact of my diet, and it's causing stress. 😟",
+                "I fear being vulnerable in friendships, thinking others might reject me. 😟",
+                "I'm stressed about work, and it's affecting my health. 😥",
+                "I fear rejection to the point where I avoid initiating social interactions. 😟",
+                "I fear rejection in my romantic relationships, and it's holding me back from opening up. 😟",
+                "I worry about the impact of social media on my self-esteem and body image. 😞",
+                "I fear rejection in romantic relationships, and it's holding me back from opening up. 😟",
+                "I'm feeling angry all the time, and I don't know why. 😡",
+                "I worry about the state of the world and global issues, and it keeps me up at night. 😟",
+                "I'm in a crisis and don't know what to do.",
+                "I'm struggling with body image issues. 😞",
+                "I'm struggling with motivation and can't find the energy to do anything. 😞",
+                "I've been having trouble sleeping lately.",
+                "I find it hard to relax even in moments of downtime. 😓",
+                "I worry about the impact of my parenting style on my child's self-esteem. 😟",
+                "I fear rejection in creative pursuits, and it's holding me back from pursuing my passions. 😟",
+                "I feel an intense pressure to conform to societal beauty standards, and it's affecting my self-esteem. 😞",
+                "I have a fear of making phone calls, and it's impacting my personal and professional life. 😬",
+                "I fear failure to the point where it paralyzes me from taking action. 😰",
+                "I feel like everyone is judging me, even when they probably aren't. 😔",
+                "I get nervous in social situations, and it's affecting my relationships. 😬",
+                "I'm constantly comparing myself to others on social media. 😣",
+                "I'm having difficulty expressing my emotions. 😶",
+                "I'm having trouble setting boundaries with people. 😬",
+                "I'm scared to talk about my feelings. 😟"
+            ],
+            "responses": [
+                "I'm sorry to hear you're feeling this way. It's important to explore what used to bring you joy. Can we talk about activities you used to enjoy?",
+                "Self-acceptance is a journey. Let's explore ways to cultivate self-compassion and embrace your uniqueness. What aspects of yourself do you find challenging to accept?",
+                "I'm sorry you're going through this. It's important to recognize your worth. Can we explore activities that make you feel good about yourself?",
+                "Fear of being misunderstood is common, but remember, \"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\" Let's work on effective communication techniques and expressing your true self. What specific situations make you feel most misunderstood?",
+                "Communication concerns are common, but remember, \"The single biggest problem in communication is the illusion that it has taken place.\" Let's explore effective communication techniques, active listening, and navigating potential misunderstandings. What specific communication situations are causing the most anxiety for you?",
+                "It's okay to struggle with connections. Let's explore ways to build meaningful relationships. What kind of connections are you seeking?",
+                "Fear of vulnerability in friendships is valid, but as Maya Angelou said, \"People will forget what you said, people will forget what you did, but people will never forget how you made them feel.\" Let's explore gradual steps toward vulnerability and building meaningful connections. What positive experiences have you had when opening up to friends?",
+                "Lack of motivation is tough. Let's explore potential sources of motivation and set realistic goals. What activities used to bring you joy or a sense of accomplishment?",
+                "Seeking reassurance is a natural human need. As Maya Angelou said, \"We all should know that diversity makes for a rich tapestry, and we must understand that all the threads of the tapestry are equal.\" Let's explore ways to build internal validation and strengthen your connections. What qualities or achievements do you find most valuable in yourself?",
+                "Financial concerns can be stressful, but remember, \"It's not your salary that makes you rich; it's your spending habits.\" Let's discuss practical financial strategies, budgeting, and planning for your family's future. What specific financial decisions are causing the most anxiety for you?",
+                "I'm sorry you're experiencing intrusive thoughts. It's important to talk to a mental health professional about this. They can provide support and guidance.",
+                "Experiencing a sense of impending doom is tough, but remember, \"The darkest hour has only sixty minutes.\" Together, we'll navigate through this darkness and find the light at the end. What thoughts or concerns contribute to this feeling?",
+                "Decision-making can be challenging. Let's explore strategies to break down decisions and make the process more manageable. What decisions are currently on your plate?",
+                "The future is uncertain, but that's what makes it an adventure. \"Your time is limited, don't waste it living someone else's life.\" Let's focus on what you can control in the present and build a positive vision for the future. What are some goals or aspirations you have?",
+                "Fear of judgment can be inhibiting, but as Eleanor Roosevelt said, \"You wouldn't worry so much about what others think of you if you realized how seldom they do.\" Let's work on building confidence in your authentic self-expression. What specific situations trigger this fear of judgment?",
+                "Social rejection is a common fear, but as C.S. Lewis said, \"You can make anything by writing.\" Let's work on building resilience, exploring positive interactions, and finding joy in connecting with others. What specific social situations trigger this fear of rejection for you?",
+                "Career decisions can be daunting, but remember, \"Don't watch the clock; do what it does. Keep going.\" Let's explore your passions, values, and goals to make informed decisions. What aspects of your career decision-making process feel most overwhelming?",
+                "It's admirable that you care about others. Let's talk about how you can support your loved one and encourage them to seek professional help if needed.",
+                "Social responsibility concerns are commendable, but it's important to channel that energy into positive actions. \"Alone we can do so little; together we can do so much.\" Let's discuss community involvement, advocacy, and ways to contribute positively. What specific community issues resonate with you the most?",
+                "Setting boundaries is important. Let's discuss strategies for effective communication and boundary-setting. What specific situations are challenging for you?",
+                "I'm sorry you're going through this. Remember, every breath you take is a victory, and you're not alone in this journey. Let's focus on calming techniques together. As Winston Churchill said, \"Success is not final, failure is not fatal: It is the courage to continue that counts.\"",
+                "I'm really sorry to hear that you're feeling this way. It's important to reach out to friends, family, or a mental health professional for support.",
+                "It's completely normal to worry about the future. Let's break down your concerns. What specifically is on your mind?",
+                "It's common to feel this way, but you're not a burden. Your loved ones care about you. Let's discuss ways to communicate your feelings with them.",
+                "Balancing hobbies and productivity can be challenging, but remember, \"Life is really simple, but we insist on making it complicated.\" Let's discuss ways to enjoy your hobbies guilt-free and find a harmonious balance. What specific aspects of your hobbies contribute to this guilt?",
+                "Anxiety attacks can be overwhelming, but remember, \"You are stronger than you think, braver than you believe, and smarter than you know.\" Let's develop a toolkit of strategies to manage these attacks and build resilience together.",
+                "It's okay to find expressing emotions challenging. Let's work together to explore different methods of self-expression. What emotions do you often find difficult to communicate?",
+                "Feeling judged is challenging, but let's challenge those thoughts together. As Theodore Roosevelt said, \"Comparison is the thief of joy.\" You are unique and valuable just as you are. What are some qualities about yourself that you appreciate?",
+                "Relaxation is essential for well-being. As Lao Tzu said, \"Nature does not hurry, yet everything is accomplished.\" Let's explore calming activities and create moments of peace in your life. What activities usually bring you a sense of tranquility?",
+                "I understand, life can be overwhelming at times. What aspects of your life are currently overwhelming, and how can I support you?",
+                "Societal beauty standards can be challenging, but remember, \"Beauty begins the moment you decide to be yourself.\" Let's discuss ways to challenge these standards, cultivate self-acceptance, and celebrate your unique beauty. What specific beauty standards do you feel pressured to conform to?",
+                "I'm so sorry to hear that you're going through this. Trauma is challenging, and seeking professional help can make a significant difference.",
+                "Parental concerns are natural, but remember, \"The greatest gift you can give your child is to believe in them.\" Let's discuss positive parenting strategies, fostering self-esteem, and maintaining a supportive environment. What specific parenting practices are causing the most anxiety for you?",
+                "Social media comparisons can be challenging, but as Dita Von Teese said, \"You can be the ripest, juiciest peach in the world, and there's still going to be somebody who hates peaches.\" Let's discuss ways to navigate social media mindfully and cultivate self-acceptance. What specific aspects of social media trigger negative feelings for you?",
+                "Overthinking can be paralyzing, but as Marie Forleo says, \"Clarity comes from engagement, not thought.\" Let's simplify decisions and focus on taking action. What's one decision you can make today that aligns with your values?",
+                "Fear of public speaking is common, but it's a skill that can be developed. \"The only thing we have to fear is fear itself.\" Let's work on building confidence, refining communication skills, and embracing opportunities for growth. What specific aspects of public speaking make you anxious?",
+                "Media overload can be distressing, but as Mr. Rogers said, \"Look for the helpers.\" Let's discuss ways to balance information consumption, stay informed without being overwhelmed, and focus on positive actions. What topics in the news affect you the most?",
+                "Societal expectations can be challenging, but remember, \"You have within you right now, everything you need to deal with whatever the world can throw at you.\" Let's discuss ways to set realistic boundaries, prioritize self-care, and define success on your terms. What values are most important to you, and how can they guide your decisions?",
+                "Lifestyle choices can impact mental health, but remember, \"Self-care is giving the world the best of you, not what's left of you.\" Let's discuss sustainable habits, stress management, and positive mental health practices. What specific lifestyle choices are causing the most anxiety for you?",
+                "Social media comparisons can be challenging. Let's talk about healthy ways to navigate social media and build a positive self-image.",
+                "Financial concerns are common stressors, but let's focus on practical steps and mindset shifts to ease this burden. As Suze Orman said, \"People first, then money, then things.\" What specific financial aspects are causing the most anxiety for you?",
+                "Pleasing everyone can be draining, but remember, \"You are not required to set yourself on fire to keep others warm.\" Let's discuss setting healthy boundaries, prioritizing your well-being, and communicating assertively. In what areas of your life do you feel the most pressure to please others?",
+                "Facing fears takes immense courage, and I believe in your strength. Remember, \"Worry does not empty tomorrow of its sorrow, it empties today of its strength.\" Let's explore ways to transform those fears into opportunities for growth.",
+                "Fear of rejection is understandable, but remember, \"You can't let your fear of what might happen make nothing happen.\" Let's work on building resilience, celebrating your uniqueness, and embracing the potential for positive connections. What qualities about yourself make you someone worth getting to know?",
+                "Social situations can be challenging, but they're also chances for connection and growth. As E.E. Cummings said, \"It takes courage to grow up and become who you really are.\" Let's work together to boost your confidence and embrace these opportunities.",
+                "I'm sorry to hear you're feeling isolated. Let's explore ways to connect with others and build new friendships. What interests or activities bring you joy?",
+                "I hear you. Anger can be complex. Let's explore possible triggers and coping mechanisms. Have you noticed any patterns in when you feel angry?",
+                "The uncertainty of the future is daunting, but remember, \"The future belongs to those who believe in the beauty of their dreams.\" Let's work on embracing uncertainty, setting achievable goals, and taking small steps toward your dreams. What are some aspirations you have for the future?",
+                "I'm sorry to hear that. Lack of sleep can be tough. Have you tried any relaxation techniques before bedtime?",
+                "I'm sorry to hear that you're feeling anxious. It's okay to feel this way sometimes. What's on your mind?",
+                "Avoidance is a common response, but remember, \"The only limit to our realization of tomorrow will be our doubts of today.\" Let's step out of the comfort zone together, one step at a time. What's one small step you can take towards facing a feared situation?",
+                "Fear of confrontation is common, but it's possible to navigate difficult conversations with grace. \"In the end, we will remember not the words of our enemies but the silence of our friends.\" Let's explore assertiveness techniques and build confidence in expressing your needs. What situations trigger this fear of confrontation for you?",
+                "Caring for loved ones is a beautiful quality, but it's essential to balance concern with trust. \"Worrying does not take away tomorrow's troubles; it takes away today's peace.\" Let's discuss ways to express care without overwhelming worry. How do you currently support your loved ones?",
+                "Fear of romantic rejection is understandable, but as Maya Angelou said, \"Have enough courage to trust love one more time and always one more time.\" Let's work on building resilience, exploring vulnerability, and fostering connections that align with your values. What qualities are you looking for in a romantic relationship?",
+                "Concerns about appearance are common, but remember, \"You are not a mistake. You are not a problem to be solved.\" Let's discuss ways to cultivate self-acceptance and celebrate the unique qualities that make you who you are. What aspects of your appearance do you appreciate?",
+                "Leadership concerns can be stressful, but remember, \"A good leader takes a little more than his share of the blame, a little less than his share of the credit.\" Let's discuss effective leadership strategies, communication, and fostering a positive team environment. What specific leadership situations are causing the most anxiety for you?",
+                "I'm here for you. You're not alone. Would you like to talk about what's been going on?",
+                "Workplace pressures can be challenging, but remember, \"You don't have to be perfect to be amazing.\" Let's discuss ways to manage expectations, communicate effectively, and find a healthy work-life balance. What aspects of your job are causing the most stress?",
+                "It's common to feel overwhelmed by expectations. Let's discuss healthy ways to set boundaries and communicate your needs. Whose expectations are causing you stress?",
+                "Parental concerns are natural, but remember, \"The way we talk to our children becomes their inner voice.\" Let's discuss positive parenting strategies, effective communication, and self-compassion. What specific parenting aspects are causing the most anxiety for you?",
+                "A constant sense of unease can be challenging, but remember, \"Difficulties in life are intended to make us better, not bitter.\" Let's explore potential triggers and develop strategies to bring a sense of peace. What activities or thoughts typically help ease this unease?",
+                "Fear of expressing opinions at work is common, but as Eleanor Roosevelt said, \"Do what you feel in your heart to be right, for you'll be criticized anyway.\" Let's explore ways to communicate assertively and navigate professional conversations. What specific work situations make you hesitant to express your opinions?",
+                "Social anxiety is tough, and you're not alone in feeling this way. Let's explore strategies to manage anxiety in social settings. What situations are particularly challenging for you?",
+                "Burnout is a common issue, especially in today's fast-paced world. Let's explore ways to manage stress and create a healthier work-life balance. What aspects of your life contribute to burnout?",
+                "Societal expectations of success can be overwhelming, but remember, \"Success is liking yourself, liking what you do, and liking how you do it.\" Let's discuss defining success on your terms, prioritizing your well-being, and celebrating your unique journey. What specific societal expectations of success are causing the most stress for you?",
+                "Excessive worrying is a common struggle, but it doesn't define you. \"Worrying is like a rocking chair: It gives you something to do but gets you nowhere.\" Let's reframe those worries and focus on the present moment. What are some positive aspects of your current situation?",
+                "Concern for loved ones is natural, but excessive worry can be draining. \"Your love is your power, not your fear.\" Let's explore ways to express care without being overwhelmed and develop a positive outlook. How do you currently support the health and well-being of your loved ones?",
+                "I'm sorry to hear that you're going through this. Body image concerns are valid. Let's discuss self-compassion and positive affirmations.",
+                "Concerns about the environment are valid, but it's essential to channel that energy into positive actions. \"The best time to plant a tree was 20 years ago. The second-best time is now.\" Let's explore sustainable choices and advocacy. What eco-friendly practices are you currently incorporating?",
+                "Restlessness can be transformed into productive energy. As Rumi said, \"Don't be satisfied with stories, how things have gone with others. Unfold your own myth.\" Let's explore activities that align with your passions and bring a sense of calm.",
+                "Appearance concerns are common, but remember, \"You are not a mistake. You are not a problem to be solved.\" Let's explore ways to cultivate self-acceptance and celebrate the unique qualities that make you who you are. What specific aspects of your appearance contribute to negative feelings?",
+                "Fear of vulnerability is valid, but as Brené Brown said, \"Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.\" Let's explore gradual steps toward vulnerability and building trust. What positive experiences have you had when opening up to others?",
+                "I'm here for you. If you're in immediate danger, please call emergency services. Otherwise, let's talk about what's going on and find support together.",
+                "Productivity guilt is common, but it's essential to recognize your efforts. As Anne Lamott said, \"Almost everything will work again if you unplug it for a few minutes, including you.\" Let's discuss ways to find balance, celebrate achievements, and practice self-compassion. What specific productivity expectations do you struggle with?",
+                "It's great to hear you're feeling better! Let's explore ways to maintain this positive momentum. What activities bring you joy or peace?",
+                "Nightmares can be distressing. Have you noticed any specific triggers for the nightmares? Let's explore ways to improve your sleep and manage distressing dreams.",
+                "Fear of romantic rejection is understandable, but as Rumi said, \"The wound is the place where the light enters you.\" Let's work on building resilience, exploring vulnerability, and fostering connections that align with your values. What qualities are you looking for in a romantic relationship?",
+                "A constant feeling of dread can be distressing, but remember, \"Sometimes the questions are complicated, and the answers are simple.\" Let's explore the root of this feeling and find simple joys that bring light to your life. What brings you comfort or joy, even in small moments?",
+                "Many people go through periods of feeling lost. Let's explore your interests and values to help identify a sense of purpose.",
+                "Social media's impact on self-esteem is a common concern, but remember, \"Don't compare your chapter 1 to someone else's chapter 20.\" Let's explore ways to use social media mindfully and cultivate self-acceptance. What specific aspects of your social media use contribute to negative feelings?",
+                "Difficulty concentrating can be tough. Let's explore possible causes and coping strategies. Have you noticed any specific triggers?",
+                "Phone call anxiety is common, but as Franklin D. Roosevelt said, \"The only thing we have to fear is fear itself.\" Let's work on building confidence, one call at a time. What positive outcomes can you envision from successful phone calls?",
+                "Environmental concerns can be overwhelming, but remember, \"The Earth does not belong to us: we belong to the Earth.\" Let's discuss eco-friendly choices, advocacy, and ways to make a positive impact. What specific environmental issues weigh on your mind the most?",
+                "I'm sorry to hear you're feeling this way. Numbness can be tough. Let's explore potential causes and ways to reconnect with your emotions.",
+                "Needing control is understandable, but as Steve Maraboli said, \"Incredible change happens in your life when you decide to take control of what you do have power over instead of craving control over what you don't.\" Let's explore areas where you can exert positive influence. What aspects of your life do you feel empowered to control?",
+                "Dwelling on past mistakes can be challenging, but remember, \"The only real mistake is the one from which we learn nothing.\" Let's explore ways to reframe these mistakes as opportunities for growth and move forward with resilience. What specific past mistakes do you find most challenging to overcome?",
+                "Fear of rejection in creative pursuits is understandable, but as Vincent van Gogh said, \"If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced.\" Let's work on building resilience, embracing creativity, and navigating potential challenges. What specific creative endeavors make you anxious about rejection?",
+                "Concern for the world is admirable, but it's important to find a balance. \"The best way to predict the future is to create it.\" Let's discuss ways to contribute positively to global issues without overwhelming anxiety. What positive actions can you take in your community?",
+                "Seeking external validation is natural, but remember, \"You are enough just as you are.\" Let's explore ways to build internal validation, recognize your unique qualities, and cultivate self-worth. What achievements or qualities about yourself are you proud of?",
+                "Concerns about friendships are valid, but remember, \"True friends are like diamonds – bright, beautiful, valuable, and always in style.\" Let's discuss ways to communicate openly in friendships and build connections based on authenticity. What specific decisions are causing the most anxiety regarding your friendships?",
+                "It's okay to make mistakes; they're a part of growth. \"In every mistake, there is a potential for growth.\" Let's work on embracing imperfections and building self-confidence. What are some achievements you're proud of, despite any perceived mistakes?",
+                "Fear of failure is a common hurdle, but remember, \"Success is not final, failure is not fatal: It is the courage to continue that counts.\" Let's redefine success, celebrate progress, and take courageous steps together. What achievements, big or small, are you proud of?",
+                "I'm really sorry to hear that. Losing a job can be incredibly challenging. Let's talk about what support you have and explore some coping strategies.",
+                "I'm sorry to hear work is causing you stress. Your health is crucial. Have you considered talking to your supervisor about the workload?",
+                "It's okay to feel scared, opening up is a process. Take your time. Would you like to share a little bit about what's on your mind?",
+                "Self-expectations can be heavy, but as Albert Einstein said, \"Strive not to be a success, but rather to be of value.\" Let's explore realistic expectations and celebrate the unique value you bring to the world. What qualities or contributions do you appreciate about yourself?",
+                "Health concerns can be stressful, but as Hippocrates said, \"Let food be thy medicine and medicine be thy food.\" Let's discuss sustainable lifestyle choices, stress management, and positive habits. What specific health aspects are causing the most anxiety for you?",
+                "Comparisons can be detrimental, but remember, \"You are not a competition. You are a self-evolution.\" Let's explore self-compassion, celebrate your unique journey, and focus on personal growth. In what areas of your life do you find yourself comparing the most?",
+                "Fear of asserting boundaries is common, but as Brené Brown said, \"Daring to set boundaries is about having the courage to love ourselves even when we risk disappointing others.\" Let's explore healthy boundary-setting techniques and prioritize your well-being. What specific situations make you hesitant to assert boundaries in your relationships?",
+                "Self-care is important, and you deserve time for yourself. Let's discuss strategies to overcome feelings of guilt and prioritize self-care.",
+                "Feeling like a burden is a common concern, but as Fred Rogers said, \"Anyone who does anything to help a child in his life is a hero to me.\" Let's discuss ways to communicate your needs without guilt and recognize the support others are willing to provide. In what ways have you supported others in the past?",
+                "Dietary concerns can be stressful, but remember, \"The food you eat can be either the safest and most powerful form of medicine or the slowest form of poison.\" Let's discuss balanced nutrition, mindful eating, and positive habits for overall well-being. What specific aspects of your diet are causing the most anxiety for you?",
+                "A constant sense of dread can be distressing. Let's explore potential triggers and coping strategies. Have you noticed any patterns in when you feel"
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "I'm feeling lonely in my relationship, and it's causing emotional distance. 😢",
+                "I recently got divorced, and I'm feeling lost. 😢",
+                "I'm feeling disconnected from my partner, and we're considering couples therapy. 😞",
+                "I'm struggling with feelings of resentment in my relationship. 😞",
+                "I'm feeling disconnected from my partner, and we're contemplating couples therapy. 😞",
+                "I'm in a relationship where my partner is not interested in emotional intimacy. 😞",
+                "I'm afraid to love again after a series of failed relationships. 😔",
+                "I'm feeling pressured to conform to societal expectations about gender roles in my relationship. 😞",
+                "I'm feeling neglected in my relationship. 😢",
+                "I'm in love with someone who doesn't feel the same way. 😢",
+                "I'm struggling with my partner's different values and beliefs. 😞",
+                "I'm feeling disconnected from my partner, and we've considered relationship counseling. 😞",
+                "I'm in a relationship, and we're considering moving in together, but I have reservations. 😟",
+                "I'm dealing with unresolved issues from past relationships impacting my current one. 😞",
+                "Hello, I recently went through a tough breakup, and I'm struggling to cope. 😢",
+                "I'm afraid of repeating past mistakes in my relationships. 😟",
+                "I'm in a relationship where my partner is not supportive of my creative pursuits. 😢",
+                "I'm in a relationship where my partner is going through a difficult time, and I want to support them. 😢",
+                "I'm in a relationship, and we're considering starting a family, but I'm unsure. 😟",
+                "I'm struggling with the fear of abandonment in my relationship. 😨",
+                "I'm dating someone, but we have different communication styles. 😬",
+                "I'm struggling with feelings of jealousy over my partner's friendships. 😣",
+                "I'm feeling overwhelmed by societal expectations about finding \"the one.\" 😞",
+                "I'm in a long-distance relationship, and it's causing doubts. 😞",
+                "I'm in a relationship, but we're facing challenges due to differing future goals. 😞",
+                "I recently got back into the dating scene, and it's overwhelming. 😓",
+                "I'm in a relationship where my partner is hesitant about commitment, and it's causing uncertainty. 😞",
+                "I'm in a toxic relationship, but I'm afraid to leave. 😓",
+                "Hello, I've been in a relationship for years, but I'm not sure if it's still fulfilling. 😞",
+                "I'm dating someone, but I'm hesitant to introduce them to my family. 😬",
+                "I'm struggling with jealousy in my relationship. 😣",
+                "I'm struggling with feelings of jealousy in my relationship due to my partner's friendships. 😣",
+                "I'm heartbroken after discovering my partner's infidelity. 😢",
+                "I've been ghosted, and I don't know how to move on. 😞",
+                "I'm struggling with the pressure to conform to societal expectations in my relationship. 😞",
+                "I recently ended a relationship, and I'm struggling with guilt. 😢",
+                "I'm afraid of being vulnerable in a relationship. 😟",
+                "I'm dealing with feelings of inadequacy in my relationship due to a partner's achievements. 😔",
+                "I'm in a relationship, but I feel like my opinions are constantly dismissed. 😞",
+                "I'm in a relationship, and we're considering opening it up, but I'm unsure. 😟",
+                "I recently got out of a relationship, and I'm questioning if I'll ever find love again. 😔",
+                "I'm struggling with feelings of inadequacy in my relationship due to a partner's success. 😔",
+                "I'm dating someone, and their past is affecting our relationship. 😟",
+                "I'm dating someone, and we have different values around money. 😬",
+                "I'm in a relationship where my partner is too controlling. 😓",
+                "I'm dating someone, and I'm unsure about introducing them to my children. 😬",
+                "I'm feeling overwhelmed by societal expectations to conform to relationship timelines. 😞",
+                "I'm feeling pressured to conform to societal expectations about marriage. 😟",
+                "I recently got out of a toxic relationship, and I'm struggling with trust issues. 😢",
+                "I'm in a relationship, but I feel like we're growing apart. 😞",
+                "I'm struggling with the end of a long-term relationship. 😞",
+                "I'm having difficulties trusting my partner due to past betrayals. 😞",
+                "I'm feeling pressured to get married, but I'm not ready. 😟",
+                "I'm in a relationship where communication has broken down. 😞",
+                "I'm afraid to express my true feelings to my partner out of fear of rejection. 😟",
+                "I'm dating someone, but I'm unsure about our future together. 😟",
+                "I'm in a relationship with someone who struggles with mental health, and I don't know how to support them. 😞",
+                "I'm having trouble setting boundaries with my partner. 😟",
+                "I'm afraid of commitment and have difficulty envisioning a long-term relationship. 😟",
+                "I'm in a relationship where my partner struggles with expressing emotions. 😞",
+                "I'm dating someone, and they're unsure about their career path. 😟",
+                "I'm going through a breakup and questioning if I'll ever find love again. 😔",
+                "I'm constantly comparing my current partner to my ex. 😬",
+                "I'm in a relationship, and we're facing challenges due to cultural differences. 😞",
+                "I'm dating someone who is going through a difficult time, and I want to be supportive. 😢",
+                "I'm in a long-distance relationship, and it's taking a toll on me. 😢",
+                "I'm struggling with self-worth after a breakup. 😔",
+                "I'm dating someone, and I'm unsure about introducing them to my close-knit family. 😬",
+                "I'm afraid to open up about my feelings in my relationship. 😟",
+                "I'm dating someone, but they're hesitant to define the relationship. 😓",
+                "I'm in a relationship, and we're facing challenges due to differing career aspirations. 😞",
+                "I'm in a relationship where my partner avoids conflict, and it's affecting communication. 😞",
+                "I've been cheated on, and I don't know how to trust again. 😔",
+                "I'm in a relationship where my partner is not supportive of my career goals. 😢",
+                "I'm attracted to someone, but I'm afraid to confess my feelings. 😳",
+                "I'm afraid of commitment in my relationships. 😟",
+                "I'm dating someone from a different cultural background, and it's causing challenges. 😬",
+                "I'm feeling overwhelmed by societal expectations to conform to traditional gender roles in my relationship. 😞",
+                "I'm in a relationship, and we're facing challenges due to differences in love languages. 😞",
+                "I'm feeling unfulfilled in my relationship, but I'm afraid to bring it up. 😟",
+                "I'm in love with my best friend, and I'm afraid it will ruin our friendship. 😳",
+                "I'm having difficulty communicating my needs in my relationship. 😟",
+                "I've been in a relationship, but I feel like I'm losing my sense of self. 😞",
+                "I'm struggling with feelings of inadequacy in comparison to my partner. 😟",
+                "I'm in a relationship where my partner is emotionally distant. 😢",
+                "I'm dealing with unresolved issues from past relationships impacting my current one. 😢",
+                "I'm in a relationship where I feel pressured to change. 😞",
+                "I'm in a relationship where my partner avoids discussing the future, and it's causing anxiety. 😟",
+                "I'm having difficulty expressing my love languages to my partner. 😔",
+                "I'm in a relationship where my partner struggles with mental health, and I want to understand how to support them better. 😢",
+                "I'm dating someone, and they've experienced trauma in the past. 😢",
+                "I'm afraid of expressing my needs in my relationship, thinking it might lead to conflict. 😟",
+                "I'm struggling with feelings of insecurity in my relationship. 😞"
+            ],
+            "responses": [
+                "Uncertainty about commitment is challenging. Let's explore your concerns, encourage open communication with your partner, and work towards understanding each other's perspectives.",
+                "Open communication about the future is essential. Let's explore ways to discuss future plans, set goals together, and ensure that both partners feel secure in the relationship.",
+                "Loneliness in a relationship is tough. Let's explore ways to reconnect with your partner and strengthen the emotional bond. What activities or discussions have brought you closer in the past?",
+                "Supporting a partner in challenging times is admirable. Let's explore ways to provide comfort, encourage open communication, and ensure you're taking care of your own well-being.",
+                "Love languages are unique. Let's explore yours and find effective ways to communicate your needs to your partner for a more fulfilling relationship.",
+                "Toxic relationships can be harmful. It's important to prioritize your well-being. Let's discuss steps to safely exit a toxic relationship and seek support.",
+                "Feelings of inadequacy are challenging. Let's discuss building self-esteem and fostering a supportive dynamic in your relationship.",
+                "Deciding to start a family is significant. Let's explore your concerns, discuss expectations, and work towards making a decision that aligns with both partners.",
+                "Recovering from a toxic relationship takes time. Let's discuss building trust within yourself and in future relationships while prioritizing your well-being.",
+                "Societal expectations about finding a life partner can be stressful. Let's explore your feelings and discuss ways to navigate these expectations while focusing on your own journey.",
+                "Comparisons can be challenging. Let's explore ways to appreciate your current partner for who they are and cultivate a healthy mindset in your relationship.",
+                "Commitment fears are common. Let's explore the reasons behind these fears, discuss your expectations, and work towards building a healthier perspective on commitment.",
+                "Communication differences are common. Let's explore your communication styles and find effective ways to bridge the gap for a more harmonious relationship.",
+                "Feeling pressured to marry can be overwhelming. Let's explore your feelings and discuss strategies for communicating your timeline with your partner and loved ones.",
+                "Supporting a partner who has experienced trauma requires sensitivity. Let's discuss ways to provide support, encourage open communication, and prioritize your partner's well-being.",
+                "Discovering infidelity is painful. It's important to prioritize your emotional well-being. Let's discuss ways to cope, heal, and make decisions about the relationship.",
+                "Controlling behavior can be harmful. Let's discuss setting boundaries and strategies for open communication in order to foster a healthier dynamic.",
+                "Ending a relationship can bring about various emotions, including guilt. Let's discuss these feelings and find ways to process them positively.",
+                "Long-distance relationships can be challenging. Let's explore ways to strengthen your connection and manage the emotional distance. What aspects are particularly challenging for you?",
+                "Jealousy can be challenging, but it's important to address. Let's discuss ways to manage these feelings, build trust, and create a more secure dynamic in your relationship.",
+                "Financial differences can be challenging. Let's discuss ways to navigate discussions about money, find compromises, and create a financial plan that aligns with both of your values.",
+                "Emotional distance can be difficult. Let's explore the reasons behind the emotional distance and work towards fostering a closer connection in your relationship.",
+                "Supporting a partner's mental health journey requires empathy. Let's explore ways to offer understanding, encourage professional help, and maintain a supportive atmosphere.",
+                "Breakups can be challenging, but they open the door to new possibilities. Let's discuss healing strategies and ways to approach future relationships with optimism and an open heart.",
+                "Emotional intimacy is crucial. Let's explore ways to communicate your emotional needs and create a space for vulnerability and connection in your relationship.",
+                "Cultural differences can add complexity to relationships. Let's explore ways to celebrate diversity, communicate effectively, and find common ground in your relationship.",
+                "Career differences can be tough to navigate. Let's explore ways to support each other's goals and find a compromise that aligns with both of your aspirations.",
+                "Rebuilding trust is a process. Let's discuss strategies to communicate with your partner, set boundaries, and work towards rebuilding trust over time.",
+                "Feeling neglected is tough. Let's discuss ways to express your needs to your partner and work together to strengthen the emotional bond.",
+                "Introducing a partner to children is a significant step. Let's explore your concerns, discuss the timing, and create a plan that ensures a smooth transition for everyone involved.",
+                "Jealousy in relationships can be challenging. Let's discuss ways to manage these feelings, build trust, and create a more secure dynamic in your relationship.",
+                "Resentment can be damaging. Let's discuss the root causes of resentment, explore forgiveness, and work towards rebuilding a healthier dynamic in your relationship.",
+                "I'm sorry to hear you've experienced betrayal. Rebuilding trust takes time. Let's discuss steps to heal and rebuild trust in future relationships.",
+                "Fear of vulnerability is common. Let's talk about the importance of vulnerability in building strong connections and strategies to overcome this fear.",
+                "Effective communication is essential. Let's explore ways to express your needs clearly and create a more open dialogue with your partner.",
+                "Past experiences can impact relationships. Let's discuss your concerns, explore ways to support your partner, and work towards building a healthy and understanding connection.",
+                "Commitment fears can be challenging. Let's explore the root of these fears and work on strategies to overcome them at your own pace.",
+                "Societal expectations about marriage can be overwhelming. Let's explore your feelings and discuss how to navigate societal pressures while maintaining authenticity in your relationship.",
+                "I'm really sorry to hear that you're going through a breakup. Breakups can be incredibly challenging. Let's talk about your feelings and coping strategies.",
+                "Differences in values can be challenging. Let's discuss strategies to navigate these differences and foster mutual understanding in your relationship.",
+                "It's common to feel nervous about expressing romantic feelings. Let's talk about ways to approach the situation and build the courage to share your feelings.",
+                "Feelings for a friend can be complex. Let's talk about navigating these emotions and deciding the best course of action for your friendship.",
+                "Fear of vulnerability can impact relationships. Let's discuss the importance of openness and ways to gradually share your feelings with your partner.",
+                "Supporting a partner through tough times is commendable. Let's discuss ways to provide support, encourage open communication, and maintain your own well-being.",
+                "Fear of abandonment can be challenging. Let's explore the origins of this fear and work on building a sense of security in your relationship.",
+                "Divorce is a major life change. It's okay to feel lost. Let's explore ways to cope with the emotions and find a sense of direction moving forward.",
+                "Supporting a partner with mental health challenges can be complex. Let's discuss ways to offer support, encourage professional help, and maintain your own well-being.",
+                "Long-term relationships can face ups and downs. Let's explore what aspects feel unfulfilling and how we can work towards rekindling the connection.",
+                "Relationship counseling can be beneficial. Let's discuss your feelings, explore expectations for counseling, and work towards rebuilding a stronger connection in your relationship.",
+                "Introducing a partner to family can be nerve-wracking. Let's explore your concerns and discuss strategies to navigate this step in your relationship.",
+                "Aligning future goals is crucial. Let's explore ways to have open conversations about your aspirations, find common ground, and work towards shared objectives in your relationship.",
+                "Societal expectations can be challenging. Let's explore your feelings, discuss ways to challenge these norms, and create a relationship that aligns with both partners' values.",
+                "Introducing a partner to your family is a significant step. Let's explore your concerns, discuss the timing, and create a plan that ensures a smooth introduction for everyone involved.",
+                "Feeling pressured to change is challenging. Let's discuss the dynamics in your relationship and find ways to embrace authenticity without sacrificing your identity.",
+                "Deciding to move in together is significant. Let's explore your reservations, discuss expectations, and work towards making a decision that feels right for both partners.",
+                "Jealousy can be tough to handle. Let's discuss ways to address and manage feelings of jealousy, and explore healthy communication with your partner.",
+                "Relationships go through ups and downs. It's essential to communicate with your partner. Would you like to share more about what's going on?",
+                "Uncertainty in relationships is common. Let's talk about your concerns and explore ways to gain clarity about the direction of your relationship.",
+                "Feeling unheard can be challenging. Let's discuss strategies to communicate assertively and ensure that your opinions are valued within the relationship.",
+                "Returning to dating can be overwhelming. Let's discuss your experiences and explore ways to navigate the dating world at your own pace.",
+                "Cultural differences can enrich relationships but also pose challenges. Let's explore ways to celebrate diversity and navigate cultural nuances together.",
+                "Breakups can be challenging, but love can come in unexpected ways. Let's discuss healing strategies and ways to approach future relationships with an open heart.",
+                "Couples therapy can be beneficial. Let's explore your feelings, discuss expectations for therapy, and work towards rebuilding the connection in your relationship.",
+                "Opening up a relationship is a big decision. Let's explore your concerns, discuss boundaries, and consider the implications before making any decisions.",
+                "Ending a long-term relationship is tough. Let's discuss your emotions, and ways to navigate this period of adjustment. What specific challenges are you facing?",
+                "Open communication is crucial. Let's explore strategies to express your needs and feelings in a way that fosters understanding and growth in your relationship.",
+                "Fear of rejection is a common concern. Let's discuss ways to build confidence and create a safe space for open communication in your relationship.",
+                "Couples therapy can be transformative. Let's explore your feelings, discuss expectations for therapy, and work towards rebuilding a stronger connection in your relationship.",
+                "Celebrating your partner's achievements is important. Let's explore ways to build self-confidence, communicate your feelings, and create a supportive dynamic in your relationship.",
+                "Open communication is vital. Let's discuss ways to express your needs assertively, fostering understanding and growth in your relationship.",
+                "Societal expectations can be stressful. Let's explore your feelings and discuss ways to navigate these pressures while focusing on the unique journey of your relationship.",
+                "Past issues can affect current relationships. Let's explore ways to address and heal from unresolved emotions, fostering a healthier relationship.",
+                "Ghosting can be hurtful. It's important to prioritize your own well-being. Let's explore strategies to cope with the pain and move forward positively.",
+                "Support in creative endeavors is important. Let's discuss ways to communicate your passion, address concerns, and find a balance that supports both partners in pursuing their interests.",
+                "Lack of support in career goals can be tough. Let's explore ways to communicate your aspirations, address concerns, and find a balance that supports both of you.",
+                "Breakups can impact self-esteem. Let's explore ways to rebuild your self-worth and focus on personal growth during this challenging time.",
+                "Love languages can vary. Let's explore yours and your partner's, and discuss strategies to ensure both partners feel loved and appreciated in the relationship.",
+                "Insecurity can impact relationships. Let's explore the roots of your insecurity and work on building self-confidence and trust in your relationship.",
+                "Undefined relationships can be confusing. Let's explore the dynamics and discuss the importance of clarity and communication in defining your relationship.",
+                "Emotional expression varies, and that's okay. Let's explore ways to create a safe space for vulnerability and communication within your relationship.",
+                "Fear of repeating mistakes is valid. Let's explore lessons from past relationships and strategies to approach new ones with a sense of growth and self-awareness.",
+                "Setting boundaries is crucial. Let's discuss how to establish healthy boundaries and communicate them effectively in your relationship.",
+                "Feeling inadequate in comparison is tough. Let's discuss building self-confidence, communicating your feelings, and fostering a supportive dynamic in your relationship.",
+                "Unrequited love is painful. It's important to prioritize your well-being. Let's explore ways to manage these feelings and consider other aspects of your life.",
+                "Past issues can affect current relationships. Let's explore ways to address and heal from unresolved emotions, fostering a healthier dynamic in your relationship.",
+                "Maintaining your individuality is crucial. Let's explore ways to reconnect with your own passions and communicate your needs for personal space within the relationship.",
+                "Long-distance relationships can be challenging. Let's discuss your doubts and explore ways to strengthen the connection despite the physical distance.",
+                "Societal expectations can add stress to relationships. Let's explore ways to communicate with your partner and create a relationship that feels authentic to both of you.",
+                "Career uncertainties can be stressful. Let's explore your partner's concerns, discuss ways to support their exploration, and work towards finding clarity together.",
+                "Communication is key in relationships. Let's explore strategies to improve communication and foster a deeper connection with your partner.",
+                "Avoidance of conflict can impact communication. Let's explore ways to navigate difficult conversations and foster a healthier communication style in your relationship.",
+                "Fear of love after heartbreak is understandable. Let's discuss ways to heal from past experiences and approach new relationships with a sense of self-compassion."
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "I'm feeling anxious about social interactions, and it's impacting my ability to sleep. 😟",
+                "I'm having trouble sleeping because of unresolved conflicts with a friend. 😟",
+                "I'm feeling anxious about going to bed because of recurring nightmares. 😰",
+                "I'm struggling to sleep due to the pressure to constantly achieve and meet high expectations. 😓",
+                "I'm feeling overwhelmed by constant notifications on my phone, impacting my sleep quality. 😰",
+                "I'm struggling to sleep due to work-related stress and tight deadlines. 😓",
+                "I'm feeling anxious about an upcoming event, and it's keeping me awake at night. 😓",
+                "I'm feeling anxious about societal expectations regarding milestones like homeownership, and it's affecting my sleep. 😓",
+                "I'm struggling to sleep due to concerns about my environmental impact and sustainability practices. 😰",
+                "I'm having trouble sleeping due to a change in my living environment. 😟",
+                "I'm struggling to sleep due to the fear of not meeting societal expectations about marriage and family. 😓",
+                "I'm having trouble sleeping because of a recent move to a new city. 😓",
+                "I'm having trouble sleeping due to the pressure to conform to traditional gender roles, impacting my sense of self. 😓",
+                "I'm a new parent, and the demands of caring for my baby are affecting my sleep. 😰",
+                "I can't sleep because of the pressure to conform to specific relationship timelines, impacting my sense of self-worth. 😰",
+                "I can't sleep because of the pressure to conform to a specific body image in the fashion industry. 😰",
+                "I'm having trouble sleeping because of excessive caffeine intake. 😓",
+                "I'm having trouble sleeping due to a fear of the dark that has resurfaced. 😰",
+                "I'm feeling anxious about my health, and it's affecting my sleep. 😓",
+                "I wake up multiple times during the night and struggle to go back to sleep. 😰",
+                "I'm feeling anxious about the impact of climate change, and it's affecting my ability to sleep. 😟",
+                "I'm having trouble sleeping due to an irregular sleep schedule on weekends. 😰",
+                "I'm feeling anxious about aging, and it's affecting my ability to sleep peacefully. 😟",
+                "I've been working late into the night, and it's affecting my ability to wind down and sleep. 😟",
+                "I can't sleep because I'm struggling with the feeling of not being \"enough\" in various aspects of my life. 😰",
+                "I'm having trouble sleeping because of a noisy environment in my neighborhood. 😓",
+                "I'm feeling overwhelmed by the expectations of maintaining a perfect image on social media, impacting my sleep. 😟",
+                "I can't sleep because of the pressure to conform to a specific body image in the fitness industry. 😰",
+                "I'm feeling anxious about the constant comparison to others, and it's impacting my self-esteem and sleep. 😟",
+                "I can't seem to fall asleep, and it's causing me stress and anxiety. 😟",
+                "I can't sleep because of the pressure to be constantly productive, impacting my overall well-being. 😟",
+                "I'm struggling to sleep due to the fear of public speaking, and it's causing anticipatory anxiety. 😰",
+                "I'm having trouble sleeping due to regrets about past decisions haunting me. 😓",
+                "I'm struggling to sleep due to the pressure to conform to societal standards of success, impacting my self-worth. 😓",
+                "I often find myself waking up too early and unable to go back to sleep. 😟",
+                "I've been relying on sleep aids, but I still wake up feeling unrested. 😓",
+                "I'm experiencing difficulty sleeping due to a change in my work schedule. 😰",
+                "I can't sleep because of the uncertainty about my career path and the future. 😟",
+                "I've been experiencing vivid dreams that disrupt my sleep. 😓",
+                "I'm struggling to sleep due to concerns about societal beauty standards impacting my self-esteem. 😓",
+                "I can't seem to fall asleep because of the stress of planning a big event, and it's causing anxiety. 😟",
+                "I'm having trouble sleeping due to racing thoughts and overthinking. 😓",
+                "I've developed a habit of checking my phone in the middle of the night, and it's impacting my sleep. 😟",
+                "I'm struggling to sleep due to the fear of not meeting societal expectations about marriage and family. 😰",
+                "I'm feeling anxious about the impact of technology on my relationships, and it's affecting my ability to sleep. 😟",
+                "I can't sleep because of the fear of aging, and it's affecting my self-esteem. 😟",
+                "I'm having trouble sleeping because of body image concerns affecting my self-esteem. 😟",
+                "I'm having trouble sleeping lately, and it's affecting my daily life. 😓",
+                "I can't sleep because of the fear of not living up to my own expectations and potential. 😰",
+                "I'm feeling anxious about the impact of social media on my self-esteem, and it's affecting my ability to sleep. 😓",
+                "I'm having trouble sleeping due to a recent friendship betrayal, and it's affecting my trust in others. 😓",
+                "I can't sleep because of the fear of failure in my academic and professional pursuits. 😰",
+                "I'm feeling anxious about the environmental impact of my lifestyle, and it's affecting my ability to sleep. 😟",
+                "I can't sleep because of the uncertainty about the future and my career path. 😰",
+                "I can't sleep due to the pressure to conform to societal beauty standards affecting my self-esteem. 😓",
+                "I'm feeling anxious about an upcoming presentation, and it's affecting my ability to sleep. 😰",
+                "I'm feeling anxious about the impact of social media on my self-esteem, and it's affecting my ability to sleep. 😟",
+                "I'm feeling anxious about the impact of technology on my relationships, and it's affecting my sleep. 😓",
+                "I'm experiencing jet lag, and it's impacting my ability to adjust to the local time. 😰",
+                "I'm having trouble sleeping due to physical discomfort and pain. 😟",
+                "I can't sleep because of a recent loss in my life, and the grief is overwhelming. 😢",
+                "I can't sleep because of the pressure to conform to a specific body image in the beauty industry. 😰",
+                "I've been struggling with insomnia, and it's affecting my overall well-being. 😟",
+                "I'm struggling to sleep because of a recent failure, and it's affecting my self-worth. 😢",
+                "I'm feeling fatigued despite getting a full night's sleep. 😰",
+                "I'm struggling to sleep due to the fear of not meeting societal expectations about success and achievements. 😓",
+                "I'm struggling to sleep because of the pressure to meet societal expectations about success. 😓",
+                "I'm having trouble sleeping due to a recent creative block, and it's impacting my overall well-being. 😓",
+                "I'm struggling to sleep due to the pressure of making a major life decision, and it's overwhelming. 😰",
+                "I'm having trouble sleeping due to the fear of missing out on opportunities in my personal and professional life. 😰",
+                "I'm feeling anxious about expressing my true self, and it's impacting my sleep. 😓",
+                "I'm a student dealing with exam stress, and it's keeping me up at night. 😟",
+                "I'm finding it hard to sleep because of a recent breakup, and my emotions are overwhelming. 😢",
+                "I can't sleep because of the pressure to conform to a specific body image in the fitness industry. 😟"
+            ],
+            "responses": [
+                "Exam stress is tough. Let's discuss effective study routines, stress reduction techniques, and ways to manage test anxiety for better sleep during challenging academic periods.",
+                "Technology impact anxiety is common. Let's explore digital boundaries, practice mindfulness, and create a bedtime routine that allows you to disconnect, fostering healthier relationships and better sleep.",
+                "Societal expectations can be overwhelming. Let's explore your goals and values, redefine success on your terms, and create a bedtime routine that promotes a positive mindset regardless of external pressures.",
+                "Changes in work schedules can impact sleep. Let's explore ways to adjust your sleep routine to accommodate the new schedule and promote better sleep despite the change.",
+                "Societal success expectations can be daunting. Let's explore your goals, celebrate personal achievements, and create a bedtime routine that fosters a sense of accomplishment without external pressures.",
+                "Societal success standards can be daunting. Let's explore self-definition, celebrate personal achievements, and create a bedtime routine that fosters a sense of accomplishment without external pressures.",
+                "Noisy environments can disturb sleep. Let's discuss ways to mitigate noise disturbances, such as using earplugs, white noise machines, or blackout curtains, to create a more sleep-friendly space.",
+                "Interrupted sleep can be frustrating. Let's discuss potential reasons for waking up, establish sleep hygiene practices, and explore ways to enhance the continuity of your sleep.",
+                "Racing thoughts can interfere with sleep. Let's explore relaxation techniques, mindfulness exercises, and strategies to quiet your mind before bedtime.",
+                "Changes in the living environment can affect sleep. Let's explore ways to adapt to the new surroundings, create a comfortable sleep space, and promote better sleep in the updated environment.",
+                "Fatigue despite sufficient sleep may have underlying causes. Let's explore potential contributors, such as sleep disorders or lifestyle factors, and work towards improving your overall energy levels.",
+                "Beauty industry standards can be challenging. Let's discuss self-love, redefine beauty on your terms, and create a bedtime routine that supports a positive self-image and overall well-being.",
+                "Fear of failure is common. Let's discuss resilience, reframing failure as a learning opportunity, and create a bedtime routine that promotes a positive outlook on your academic and professional journey.",
+                "Technology impact anxiety is real. Let's explore digital boundaries, practice mindfulness, and create a bedtime routine that allows you to disconnect, fostering healthier relationships and better sleep.",
+                "Caffeine can interfere with sleep. Let's explore ways to moderate your caffeine consumption, establish a cut-off time for caffeinated beverages, and promote better sleep hygiene.",
+                "Career uncertainty can be daunting. Let's discuss goal-setting, create a roadmap for your career, and incorporate relaxing activities into your bedtime routine to alleviate anxiety about the future.",
+                "Difficulty falling asleep can be distressing. Let's talk about strategies to calm your mind before bedtime, create a sleep-conducive environment, and address any underlying concerns.",
+                "Societal beauty standards can be tough. Let's discuss self-love, redefine beauty on your terms, and create a bedtime routine that supports a positive self-image and overall well-being.",
+                "Relationship timeline pressure can be challenging. Let's explore self-compassion, redefine relationship goals on your terms, and create a bedtime routine that fosters authenticity and self-empowerment.",
+                "Work stress can impact sleep. Let's explore stress management techniques, create a designated wind-down routine, and establish boundaries to protect your sleep amidst work pressures.",
+                "Grieving can impact sleep. Let's discuss ways to navigate the grieving process, create a peaceful bedtime ritual, and honor the memory of your loved one as you work towards healing.",
+                "Gender role expectations can be challenging. Let's explore self-expression, redefine gender roles on your terms, and create a bedtime routine that fosters authenticity and self-empowerment.",
+                "Early awakenings can be challenging. Let's discuss strategies to adjust your sleep schedule, address potential factors contributing to early waking, and promote better sleep.",
+                "Feelings of inadequacy can be tough. Let's discuss self-affirmation, celebrate achievements, and create a bedtime routine that focuses on recognizing your worth and building self-esteem.",
+                "Betrayal is painful. Let's discuss rebuilding trust, setting boundaries, and creating a bedtime routine that promotes emotional healing and resilience.",
+                "Fear of missing out can be overwhelming. Let's explore the benefits of present moment awareness, engage in activities that bring joy, and create a bedtime routine that emphasizes gratitude.",
+                "Eco-anxiety is real. Let's explore sustainable living strategies, create an eco-friendly bedtime routine, and engage in activities that contribute positively to the environment to alleviate anxiety.",
+                "Chronic insomnia can have various causes. Let's explore potential triggers, establish a comprehensive sleep hygiene plan, and consider behavioral interventions to improve your sleep quality.",
+                "Physical discomfort can disrupt sleep. Let's explore strategies to alleviate pain, adjust sleep positions, and create a comfortable sleep environment to enhance your overall sleep experience.",
+                "Breakups can be emotionally challenging. Let's explore ways to manage your emotions before bedtime and create a comforting sleep environment to support your healing process.",
+                "Dependence on sleep aids may have limitations. Let's discuss alternative strategies, such as cognitive-behavioral therapy for insomnia (CBT-I), to address the root causes of your sleep difficulties.",
+                "Fashion industry standards can be demanding. Let's discuss self-love, redefine beauty on your terms, and create a bedtime routine that supports a positive body image and overall well-being.",
+                "Body image struggles can be challenging. Let's discuss self-love practices, promote positive affirmations, and create a bedtime routine that focuses on your well-being and self-acceptance.",
+                "Vivid dreams can affect sleep quality. Let's explore ways to manage dream intensity, create a relaxing pre-sleep routine, and improve overall sleep satisfaction.",
+                "Screen time before bed can disrupt sleep patterns. Let's discuss ways to establish a digital curfew, create a technology-free bedtime routine, and improve sleep quality.",
+                "Eco-anxiety is real. Let's explore sustainable living practices, mindfulness, and create a bedtime routine that aligns with your values, fostering a sense of environmental responsibility without overwhelming anxiety.",
+                "Decision-making pressure can be tough. Let's explore decision-making strategies, journal your thoughts before bedtime, and create a bedtime routine that fosters clarity and peace of mind.",
+                "Nightmares can contribute to bedtime anxiety. Let's explore techniques to manage nightmares, create a calming bedtime routine, and address any underlying emotional factors.",
+                "Adjusting to a new city can be challenging. Let's explore ways to create a sense of familiarity in your new environment, establish a comforting bedtime routine, and promote better sleep in your new home.",
+                "Societal beauty standards can be tough. Let's discuss self-empowerment, redefine beauty on your terms, and cultivate a bedtime routine that promotes self-love and confidence.",
+                "Fitness industry standards can be demanding. Let's discuss self-love, redefine fitness goals on your terms, and create a bedtime routine that supports a positive body image and overall well-being.",
+                "Digital distractions can disrupt sleep. Let's explore ways to set boundaries with technology, create a calming pre-sleep routine, and establish a technology-free bedtime environment.",
+                "Creative blocks can be challenging. Let's explore relaxation techniques, engage in calming creative activities before bedtime, and encourage a positive mindset to support better sleep.",
+                "Uncertainty about the future can be daunting. Let's discuss goal-setting, break down larger goals into manageable steps, and create a bedtime routine that fosters a sense of direction and calmness.",
+                "Public speaking anxiety is understandable. Let's discuss strategies to manage anticipatory anxiety, practice deep breathing exercises before bedtime, and incorporate positive visualization techniques.",
+                "Jet lag can disrupt the circadian rhythm. Let's discuss strategies to gradually adjust to the new time zone, optimize exposure to natural light, and improve your sleep during travel.",
+                "Social media pressure can be intense. Let's explore ways to manage online expectations, set boundaries, and create a digital detox bedtime routine to support better sleep.",
+                "Regrets can be challenging. Let's explore self-forgiveness, mindfulness practices, and ways to reframe past decisions positively, creating a mindset conducive to better sleep.",
+                "Fear of unmet expectations is common. Let's discuss setting realistic goals, practicing self-compassion, and create a bedtime routine that supports a positive mindset, allowing you to appreciate your journey.",
+                "Aging anxiety is valid. Let's explore self-love practices, focus on the positive aspects of aging, and create a bedtime routine that fosters a sense of appreciation for every stage of life.",
+                "Health anxiety is valid. Let's explore mindfulness practices, establish a consistent sleep routine, and focus on self-care activities that contribute to both mental and physical well-being.",
+                "Unresolved conflicts can weigh on the mind. Let's discuss ways to address the issues, promote open communication, and create a sense of closure to ease your mind before bedtime.",
+                "High expectations can be overwhelming. Let's discuss setting realistic goals, celebrating small victories, and creating a bedtime routine that promotes a sense of accomplishment without excessive pressure.",
+                "Late-night work can disrupt sleep patterns. Let's discuss time management strategies, establish a work-life balance, and create a calming transition from work to bedtime.",
+                "Social anxiety can affect sleep. Let's explore coping strategies, practice relaxation techniques, and work on fostering a positive mindset to improve your sleep before social events.",
+                "Societal marriage expectations can be overwhelming. Let's explore your feelings, redefine relationship goals on your terms, and create a bedtime routine that fosters authenticity and self-empowerment.",
+                "Inconsistent sleep schedules can impact overall sleep quality. Let's explore ways to maintain a more consistent sleep routine, even on weekends, for better sleep consistency.",
+                "Societal expectations can be stressful. Let's explore ways to manage these pressures, redefine success on your terms, and create a positive mindset to support better sleep.",
+                "Climate anxiety is real. Let's explore eco-friendly practices, mindfulness, and create a bedtime routine that aligns with your values, fostering a sense of environmental responsibility without overwhelming anxiety.",
+                "Difficulty sleeping can impact various aspects of life. Let's explore potential causes, establish a bedtime routine, and discuss relaxation techniques to improve your sleep.",
+                "Parenting can be exhausting. Let's discuss strategies to prioritize self-care, share responsibilities, and ensure you get quality rest to navigate the demands of parenthood.",
+                "Presentation anxiety is common. Let's explore relaxation techniques, positive visualization, and strategies to manage performance anxiety to improve your sleep leading up to the event.",
+                "Productivity pressure can be exhausting. Let's explore time management techniques, prioritize self-care activities, and create a bedtime routine that emphasizes the importance of rest for overall productivity.",
+                "Event planning stress is understandable. Let's discuss time management strategies, create a detailed planning schedule, and incorporate relaxation practices into your bedtime routine to ease anxiety.",
+                "Failures are part of life. Let's discuss resilience, self-compassion, and strategies to reframe setbacks, creating a positive mindset to support better sleep and a renewed sense of self-worth.",
+                "Aging anxiety is valid. Let's explore mindfulness, embrace the beauty of each life stage, and create a bedtime routine that promotes self-love, acceptance, and a positive perspective on aging.",
+                "Social media impact anxiety is real. Let's explore self-love practices, set digital boundaries, and create a bedtime routine that allows you to prioritize your mental well-being over online pressures.",
+                "Comparison is challenging. Let's explore self-compassion, gratitude practices, and create a bedtime routine that fosters a positive mindset, allowing you to appreciate your unique journey.",
+                "Authenticity anxiety is common. Let's discuss the importance of self-expression, journal about your thoughts and feelings before bedtime, and create a sleep-conducive environment that supports self-discovery.",
+                "Anxiety about upcoming events can interfere with sleep. Let's discuss relaxation techniques, mindfulness exercises, and strategies to manage anticipatory anxiety for better sleep.",
+                "Fear of the dark is valid. Let's explore gradual exposure techniques, use comforting nightlights, and cultivate a bedtime routine that makes you feel safe and secure."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1001 @@
+name,specialization,contact_number,email,address,city,state,zip_code,education,experience_years,languages_spoken,availability,rating,latitude,longitude
+Kathleen Burns,Therapist,+1-915-211-1452x6049,mjohns@example.org,"4543 Robert Plain Suite 474
+Davisbury, NE 01953",Simmonsfurt,New Hampshire,59578,MS,30,"['Spanish', 'Hindi', 'Hindi']",Evening,3.0,-17.837013,-173.703442
+Jody Kennedy,Psychiatrist,(704)562-7663x3416,wrightterri@example.net,"79836 Berry Key Apt. 960
+Carolmouth, MA 41713",Chandlertown,New Mexico,40915,PsyD,3,['Spanish'],Afternoon,4.9,-74.0414385,44.674718
+Nathan Li,Psychiatrist,586.401.7702x62022,whitedebra@example.com,"45033 Taylor Haven Suite 303
+West Christinefort, VT 13545",Vegatown,Virginia,69857,PhD,16,"['English', 'English']",Evening,3.1,-63.236989,-3.387512
+Tony Duncan,Psychiatrist,+1-650-911-3484,aaron24@example.net,"Unit 6041 Box 3016
+DPO AA 72943",New Katherinetown,Pennsylvania,63733,PsyD,6,['Hindi'],Morning,4.4,-41.9427855,104.183159
+Kenneth Walker,Therapist,(672)218-6909,gjones@example.com,"7179 Parker Canyon Apt. 374
+Williamston, VT 50107",New Davidbury,Montana,29855,PsyD,16,"['French', 'Spanish']",Afternoon,3.6,-51.8169185,161.386000
+Jennifer Rubio,Psychiatrist,(658)501-1997x9121,ubarker@example.net,"PSC 2002, Box 5901
+APO AE 12482",West Matthew,Montana,01251,PhD,10,['Hindi'],Morning,4.8,22.4899385,5.785857
+Charles Greene,Therapist,724-374-3079x8208,utorres@example.org,"8436 Karina Stravenue
+Patriciatown, MD 96850",Beckmouth,Colorado,57845,PhD,2,"['Spanish', 'Hindi', 'English']",Afternoon,3.2,23.7201255,177.971831
+Ashley Sullivan,Psychiatrist,001-770-870-3855x425,taylorbrian@example.net,"USCGC Rubio
+FPO AP 14387",Port Michaelbury,Connecticut,12369,MS,16,"['English', 'Spanish']",Afternoon,3.7,61.776010,-15.422588
+Douglas Miller,Therapist,(977)600-1703,xjohnson@example.org,"36805 Dawn Centers
+Lake Matthew, PR 97475",Johnville,Indiana,89561,MS,7,"['French', 'English']",Morning,3.5,-74.5849995,-173.660400
+Gregory Coleman,Psychiatrist,885.587.6149x270,ruizclifford@example.com,"04760 Foster Gateway
+Nguyentown, AK 91370",Middletonville,Nevada,64912,MD,4,"['French', 'English']",Afternoon,5.0,35.3548825,45.018752
+Wendy Mitchell,Psychologist,+1-940-383-3758x1319,bhernandez@example.org,"466 Matthew Curve Apt. 780
+West Joseph, AR 37948",East Michael,Michigan,22588,PhD,26,"['Hindi', 'French']",Afternoon,4.0,65.670697,-61.894522
+Karen Garcia,Psychologist,448.353.5756x9501,michaelgood@example.com,"355 Jim Fort
+West Davidview, PR 59644",North Corey,Massachusetts,67919,PhD,18,['French'],Afternoon,4.6,-68.525256,97.287634
+Marcia Johnson,Psychiatrist,527.904.8444x6715,russell84@example.com,"9782 Jessica Haven Suite 805
+Murrayside, MH 89143",West Billyside,Illinois,96652,PsyD,27,['Spanish'],Morning,3.4,-69.527822,-120.966313
+Cole Schmidt,Psychologist,264-316-4303,elizabethzimmerman@example.com,"910 Taylor Orchard Apt. 400
+Kelseyview, VI 74233",South Brandy,Colorado,62166,MD,13,['English'],Evening,3.3,-47.2824005,81.223027
+Alexis Flores,Psychiatrist,(682)355-8483x170,fpeterson@example.com,"2721 Barbara Corner
+Hoffmanborough, FM 49415",Averyfort,Utah,21415,PsyD,28,"['English', 'Hindi', 'English']",Afternoon,4.4,-17.046668,-1.880883
+John Cummings,Psychologist,369-971-4785,christine09@example.net,"79858 Davis Plain Apt. 700
+Port Brianna, WA 79021",New Ashleyton,Connecticut,29234,PhD,12,"['Hindi', 'French', 'Spanish']",Afternoon,4.4,28.8738225,122.330399
+Erin Burns,Psychologist,001-664-706-3422x793,pamelaharris@example.com,"6720 Dillon Terrace Suite 582
+New Joann, WA 96593",New Melissa,Rhode Island,40596,PsyD,19,"['Hindi', 'Spanish']",Evening,4.7,-46.3725425,172.684854
+Anthony Heath,Therapist,888.818.7121,ybrooks@example.net,"94910 Nelson Dam
+Hesterbury, CA 14041",Port Danielle,Georgia,33480,MS,27,"['French', 'Spanish', 'Hindi']",Evening,3.6,69.9279245,30.987937
+Christina Ramos,Psychiatrist,(557)534-5404,stephaniesanchez@example.com,"601 Samantha Falls Suite 928
+West Anthonyton, SC 60018",Adamsview,Wisconsin,15139,MD,28,"['English', 'Hindi', 'English']",Morning,3.8,6.508432,-118.305929
+Mr. Robert Costa,Therapist,001-247-475-5634x5275,markbaxter@example.com,"431 Andrew Overpass
+East Heather, MD 79794",West Juliestad,Pennsylvania,79440,MS,12,"['French', 'Spanish', 'English']",Afternoon,3.5,-18.395031,74.716711
+Mr. David Lane,Psychiatrist,+1-235-904-4385,igarcia@example.org,"020 Vasquez Field
+Susanshire, SC 81964",Nelsonton,Delaware,66885,PsyD,18,"['Spanish', 'French']",Afternoon,3.6,-38.283913,-161.950826
+Edward Torres,Psychiatrist,+1-349-385-7168,sarah33@example.com,"337 Roberson Skyway Suite 032
+Lake Markside, MA 23383",Rivasburgh,Georgia,06122,MS,1,"['Spanish', 'Hindi']",Evening,4.7,85.8717905,54.360555
+Benjamin Ponce,Therapist,(541)470-7578,foxtyler@example.com,"266 Hoffman Walks
+Greenton, NV 48027",Longhaven,Oregon,59941,MS,13,['Hindi'],Afternoon,3.8,45.871098,34.562925
+Taylor Sloan,Therapist,(983)918-2396,richard89@example.org,"54680 Kyle Run
+Port Lindsey, IA 48073",Garrettside,Minnesota,35656,MD,9,"['Hindi', 'Hindi']",Morning,4.2,-55.837720,121.273061
+John Riley,Psychiatrist,931-203-5851,douglashernandez@example.net,"4505 Long Keys Suite 976
+Melindahaven, MA 89312",North Ana,North Carolina,91113,MS,7,"['Hindi', 'Spanish']",Morning,4.3,63.804850,10.729353
+Jessica Russell,Psychiatrist,+1-707-676-1379x698,deandanielle@example.net,"USS Davis
+FPO AE 49589",Cervantesmouth,South Dakota,89154,MS,21,"['Hindi', 'English', 'Spanish']",Afternoon,4.5,-65.6483835,24.635091
+Karen Bruce,Psychiatrist,9866546142,woodleah@example.com,"18145 Gregory Estate
+Stevenmouth, GU 26481",North Gabriel,Kentucky,98565,PsyD,4,"['Hindi', 'French', 'Spanish']",Morning,4.3,58.0986315,157.333878
+Angela Davis,Psychiatrist,319.332.0966,fcole@example.net,"15876 Gerald Cape
+South Sheriberg, MA 58513",New Stacyview,Arizona,80136,PhD,26,"['English', 'Spanish']",Morning,4.6,72.283278,113.942472
+Ashley Collins,Therapist,708.528.0262x56301,jsilva@example.com,"6702 Horton Walk
+Guerreroton, VI 82708",Port Megan,Arizona,93696,MS,19,"['French', 'Spanish', 'French']",Afternoon,4.3,51.6034985,16.634456
+Raymond Padilla,Psychiatrist,+1-301-212-1540x122,jmcguire@example.com,"49395 Mathews Lakes Apt. 074
+Nelsonville, NC 96170",Teresafurt,Colorado,13642,PhD,14,"['Spanish', 'Spanish', 'Hindi']",Evening,3.2,-13.9258335,-69.138858
+Michael Shannon,Therapist,(439)590-6038x88780,rebecca37@example.net,"91475 Janet Meadow
+Jaimefort, MP 66433",Kimberlychester,New Jersey,23325,MD,1,"['French', 'Spanish', 'English']",Afternoon,3.1,-53.6640625,168.566217
+Michelle Cox,Psychologist,+1-429-586-3572x7242,jesse38@example.net,"628 Christopher Manors Apt. 598
+Smithfurt, IL 45218",Gibbsmouth,Rhode Island,08264,MS,20,['English'],Evening,3.3,-4.964334,-62.712807
+Eddie Johnson,Psychologist,+1-779-446-5734,luis40@example.org,"Unit 6974 Box 8908
+DPO AA 66984",North Adrianaville,New York,32343,PhD,15,"['Spanish', 'English']",Evening,3.1,-50.743582,27.455193
+Carol Bass,Therapist,001-498-709-1146x096,fsheppard@example.com,"7908 Davis Locks
+West Angela, FM 39750",West Wayneview,Texas,68355,MS,12,"['Hindi', 'English', 'Hindi']",Afternoon,4.6,-18.5390115,-122.609032
+Tamara Hudson,Therapist,+1-607-951-8801x8762,nklein@example.com,"49639 Phillip Flat
+Valeriestad, VT 56250",New Christine,Vermont,02640,MD,26,"['English', 'Spanish', 'Spanish']",Evening,4.8,29.9161705,-22.454823
+Sarah King,Psychiatrist,208-874-5405x19841,alishaperez@example.org,"USCGC Beltran
+FPO AA 79978",East Larrybury,South Dakota,31172,PhD,13,"['Hindi', 'Hindi', 'French']",Morning,4.5,-4.325358,42.204264
+Kathy Ward,Psychologist,7426746404,sarahfloyd@example.com,"2542 Amy Shore Suite 430
+Kristineberg, NM 97636",Jenniferstad,Massachusetts,34488,MD,16,"['English', 'Spanish', 'Spanish']",Morning,3.3,39.1787265,162.558892
+Chloe Bryant,Psychiatrist,441-404-1771,smithbrandon@example.net,"477 Lynn Gateway
+West Donna, KS 97933",Brayside,Delaware,76444,MS,21,"['Hindi', 'English']",Morning,3.9,-7.546898,-84.667471
+Matthew Hamilton,Psychiatrist,001-426-673-8545,vanessapittman@example.net,"22078 James Skyway Apt. 305
+Larsonton, NV 02596",West Edward,Wisconsin,30777,PsyD,9,"['English', 'Spanish']",Morning,3.2,58.750253,173.201719
+Elizabeth Clarke,Therapist,8742485306,martinezjohn@example.com,"7890 Aaron Station
+Lisaborough, UT 32777",Garyland,Montana,39604,PhD,30,"['French', 'French', 'English']",Afternoon,4.8,23.2968245,124.834773
+Debbie Ray,Therapist,001-714-310-0729x457,hernandezpamela@example.net,"308 Robin Cape Suite 184
+Lake Lindaside, AZ 50566",Bakerbury,Hawaii,44140,PhD,28,"['Hindi', 'Hindi', 'French']",Evening,4.4,-56.4916835,-146.087162
+Logan Johnson,Psychiatrist,001-455-528-2894x262,pettycindy@example.net,"2686 Cindy Circles
+Lake Thomasfort, PA 78221",East Michaelberg,Florida,31476,PsyD,16,"['French', 'French']",Morning,4.3,-24.166253,16.397793
+Lisa Braun,Therapist,693.258.3369,jennyrose@example.org,"85568 Duarte Summit
+Katrinaborough, MD 33917",East Kent,Illinois,77967,PsyD,25,"['French', 'French']",Afternoon,3.7,-43.5307465,-51.614986
+Lori Dennis,Therapist,(962)213-3315,rclay@example.net,"47498 Louis Union
+Crossfurt, IA 84198",North Michaelton,Michigan,37408,MS,18,"['English', 'Spanish']",Afternoon,4.2,-12.6633605,-5.685740
+Spencer Singh,Psychologist,+1-564-894-3500,brendahale@example.org,"293 Gutierrez Lock Suite 402
+Cindyberg, FL 20861",Perryville,Maryland,98642,PsyD,17,['Spanish'],Afternoon,3.2,74.639591,142.457429
+Aaron Thompson,Psychiatrist,001-715-354-9491x30495,summersjames@example.com,"7080 Michael Prairie
+East Sandra, DC 64853",Lake Richardmouth,Oklahoma,59711,PhD,29,"['Hindi', 'French', 'French']",Evening,4.6,-53.0009055,-94.324821
+Andrea Kelly,Psychiatrist,861-333-1736x432,howellclaire@example.com,"2554 Decker Corner Suite 687
+West Austin, WY 75564",East Lisa,Alaska,94826,MD,8,"['Hindi', 'Spanish']",Morning,4.3,53.6440015,-57.674319
+Melvin Wilson,Psychologist,001-715-593-6543,lauren47@example.net,"PSC 3753, Box 0447
+APO AA 39753",Matthewport,New Hampshire,10730,PhD,23,"['French', 'English', 'French']",Morning,3.0,87.383942,-7.678240
+Brenda Miller,Psychologist,001-739-200-1678x770,obrienjudy@example.net,"889 Smith Road
+North Jennifer, UT 36973",Lake Kaylaview,Minnesota,03035,MS,9,['Hindi'],Evening,4.9,-14.8336475,45.460687
+Benjamin Anderson,Therapist,988.833.8787x198,robinsonsara@example.net,"257 White Hill Apt. 258
+North Danielleport, TX 83914",Goodwinmouth,Florida,59778,PsyD,25,['Spanish'],Evening,3.3,31.355207,-170.543211
+Sarah Wilson,Psychiatrist,529-853-2317x632,spencermiller@example.net,"936 Justin Stream Suite 853
+South Williammouth, UT 50436",East Jessicaberg,Illinois,51154,MD,28,['French'],Morning,3.8,-19.0066635,179.337435
+Brianna Harper,Therapist,001-719-860-3128x64125,knappjennifer@example.com,"24478 Charles Squares Apt. 068
+Hughesburgh, MA 60131",North Andrea,Kansas,54909,PhD,15,"['Spanish', 'English']",Afternoon,4.1,-1.773294,-173.648272
+Michael Harrison,Psychologist,001-420-743-6649x39340,mirandavaughn@example.net,"529 Phillips Corner
+East Bobbyport, WY 40627",West Sarahberg,Maryland,64151,PsyD,1,['French'],Morning,4.6,34.7650235,150.907575
+Paul Howard,Therapist,543.393.7770,jeffery86@example.net,"992 Curry Knolls Apt. 905
+North Garrett, PW 81271",North Danielle,Michigan,73042,MS,11,['French'],Morning,3.0,-25.9772725,-127.144940
+Chad Dyer,Psychiatrist,945.749.3948x74160,hwilliams@example.net,"83530 Weiss Centers
+Jacksonburgh, NC 05136",West Michelleborough,Connecticut,29638,PhD,2,"['Hindi', 'Hindi', 'Spanish']",Afternoon,3.6,0.8571715,-127.046873
+Catherine Calhoun,Psychologist,6997798027,palmerjulia@example.org,"960 Joel Junctions Suite 671
+Williambury, OR 25115",Jennifermouth,Colorado,64870,MD,14,"['English', 'Hindi']",Afternoon,4.8,-29.7003905,45.709623
+Eric Pratt,Psychologist,508-745-5535x9730,daniel26@example.com,"9762 Timothy Plains
+Ericland, MH 76343",Wesleymouth,West Virginia,87190,MD,21,"['Hindi', 'Hindi', 'Hindi']",Afternoon,4.6,-24.737704,-137.606161
+Elizabeth Gill,Therapist,+1-428-373-4808x204,carpenterabigail@example.net,"393 Chambers Prairie
+Jenniferhaven, ME 39892",Lake Alisha,North Carolina,40355,PhD,25,"['French', 'English']",Evening,3.3,-51.5030625,-9.409044
+Brent Werner,Psychiatrist,+1-218-295-8082,john93@example.com,"50404 Hart Mall
+Jeffreychester, CA 18879",South Josephborough,Virginia,82481,PhD,1,['Hindi'],Afternoon,4.1,63.614558,-176.056782
+Sandra Liu,Psychiatrist,001-872-643-9094x836,aortiz@example.com,"6039 John Lodge
+Wilsonton, PR 98946",Shawnfort,New York,68802,MD,22,['English'],Evening,4.6,-35.1498745,-92.771782
+Lori Dorsey,Psychiatrist,915.544.9235,barberkatherine@example.net,"85597 David Mall Suite 742
+Port Shannonborough, PW 83092",Port Joseph,Nevada,03573,PhD,21,['English'],Evening,4.6,57.866383,-90.179712
+Mary Terry,Psychiatrist,778-893-1160x1550,ihull@example.org,"Unit 9571 Box 5996
+DPO AE 98856",Hunterville,Michigan,54850,MS,21,"['French', 'French', 'French']",Evening,4.9,-19.7002545,-100.791449
+Andrew Meyer,Therapist,+1-893-754-6241,bsims@example.org,"85423 Edwards Unions
+Frenchfurt, NE 47255",North Ricky,Connecticut,00826,MS,28,"['Hindi', 'French', 'English']",Evening,3.7,83.3697215,64.599910
+Nicholas Moore,Therapist,001-896-712-1806x40759,lisahart@example.org,"8089 Carter Forge Apt. 849
+Randyport, ID 10896",Allisonview,Tennessee,73233,PsyD,23,"['Hindi', 'French', 'English']",Afternoon,4.5,86.3844565,-16.418701
+Alison Brown,Therapist,(526)316-4949x723,pamelarice@example.org,"8371 Patrick Oval
+West Christopher, VT 39384",Oconnortown,Alabama,02870,MD,7,['French'],Morning,3.3,64.2957975,15.065523
+Brenda Perkins MD,Psychologist,(246)583-1751x921,nealemily@example.net,"502 Thomas Junction Suite 614
+Tonyaside, PW 46293",South Christina,Maryland,49346,PsyD,23,"['Spanish', 'Hindi', 'Hindi']",Evening,5.0,-28.133502,-97.232031
+Alexandria Wilson,Psychiatrist,912-288-1206x551,michaeldominguez@example.org,"PSC 1547, Box 4459
+APO AP 93528",Rebeccaport,Washington,65992,PhD,15,"['English', 'Hindi', 'Hindi']",Morning,3.8,-8.333729,91.449266
+Jon Hill,Psychiatrist,612-976-2590x736,hjohnson@example.net,"87324 Bautista Ports Suite 931
+South Michaelfurt, MI 39127",Melissamouth,California,07763,MD,5,['Hindi'],Afternoon,4.6,79.097986,-131.065665
+Elizabeth Wilson,Therapist,561.536.3542x0222,mfisher@example.org,"73930 Austin Row Apt. 001
+Baileyburgh, IA 94331",Moorebury,Washington,69004,MS,27,['English'],Afternoon,3.1,-21.7610385,-165.465110
+Timothy Diaz,Psychologist,001-302-504-1912x764,david15@example.com,"1138 Sanchez Vista Suite 388
+North Robertbury, NM 25775",Justinborough,Pennsylvania,82862,PhD,7,"['English', 'Hindi', 'Hindi']",Afternoon,4.4,-69.295076,66.168292
+Douglas Mcintyre,Therapist,+1-888-291-4483x7529,jamescurtis@example.net,"535 King Rest Suite 111
+Lewishaven, PA 83163",Lake Brittanymouth,Maryland,09144,MS,12,['Spanish'],Afternoon,4.7,-87.695158,-160.362869
+Eric Stark,Psychologist,001-661-321-8964,taylorcatherine@example.org,"960 White Shoal
+Tammyland, GU 39084",Curtismouth,Idaho,37728,MS,11,['Hindi'],Morning,4.8,81.583691,15.952345
+Margaret Hall,Psychiatrist,924.924.1624x600,grace99@example.net,"030 Rhonda Stravenue
+Hayesland, NM 69217",Catherineview,Rhode Island,02311,MS,25,"['English', 'English']",Morning,4.6,-86.556262,20.365322
+Jessica Wilson,Therapist,443.679.9755x18872,lawsonzachary@example.net,"50952 David Lights
+West Paul, WV 02124",Saraburgh,Colorado,82988,MS,27,"['French', 'Spanish']",Evening,3.7,50.987299,-101.166749
+Bryce Chavez,Psychiatrist,562-993-2982x892,charleswong@example.org,"36474 Webb Squares Suite 317
+Dunlapville, GA 02185",Carterfurt,Vermont,01353,MD,14,"['French', 'Spanish']",Afternoon,3.5,-40.2164015,-176.338108
+Becky Graham,Psychologist,(703)531-3606,hgonzales@example.org,"1940 Krause Course Apt. 902
+Marissaville, MT 52768",Lisaland,Alabama,73115,PhD,19,"['French', 'Spanish']",Evening,3.2,-69.621237,-148.037494
+Dale King,Psychologist,620.355.7894x476,molly08@example.org,"3027 Norman Valleys
+Vasquezstad, WY 26397",South Jeffreyborough,Montana,43651,PhD,24,['French'],Morning,3.8,-40.329028,-48.770138
+Michele Contreras,Psychiatrist,437.692.8068x26833,francissarah@example.net,"31877 Dunn Ramp Apt. 176
+New Thomas, OR 83778",Amberton,Georgia,34863,PsyD,8,"['Spanish', 'Hindi']",Afternoon,3.3,31.2994195,92.405219
+Christopher Mccall,Therapist,+1-921-590-9477,kennethjohnson@example.org,"Unit 7420 Box 9590
+DPO AP 29322",Whitebury,New Jersey,44914,PsyD,29,['French'],Afternoon,3.7,-67.2084865,78.128982
+Michael Norton,Psychiatrist,001-264-233-5140,mannkyle@example.com,"3863 Harper Trail Apt. 464
+East William, WI 93065",West Michael,Washington,31925,MS,11,"['French', 'French']",Morning,3.5,-38.9224745,-80.221074
+Andrew Jones,Therapist,799-945-0664,garciashelby@example.org,"033 Allen Forest
+Lake Thomas, AZ 27595",Lake Jennifer,New York,27898,PhD,20,['English'],Afternoon,4.0,-42.909582,15.137889
+Kimberly Sanchez,Therapist,(371)204-4524x5949,molly10@example.net,"6728 Joyce Extension Apt. 824
+North Lisashire, MN 68824",Serranoton,Oklahoma,68945,PsyD,14,"['English', 'Hindi']",Evening,3.6,-68.9552555,69.506139
+Mia Jones,Psychiatrist,001-690-992-4019x303,melinda94@example.com,"8079 Jones Road
+New John, SC 87009",New James,South Carolina,32388,MS,25,"['Spanish', 'French', 'English']",Morning,3.9,20.885979,45.554323
+John Gonzales,Therapist,(732)290-2591x060,andrewschristopher@example.com,"522 George Lock Apt. 119
+New Alan, VI 75291",Lake Matthew,Michigan,90288,PsyD,10,"['French', 'English']",Afternoon,3.1,-43.491684,-97.891618
+Peter Haynes,Therapist,930.810.8782x4397,debracosta@example.net,"Unit 0010 Box 4514
+DPO AP 40257",South Vincent,Minnesota,24635,MD,14,['Spanish'],Afternoon,3.8,66.9183275,91.348366
+Kathleen Perry,Psychiatrist,+1-830-522-8757x974,katelynwhite@example.org,"409 Jessica Streets
+Margaretton, SC 83975",New Brookebury,Louisiana,96465,PsyD,5,['Hindi'],Afternoon,3.9,-19.282704,29.272399
+Luke Kelly,Psychiatrist,348-771-8911x3665,pjohnson@example.com,"0598 John Alley
+North Johnborough, PW 02781",East Michaelview,Nebraska,13992,PsyD,27,"['Spanish', 'French']",Evening,3.8,86.163418,19.949579
+Sabrina Rodriguez,Psychiatrist,636.378.9024x984,pattydalton@example.net,"8456 Rivera Harbors Suite 338
+East Mariahborough, NC 30547",North Erinchester,Missouri,57653,MD,24,"['French', 'English']",Afternoon,4.1,9.6648195,56.531255
+Laura Grant,Psychiatrist,(660)588-5769x961,zruiz@example.org,"PSC 9550, Box 4895
+APO AE 33975",Kellyburgh,Minnesota,34322,MS,30,"['Hindi', 'English', 'English']",Evening,4.2,-68.744482,156.896432
+Catherine Jones,Therapist,+1-239-474-2736,james28@example.net,"29555 Petersen Path Apt. 093
+New Tinahaven, VA 62118",Stewartshire,Virginia,49417,MS,1,['English'],Afternoon,4.4,17.5627655,153.239112
+Samuel Walker,Psychiatrist,+1-348-510-8107,deborah85@example.org,"79324 Olivia Isle
+New Jennifer, WY 38993",West Theresachester,Minnesota,97061,MD,22,"['French', 'French', 'English']",Morning,4.3,-4.317970,-24.859882
+Vincent Torres,Psychiatrist,4192764777,qthompson@example.net,"29869 Rebecca Tunnel
+Lake Meganbury, MO 98078",East Carrie,Virginia,56888,PsyD,19,['English'],Afternoon,4.9,15.878164,69.860745
+Anthony Todd,Therapist,281-576-3567,singhscott@example.org,"67221 Black Wells
+East William, WA 54007",Garyhaven,Massachusetts,94651,MS,15,"['French', 'Hindi', 'Spanish']",Morning,4.4,85.3541875,129.315874
+Joseph Baldwin,Psychologist,+1-895-970-2029,rcampbell@example.net,"144 Sara Grove Apt. 718
+Johnview, WY 80535",New Ryantown,California,52620,MS,23,"['French', 'Spanish']",Evening,4.1,-75.580041,110.078821
+Jonathan Delgado,Psychiatrist,732.494.4969x059,kimberly67@example.net,"35929 Maria Stravenue
+Rushfort, NV 83355",Edwardsville,Mississippi,88086,MS,28,['English'],Morning,3.3,42.366257,-11.112619
+Eric Howell,Therapist,530-820-0900,davistyler@example.net,"501 Huber Parks
+Reneeland, VA 60396",Bennettview,Florida,85113,PhD,16,"['French', 'Spanish', 'Hindi']",Morning,3.4,17.175117,-151.770226
+Chad Walsh,Psychiatrist,569-285-9993,derek84@example.org,"PSC 6866, Box 4406
+APO AA 36382",Lake Annehaven,Massachusetts,15336,PsyD,12,"['French', 'English', 'Spanish']",Afternoon,3.7,87.657626,-112.723723
+William Clark,Psychologist,(222)790-4543,valdezgregg@example.org,"973 Wanda Stream
+North Faithshire, OR 38608",Thomasland,Idaho,12512,MS,3,"['English', 'French', 'English']",Afternoon,4.4,71.449674,-117.060510
+Jeremy Parker,Therapist,001-611-432-3967x06082,campbelldawn@example.com,"564 Ruiz Pine Apt. 879
+Griffinburgh, AZ 51211",East Davidfurt,Kentucky,20164,PhD,19,"['Spanish', 'French', 'English']",Afternoon,3.9,35.2315465,67.523040
+Stacey Lee,Therapist,(577)597-1037x151,victoria30@example.net,"30680 Stewart Motorway Apt. 099
+Thompsonfort, OR 66689",East Katie,Nebraska,87701,MS,23,"['Spanish', 'French', 'Spanish']",Evening,3.2,-68.541161,33.011178
+Ashlee Flynn,Psychiatrist,570.607.9501x7625,ywilson@example.com,"USCGC Powell
+FPO AP 19167",New Jenniferfurt,Nevada,09024,PsyD,1,"['English', 'Spanish', 'French']",Evening,3.8,-16.1559535,179.503932
+Matthew Chapman,Psychiatrist,001-645-553-5911x8577,christian88@example.net,"PSC 8762, Box 4303
+APO AE 32207",New Devin,Massachusetts,85292,PhD,20,['English'],Evening,3.4,9.7603925,152.501719
+Carla Morris,Therapist,491.640.8387x473,jennifer76@example.org,"224 Peter Islands
+New Bryan, NE 90769",Chrisbury,Wyoming,87560,MS,27,"['French', 'English', 'French']",Evening,4.5,-2.1198095,1.137323
+Rebecca Woods,Psychiatrist,778.492.4696,ijackson@example.net,"3753 Jesse Crossroad Suite 371
+Elizabethmouth, RI 57469",Beckytown,Arkansas,56705,PsyD,23,['English'],Morning,4.0,-4.6182975,64.149408
+Ann Alvarez,Psychiatrist,544-743-6921x3652,williamsstephanie@example.org,"812 Daniel Plain Apt. 917
+East Joanneville, AR 29690",Port Robertborough,Wisconsin,62939,PsyD,5,['English'],Morning,4.0,-67.2941135,-79.239393
+Robert Soto,Psychologist,317-338-6989,bboone@example.com,"2028 Erin Circles
+Christinaton, ND 22479",Carlsonberg,California,84336,PsyD,5,"['English', 'Hindi', 'Spanish']",Evening,4.9,74.2307515,156.917713
+Donna Andersen,Psychiatrist,431.362.2083,nrogers@example.net,"35389 Veronica Glens Suite 588
+Mcmillanfort, WV 23488",North Jeremiahmouth,Vermont,36942,MD,12,"['Hindi', 'Spanish']",Morning,4.5,-49.8805345,-145.477393
+Loretta Bell,Psychiatrist,(398)488-1374,bassandrea@example.com,"569 Bell Route
+Oconnellberg, ME 93826",South Annaberg,Colorado,73203,MS,13,"['Spanish', 'Spanish', 'Spanish']",Morning,4.9,-3.3805205,67.990848
+Raymond Morgan,Therapist,855-887-7621x6985,emmaedwards@example.org,"9865 Willie Summit Apt. 666
+Peterton, FL 99242",Robertview,New York,64146,PsyD,24,['English'],Morning,4.7,73.9666175,33.470473
+Brian Harris,Therapist,(229)765-0243x084,kendracoleman@example.org,"971 Garcia Bypass
+New Christineberg, GA 05546",Jacksonside,Florida,31954,MD,19,['French'],Afternoon,4.7,29.5470395,54.669678
+Monica Williams,Therapist,001-404-969-5787x029,julieruiz@example.net,"86700 Norman Corner
+Jacobview, GU 13153",Payneview,Utah,76519,MD,27,"['Hindi', 'French']",Afternoon,4.4,42.669038,96.719983
+Janet Horton,Psychiatrist,+1-696-598-3831,mark96@example.org,"16693 Johnson Crescent
+Walterbury, LA 77574",North Sara,Minnesota,34716,MD,24,['French'],Afternoon,4.4,-44.7298685,-28.905832
+Jordan Vazquez,Psychiatrist,+1-786-258-1002,perezandrew@example.org,"11138 Middleton Glens Apt. 693
+Rachelmouth, MA 89828",Hallbury,South Carolina,45603,MD,26,"['Spanish', 'English', 'English']",Morning,3.7,17.3552985,107.616630
+Richard Roberts,Psychiatrist,(254)602-3138,johnstonkristen@example.com,"70019 Wood Row
+East Samuelfurt, ME 12543",Lake Vanessa,New Mexico,10838,MS,28,"['Spanish', 'Spanish']",Evening,4.5,-74.2525055,-29.643391
+Denise Tucker,Psychiatrist,+1-991-204-6163x665,richardgreene@example.net,"844 Ayala Inlet
+Nelsonburgh, WY 14718",Mitchellfurt,Colorado,95156,PsyD,28,"['French', 'English']",Morning,3.9,37.3525735,-82.065549
+Angela Schmidt,Psychologist,001-503-854-5268x32336,lhorne@example.net,"USNV Suarez
+FPO AP 17070",Amandachester,Montana,80097,MD,9,"['English', 'Spanish']",Afternoon,3.2,83.783648,90.921833
+Samantha Thomas,Therapist,001-675-544-4507x942,rogerssamuel@example.org,"85020 David Mountain
+Nicholasshire, VA 19416",Port Gary,Oregon,79906,MD,19,['English'],Evening,3.3,-5.063325,55.316117
+Abigail Mclaughlin,Therapist,001-806-639-1201x769,acevedojenny@example.com,"02554 Delgado Centers Apt. 904
+Lake Nicholasland, WI 33529",Lake Jenniferbury,California,33384,MD,30,"['Hindi', 'English']",Morning,4.2,-43.2366205,-94.257337
+Terri Schneider,Psychiatrist,310-554-1876,rroberts@example.org,"62835 Angela Roads
+New Barbara, FM 57962",Lake Lindashire,Florida,99340,PhD,28,['English'],Morning,3.6,77.141781,-151.324149
+William Flowers,Psychologist,001-735-684-2847,jenniferwaters@example.org,"83097 Louis Path
+New Laurentown, HI 94980",South Vickieport,Montana,72841,PsyD,15,"['Spanish', 'Hindi', 'English']",Afternoon,3.3,-67.7909085,-23.603429
+Kimberly Morales,Therapist,797.557.2070x723,davidsteven@example.org,"2215 Julie Tunnel
+Rickychester, MA 38817",New Jameshaven,Wisconsin,31949,PsyD,6,['English'],Morning,4.3,-25.8722055,-147.902739
+Donald Carter,Therapist,+1-919-280-2866x3480,bentonjames@example.com,"82623 Johnson Fords Suite 761
+Jenniferchester, FL 21860",Lake David,Wisconsin,87818,MD,11,"['French', 'Hindi']",Evening,3.6,75.620714,173.793735
+Lori Goodwin,Psychologist,519-306-2066x945,richardrodriguez@example.com,"208 Patricia Locks Apt. 318
+New Michele, IA 91168",Maryville,Mississippi,77799,PsyD,14,"['Hindi', 'Spanish']",Evening,3.6,3.9302565,28.173032
+Sandra Warren,Therapist,882.283.3584,swansonsarah@example.com,"350 Anderson Dam Apt. 223
+West Joseph, MA 79374",New Brian,Montana,74047,PhD,26,['Spanish'],Afternoon,3.1,44.953430,-16.582356
+Jennifer Thomas,Psychologist,758-938-5076x4684,trandeanna@example.net,"5425 Willis Island
+South Tina, MP 71859",Scottmouth,Arkansas,19953,PsyD,12,"['Hindi', 'French', 'French']",Evening,3.5,-85.5628285,116.377271
+William Gentry,Psychologist,(711)622-1473,lmccoy@example.org,"246 Moore Cape
+Sarahborough, NC 64274",North Kaylafurt,Virginia,94998,PhD,10,"['French', 'Hindi']",Afternoon,3.0,79.7613265,-148.089145
+Richard Lara,Therapist,867.791.9457x91264,saranorris@example.net,"186 Joshua Mission
+Katrinaside, CO 02982",Grossside,Kentucky,97729,PhD,18,['English'],Morning,4.1,72.8988255,34.940918
+Leroy Hensley,Therapist,849-897-1371,bakerheather@example.net,"0392 Davenport Keys Suite 271
+Dianabury, GA 69869",Vickishire,Virginia,00603,PhD,5,"['English', 'English']",Morning,4.9,59.830889,-152.789126
+Evan Haas,Therapist,651-604-0752,laurapeterson@example.com,"892 Campbell Ports Suite 677
+Port Christopher, SD 85007",West Allison,Florida,52356,MD,24,"['Spanish', 'Hindi', 'Spanish']",Morning,3.5,-74.230802,70.197002
+Ashley Dickerson,Psychiatrist,001-251-385-0348x7879,dorothydouglas@example.com,"0293 Jefferson Rapid Suite 719
+Carolville, NH 27463",Patriciaport,Nevada,01396,PsyD,27,"['Spanish', 'Hindi', 'Spanish']",Afternoon,4.8,-44.3116405,-111.179112
+Chloe Kidd,Psychologist,3156616802,ilewis@example.org,"30570 Pratt Mission
+Patriciamouth, NJ 73595",East Alexanderport,Missouri,85227,MD,25,['French'],Morning,5.0,11.3414115,151.695253
+Sarah Thomas,Therapist,234.616.7589x1591,smithnancy@example.net,"9094 Alex Avenue
+Gordonport, AS 44261",West Chelseastad,Georgia,16308,PsyD,18,['Hindi'],Morning,4.1,10.1686195,83.280477
+Caitlin Jackson MD,Therapist,965.625.4129,hollowayjennifer@example.net,"650 Callahan Tunnel Apt. 385
+Alexandraborough, ND 16443",East Amanda,Illinois,02085,MS,22,"['Spanish', 'Spanish']",Afternoon,3.8,-21.719465,98.999691
+Carla Williams,Psychologist,+1-574-408-3530x16944,gsweeney@example.org,"745 Nicole Trail Suite 050
+Lake Jasonville, UT 84098",Christineborough,Arkansas,96068,PsyD,9,"['Spanish', 'French']",Morning,4.1,7.8111955,117.488134
+Alex Gross,Therapist,+1-738-645-1278x04271,emartinez@example.net,"7465 Estes Expressway
+Friedmanstad, MS 05748",New Meghanmouth,Georgia,65701,PsyD,7,"['Hindi', 'French', 'Hindi']",Afternoon,3.1,-67.239535,-156.674020
+Taylor Bates,Psychologist,(788)607-4280x19752,zachary78@example.net,"535 Alvarez Flat Suite 716
+Doyleberg, NE 80719",Mcleantown,Michigan,24449,MS,4,"['French', 'English', 'Hindi']",Evening,3.8,33.780362,76.707172
+Martha Alexander,Therapist,247.428.5195,pricekristie@example.org,"67993 Floyd Cliffs Suite 528
+Tonystad, NJ 58620",New Martin,Arkansas,84711,MD,28,"['English', 'English', 'Spanish']",Afternoon,4.7,-33.812122,147.955608
+Rachel Trujillo,Therapist,001-660-354-5067,qglover@example.com,"54724 Patricia Viaduct
+South Cindyhaven, AZ 92504",South Karen,Kentucky,08506,MS,24,"['Hindi', 'English']",Morning,3.6,33.477486,-64.363088
+Daniel Higgins,Psychologist,927.757.3127x369,brookemontgomery@example.org,"7209 Jones Extensions
+Michelleview, OK 59716",Lake Mackenzie,North Dakota,17927,MD,19,"['English', 'French', 'Spanish']",Morning,3.9,-61.9521425,-159.062546
+Matthew Reed,Therapist,+1-755-984-3454,davidbrandt@example.org,"8597 Mercado Isle
+Turnerbury, ID 74724",West Victor,Iowa,43128,MS,7,"['English', 'French']",Afternoon,3.3,-44.9358105,-112.757198
+Melissa Stone,Psychiatrist,(401)585-9047,patrickbullock@example.com,"59731 Johnson Courts
+Sarahfort, WI 36170",Ortegamouth,Iowa,42781,MD,6,"['English', 'Hindi']",Morning,3.2,-14.5970215,-128.207584
+Ashley Woods,Psychiatrist,6157074997,camachonatalie@example.com,"1488 Caleb Union Suite 445
+New Heather, IL 77474",East Codyton,New Jersey,82659,MS,21,"['English', 'Hindi']",Evening,3.6,-72.5093005,172.477444
+Kendra Hill,Psychiatrist,001-360-360-4441,roymichael@example.com,"381 King Grove Suite 804
+Davidmouth, PA 63658",Jacksonport,Alabama,60228,MS,6,"['French', 'French', 'Hindi']",Evening,4.8,29.425454,2.264044
+Tracy Gonzalez,Psychologist,(253)496-2084x7785,ndaniels@example.org,"1674 Jacobs Inlet Suite 953
+Kimberlybury, FM 41141",East Maryton,Michigan,10619,PhD,21,"['French', 'Hindi']",Afternoon,4.0,52.587029,116.882524
+Heather Serrano,Psychiatrist,475-995-6538x382,nicole43@example.com,"585 Johnson Street Suite 022
+North Greg, SC 28667",Tannertown,Montana,62394,MD,26,"['Spanish', 'Spanish', 'Hindi']",Morning,4.5,39.3162915,147.824537
+Amanda Larson,Therapist,(620)767-7923,vdominguez@example.net,"3967 Johnson Valley Apt. 057
+Cherylshire, RI 96782",Port Andrewbury,Nevada,80842,MS,18,['Spanish'],Afternoon,4.8,-85.614621,-91.703560
+Catherine Ross,Psychologist,353.380.9436x240,twhite@example.org,"PSC 3778, Box 3328
+APO AA 30790",South Shawnton,Louisiana,64089,PsyD,3,['English'],Morning,3.7,-67.1493465,-161.107719
+William Johnson,Psychologist,001-354-800-1305,qjohnson@example.com,"2383 James Overpass Apt. 680
+Lake Derekfort, TX 00966",New Katherinemouth,California,76211,PhD,6,['English'],Afternoon,3.1,0.469908,-24.362687
+Johnathan Johnston,Psychiatrist,(323)409-2856x8865,david00@example.com,"387 Kenneth Overpass
+East Susan, WY 35527",Lake Brianstad,Kentucky,68341,PsyD,5,['English'],Afternoon,3.1,58.764173,-11.137090
+James Webb,Psychologist,282.433.8963,jenningskatherine@example.org,"8170 Ray Extension
+North Nancy, LA 73410",South Lauren,Louisiana,91045,PsyD,11,"['Hindi', 'English', 'Spanish']",Afternoon,4.2,33.7763465,-28.412582
+Connie Garcia,Therapist,200-668-2912,galvarez@example.com,"51225 Ramsey Walks Suite 946
+Port Sara, ID 42453",West Vanessashire,Connecticut,74801,PhD,22,"['French', 'Hindi']",Afternoon,3.3,-46.637897,106.801843
+Sean Dodson,Psychiatrist,9737725915,gsmith@example.com,"0332 Aguirre Village
+Griffintown, PA 59206",South Michaelstad,New Jersey,22067,PsyD,20,"['English', 'French']",Afternoon,4.6,7.734789,132.293309
+Julia Warren,Psychologist,(776)808-5699x579,angelaknight@example.net,"1113 Thompson Mission
+Anneburgh, NE 09967",Woodbury,Florida,40345,MS,16,"['Hindi', 'Spanish']",Morning,3.0,-7.418721,169.737879
+Jacob Sanchez,Psychiatrist,+1-322-697-1397,tylerhernandez@example.net,"86410 Reeves Ranch
+East Bradley, PA 40987",Erinshire,Pennsylvania,41283,PsyD,6,['Spanish'],Evening,4.6,-44.4283505,-3.805583
+Philip Webb,Psychiatrist,001-245-239-7178x947,kevinpowell@example.com,"Unit 7001 Box 5007
+DPO AP 79856",Carsonfort,Connecticut,15829,MD,10,"['Spanish', 'French']",Evening,3.3,8.630735,47.240592
+Willie Chase,Psychologist,(783)831-4984x77726,leeryan@example.org,"238 Teresa Cliffs Suite 440
+West Alan, SD 73352",Port Peggymouth,Utah,74154,PhD,29,"['Spanish', 'Spanish']",Afternoon,3.7,-36.652119,-93.976418
+Christian Zimmerman,Psychiatrist,(920)671-0530x796,buckleybrooke@example.org,"56040 Terry Vista Suite 789
+West Johnchester, MD 31919",West Chad,Rhode Island,99172,MD,8,"['English', 'Spanish', 'English']",Morning,4.4,83.0724695,171.529861
+Abigail Baker,Psychiatrist,844-925-9113x401,trichardson@example.com,"0002 Williams Station
+East April, AZ 29321",Lake Kristen,Indiana,46929,PsyD,26,"['Hindi', 'Spanish', 'Spanish']",Evening,4.2,-10.439284,122.337820
+Peter Patel,Therapist,(782)815-6196,dariusgonzalez@example.org,"592 White Coves Suite 830
+Michaelshire, MT 16256",South Matthew,Oregon,71695,MD,7,"['Hindi', 'Spanish', 'English']",Morning,4.7,85.200832,-151.749590
+Kevin Mullins,Psychiatrist,848.870.2196,jennifer65@example.com,"10048 Aimee Stream
+South Anthony, MD 51267",Blankenshiphaven,Minnesota,94139,PsyD,24,"['French', 'Spanish', 'Hindi']",Morning,4.5,38.802341,174.818589
+Sarah Manning,Therapist,266-668-8801x386,bmartin@example.org,"69240 Kelsey Prairie
+Maryborough, MP 51667",Johnsonland,Oregon,30949,PsyD,15,['French'],Evening,4.2,-21.8307745,117.964174
+Lauren Garner,Psychiatrist,558.876.9619,moorekristin@example.com,"900 Schaefer Isle
+North Maryberg, ND 69017",Kimberlytown,Nebraska,06596,PsyD,29,['Spanish'],Evening,4.3,-66.5212795,-178.648753
+Erika Powell,Psychologist,709-224-6178,terri27@example.org,"0394 Sweeney Route Apt. 367
+Bensonshire, FM 41004",Bishopburgh,Massachusetts,03088,MD,6,"['French', 'Spanish']",Evening,4.4,-7.907396,-160.446448
+Samantha Johnson,Psychiatrist,964.559.5821,samanthajohnson@example.org,"72732 John Mission
+East Jessicachester, AR 17755",West Jose,Delaware,15476,PsyD,26,"['English', 'English', 'French']",Evening,4.7,20.806140,155.198425
+Lauren Adams,Psychologist,855.922.1188x69813,ianderson@example.org,"765 Jacqueline Wells Suite 737
+New Williamton, MH 17128",Kristaside,Indiana,50820,PsyD,10,"['English', 'English']",Afternoon,3.0,-25.009238,-73.998483
+Brittany George,Therapist,743-856-1313x6800,rbeck@example.net,"Unit 2202 Box 6481
+DPO AE 83710",East Tonya,Louisiana,49080,PsyD,25,['French'],Morning,4.3,-26.4275955,140.638550
+Morgan White,Psychologist,(809)224-8059x08447,thomas77@example.net,"015 Santiago Plaza
+Tammychester, ID 53246",Fullertown,North Carolina,92208,MS,20,"['Hindi', 'French', 'Hindi']",Afternoon,3.1,29.179595,132.632318
+Michael Gardner,Therapist,001-696-246-8628x6261,emily50@example.org,"56304 Jodi Mountains
+Gayfurt, NV 09995",Millerchester,Maryland,06911,PhD,13,"['Spanish', 'French']",Evening,4.5,54.653319,-169.456662
+Juan Phillips,Psychologist,513.209.8423,willismarie@example.com,"28210 Skinner Springs Apt. 809
+Fishertown, IA 81481",Lawrenceton,Wisconsin,26951,PsyD,3,"['Hindi', 'French', 'Hindi']",Evening,3.5,-15.2599635,172.145318
+Jordan Norris,Therapist,611.979.0670,maydawn@example.com,"192 John Land
+Loriburgh, OH 60509",Williamville,Iowa,44488,MS,21,"['Spanish', 'English']",Evening,4.4,31.649009,166.614233
+Cindy Taylor,Psychiatrist,(759)576-1639,donnahenry@example.com,"Unit 8911 Box 8197
+DPO AP 16848",New Anthony,Rhode Island,75339,PsyD,3,"['French', 'English', 'Spanish']",Morning,3.6,66.1274955,-179.059983
+Jennifer Davis,Psychologist,407.313.7193x12476,rodriguezkim@example.net,"50626 Andrew Mount
+Nicoleview, IN 12931",Calebport,California,60261,MD,12,"['French', 'Spanish']",Morning,3.7,-0.578068,133.248339
+Carmen Reese,Psychologist,386-731-5972x35808,mullinsjohn@example.org,"431 Anita Cape Apt. 947
+East Regina, CO 54946",Bellhaven,Wyoming,96671,MD,4,['Spanish'],Evening,4.3,-5.393439,62.381210
+Steven Foster,Therapist,629-503-1394,huntdavid@example.org,"370 Jessica Pike Suite 032
+Benjaminstad, OH 61887",Angelamouth,Arkansas,85148,MS,8,['Hindi'],Afternoon,3.8,-57.7535195,63.151837
+Patricia Sutton,Psychiatrist,+1-257-923-0776x294,umurphy@example.org,"103 Robinson Pines
+New Jacqueline, FM 88619",North Kevin,Mississippi,97225,MD,28,"['English', 'English', 'Spanish']",Morning,4.3,-26.229440,30.286107
+Katherine Morgan,Psychiatrist,(527)719-6471x08213,robert67@example.com,"855 Martinez Station
+Matthewborough, NE 62018",West Christophermouth,New Mexico,53997,PsyD,20,"['French', 'French', 'French']",Evening,3.6,-29.876531,-62.907664
+Cassandra Cunningham,Therapist,623.852.9287,robbinschristine@example.net,"91155 Cook Skyway
+Heatherborough, MO 70640",North Brett,Ohio,00758,PsyD,6,['Hindi'],Evening,3.4,42.288818,-69.901650
+Kylie Andrews,Psychiatrist,+1-634-246-6701,edavis@example.org,"2647 Willis Glen
+Mckinneyland, OH 49521",Richardchester,Idaho,69747,MS,21,"['French', 'French']",Afternoon,4.9,-19.208375,4.591961
+Dr. Brittany Hernandez,Psychiatrist,838-879-1306,leslieellis@example.net,"52462 Nichole Summit Suite 394
+Port Noah, IA 09232",North Kathryn,Washington,17169,PhD,11,"['English', 'English']",Morning,3.1,8.166460,84.096833
+Steven Myers,Psychologist,+1-218-668-8457x5034,torresjason@example.org,"Unit 6788 Box 7076
+DPO AE 70680",Janetberg,Washington,67022,PsyD,17,"['French', 'English', 'French']",Afternoon,3.6,-12.205032,7.825352
+Kevin Williams,Therapist,(722)342-3072x8542,austinclark@example.net,"990 Hubbard Lodge
+Port Kaitlyn, SC 78050",Ferrellstad,New Hampshire,98932,MD,14,['French'],Evening,4.3,-40.7577765,93.950409
+Brittany Bradley,Therapist,797-685-1283x930,willie13@example.net,"31713 Hart Run Apt. 694
+Judithton, IN 96346",Port Teresastad,Tennessee,81853,MD,23,"['French', 'French']",Afternoon,3.1,20.4782455,-123.161137
+Julie Vasquez,Psychologist,2065037547,lowemichael@example.net,"0175 Nicole Corner
+Robinsonburgh, NV 42801",North Nicholefurt,Massachusetts,94199,PsyD,10,['French'],Evening,4.7,76.6863385,143.998017
+Teresa Williams,Therapist,(603)983-9935,mayojoseph@example.org,"6891 Daniel Meadow
+Darrylview, FL 77227",Johnsonburgh,New Mexico,81077,MS,28,"['English', 'Spanish', 'English']",Evening,3.5,-49.305460,54.203972
+Matthew Watkins,Psychologist,936.338.0448x1702,brittanyleach@example.org,"USNV Wright
+FPO AP 93252",Jonesberg,Florida,65794,MS,2,['Hindi'],Evening,3.8,21.1376425,115.603902
+Karen Sullivan,Therapist,656-209-1350x28621,shane99@example.com,"775 Carter Manor Suite 927
+New Davidchester, KY 87413",Port Davidberg,Alabama,43433,PsyD,29,"['Spanish', 'Spanish']",Evening,3.6,-83.5114285,35.386251
+Mark Poole,Psychiatrist,345-951-4836x7679,rose42@example.com,"5184 Jessica Branch
+Jessicashire, ND 78652",East Molly,Delaware,05352,PhD,9,"['Hindi', 'Hindi', 'Spanish']",Afternoon,3.7,70.523987,-45.470895
+Dominique Anderson,Psychiatrist,+1-806-550-8386,mcdonaldshirley@example.net,"689 Green Springs Suite 493
+Port Melvin, UT 12508",Avilafurt,Vermont,79682,MD,8,"['English', 'Spanish', 'French']",Evening,3.9,39.2560925,-15.832482
+Sarah Griffith,Psychologist,+1-625-556-1400x02096,anneturner@example.net,"459 Michelle Bridge
+East Alexanderton, MI 47348",Alexandertown,Arizona,74278,MS,25,['French'],Evening,4.3,12.8753285,-33.963420
+William Williams,Therapist,313-527-9415x08586,kevin69@example.com,"94369 Barnett Mews
+Austinshire, WA 07654",South Brianchester,South Dakota,68310,MD,14,"['Spanish', 'French', 'French']",Evening,4.7,-24.0829635,-158.588263
+Lisa Jackson,Therapist,657-369-6616x59601,dburns@example.com,"803 Garcia Mountains
+North Justin, PA 93869",West Richardburgh,Oklahoma,10092,MS,30,"['French', 'Spanish', 'Spanish']",Morning,4.8,-58.060012,177.117797
+Joshua Esparza,Psychologist,+1-649-871-2202x51728,patrickmurphy@example.net,"06013 Mcintyre Mountain Apt. 408
+Calebland, WY 67436",Port Michele,Minnesota,04386,MD,12,['English'],Morning,3.9,23.0870195,-115.435856
+Nathan Cobb,Psychologist,001-310-894-6099x6976,jasoningram@example.net,"5974 Martin Curve Apt. 170
+New Allenbury, HI 91976",Bridgetfort,Washington,48585,MS,26,"['English', 'French']",Morning,3.1,71.847036,90.802804
+Daniel Jordan,Therapist,001-930-414-2457,leonandrew@example.org,"198 Foster Road Suite 474
+Lake Jenna, FL 41317",Lisastad,New Jersey,98108,MS,12,['English'],Morning,3.3,68.139135,-116.128935
+Chad Mendoza,Therapist,656-571-4859x1668,jacksonkimberly@example.com,"73238 Dunn Plains
+Rosalesborough, NJ 05206",Kaiserchester,Hawaii,10236,MS,17,['French'],Afternoon,3.3,62.8678055,-146.983992
+Erica Taylor,Psychologist,(379)563-2576x981,walkertamara@example.org,"9176 Thomas Fords
+Lake Jennifer, IL 88375",Smithstad,Iowa,20147,PhD,13,['French'],Evening,3.6,-62.034606,4.782527
+Shelly Woods,Therapist,(685)618-6407,nelsonalyssa@example.com,"4346 Bonilla Row Suite 420
+Johnsonhaven, TX 43800",Sextonton,South Dakota,13260,MD,30,['Spanish'],Evening,3.6,-51.3212915,-137.719720
+Luke Garcia,Psychologist,401-362-9686,veronicacooper@example.net,"761 Joshua Pines Apt. 269
+Matthewhaven, MA 75012",Aaronville,Montana,05005,MS,20,"['English', 'Hindi', 'French']",Morning,4.1,75.482507,125.342670
+Katrina Williams,Psychologist,489.265.5041x2447,brightmichaela@example.org,"1955 Turner Spur Suite 484
+West Alejandra, WI 21786",East Nancy,Michigan,51090,PsyD,6,['French'],Morning,4.2,-19.297437,2.792144
+Michelle Reyes,Psychiatrist,+1-243-963-8796,kennedygregory@example.com,"79815 William Spring
+Mossstad, DE 48180",Garciaview,Alabama,17473,PsyD,16,"['Spanish', 'Hindi']",Evening,3.1,-77.072030,-162.364748
+Mary Lopez,Psychiatrist,(290)947-1564,johnsonwendy@example.org,"Unit 9894 Box 8530
+DPO AE 07186",New Hannahbury,Maryland,30662,MS,3,['English'],Afternoon,3.1,63.2320985,101.512493
+Cody David,Psychiatrist,285-305-6554x519,hardychristina@example.com,"366 Cynthia Field
+South Saraland, IL 81234",Joelfort,Mississippi,61436,MD,19,"['Spanish', 'Spanish', 'Spanish']",Morning,4.6,25.496498,128.944607
+Norma Gomez,Psychologist,(610)934-2730,buckleymegan@example.org,"PSC 5670, Box 2481
+APO AE 00669",North Destinystad,Montana,20019,PhD,30,"['Hindi', 'Hindi', 'English']",Afternoon,4.5,69.632975,-3.795270
+Ms. Tammy Waters PhD,Psychologist,975-819-1169x0981,youngwayne@example.com,"Unit 1476 Box 3719
+DPO AP 21709",Hallshire,Illinois,84100,PsyD,29,"['French', 'Spanish', 'Spanish']",Afternoon,4.6,-18.3674915,66.462709
+Debra Hughes,Psychologist,+1-427-686-9627,xrobles@example.com,"408 Middleton Lane
+Chadbury, CA 01414",West Ashley,South Carolina,85684,PhD,11,['Spanish'],Afternoon,4.9,-46.1493535,-154.905533
+Bryan Peters,Psychiatrist,(327)774-3629,andersonstephanie@example.org,"7507 Tammie Wall
+Thomasview, TX 71716",Wernerfurt,Massachusetts,53383,PsyD,10,"['Hindi', 'Hindi']",Afternoon,3.3,87.391459,-60.821467
+Taylor Davis,Therapist,6623782347,dho@example.org,"3730 Lloyd Mountain
+East Jamesside, MD 52634",South Ann,Nebraska,04990,PsyD,10,['Spanish'],Evening,3.8,-3.289397,-136.501955
+Morgan Whitehead,Psychiatrist,+1-330-885-8353x170,wilkersonmatthew@example.net,"10875 Park Causeway Apt. 854
+Howeberg, KY 93720",Hicksview,North Dakota,88311,PsyD,26,"['Hindi', 'French']",Afternoon,4.0,39.181078,-119.243091
+Leslie Alvarez,Psychiatrist,570.922.7546x3813,james89@example.org,"4545 Brown Crossing Apt. 773
+South Keith, CO 23908",East Beth,Michigan,54437,MS,29,['Spanish'],Morning,3.7,-22.2278935,-75.720917
+Travis White,Psychologist,399-619-5441x9548,frank69@example.com,"2963 Lester Canyon Apt. 503
+North Michael, NY 78056",New Ashleyberg,Louisiana,51458,MD,26,['Spanish'],Afternoon,4.4,-49.898246,110.488816
+Jessica Cabrera,Therapist,+1-507-529-0095,corteztodd@example.net,"12376 Emma Mountain Suite 535
+Kennethview, CT 78409",Michaelfort,Arizona,62587,MD,7,"['Hindi', 'French']",Morning,4.1,-67.2743635,-1.267747
+Sarah Houston,Psychiatrist,962-523-5879x3798,yromero@example.com,"50256 Anna Drive Suite 489
+Mannchester, HI 78799",Danielborough,Kansas,14494,PsyD,22,"['French', 'Spanish', 'French']",Evening,3.7,-72.8092705,-44.579964
+Sarah Martinez,Psychiatrist,+1-848-218-2103x094,smithjoshua@example.com,"0391 Daniel Shore Apt. 667
+Danielside, VT 81574",Michaelstad,New Hampshire,21627,PsyD,21,"['Hindi', 'Hindi']",Morning,3.9,8.5605945,-51.283835
+James Miller,Psychologist,+1-516-646-3769,tranjesus@example.com,"344 Kathleen Green
+West April, LA 85371",Hannahmouth,Maryland,05247,MD,1,['Hindi'],Afternoon,3.8,-12.7204265,166.038593
+Julia Marsh,Psychiatrist,+1-817-649-2701x034,lmay@example.net,"967 Nguyen Loaf
+Port Gabrielle, IL 55314",New Keithshire,Texas,38309,PsyD,3,['Spanish'],Morning,3.6,-83.4992985,-91.677733
+Jeffrey Douglas,Therapist,449.767.4046x91998,hmcdonald@example.com,"68097 Jeffery Route Suite 727
+Phillipville, MA 74280",North Andreaburgh,Delaware,49628,PhD,14,['Spanish'],Morning,4.1,52.951235,10.885416
+Christine Williams,Therapist,(515)926-5411,robert52@example.com,"38348 Middleton Island
+South Tylermouth, TX 35139",Brianburgh,Kentucky,00947,PhD,28,"['Spanish', 'French']",Morning,4.6,-51.833272,-138.905308
+Richard Brown,Psychologist,366.887.1249x206,zlopez@example.net,"5417 Ryan Brooks
+Newmanborough, GA 61578",West Monicaberg,Arkansas,40003,MD,15,"['Hindi', 'Hindi', 'Spanish']",Evening,4.5,-9.7272715,-157.460438
+Maria Williams,Therapist,+1-662-893-4501,calvinstokes@example.org,"5048 Ayers Drive Apt. 104
+South Marc, FL 52276",Moralesport,New Jersey,72215,MS,24,"['Spanish', 'Spanish']",Evening,4.4,-75.0045905,-105.617043
+Mandy Porter,Therapist,+1-751-357-8769x3454,watersmary@example.com,"PSC 9289, Box 9533
+APO AE 72088",New Lisa,North Dakota,79120,PsyD,19,['English'],Evening,4.6,-23.0126845,-138.276786
+Samuel Schmidt,Psychiatrist,+1-385-617-9979x691,graypaul@example.com,"158 Adams Mission
+North Jermaineport, KS 22887",Perezview,Rhode Island,36616,PhD,16,"['English', 'French', 'Hindi']",Morning,4.4,76.738997,-87.403738
+Linda Taylor MD,Therapist,977-539-8187,udean@example.com,"4800 Adam Greens Apt. 943
+Johnhaven, WI 02081",East Dwaynemouth,Idaho,14708,MS,30,"['French', 'French']",Afternoon,4.9,-9.3518425,-78.598479
+Denise Avila,Therapist,512.642.9826,lindamiller@example.com,"6066 Kevin Wells Apt. 413
+North Carrie, AK 17205",Albertview,South Dakota,18069,MS,16,"['French', 'Spanish', 'French']",Afternoon,4.3,31.1235775,164.146914
+Maria Jones,Therapist,(743)556-4849x0929,vperez@example.com,"5472 Thomas Underpass Apt. 956
+West Mary, WV 82232",Singhstad,Delaware,67538,PsyD,15,"['Hindi', 'Spanish', 'Hindi']",Evening,3.7,25.1370175,-140.666333
+Raymond Williams,Psychologist,318.887.4552,batesdeborah@example.com,"609 James Garden
+Lake Diana, ID 36809",Turnermouth,Georgia,83487,PsyD,28,['Hindi'],Morning,4.3,46.0385075,43.064209
+Gregory Cooper,Psychologist,(653)865-3986x7574,isullivan@example.com,"09779 Michelle Burg Suite 418
+South Angelaport, MI 01822",East Ethan,New Jersey,50017,PsyD,11,"['Spanish', 'French', 'Spanish']",Afternoon,3.9,-41.9415075,-63.969216
+Faith Garrison,Psychiatrist,496.220.9085x03590,rosariotiffany@example.org,"6122 Thornton Shoal Apt. 883
+Walterborough, IA 37525",South Tyler,Maine,48106,MS,6,"['English', 'English', 'Hindi']",Morning,4.7,-36.010277,-60.922754
+Micheal Evans,Psychiatrist,596.981.2345,robertlopez@example.org,"228 Kevin Oval Suite 403
+Ronaldbury, IL 38130",Perkinsville,Colorado,39901,MD,16,"['Hindi', 'Spanish']",Afternoon,3.1,54.4629105,-144.131654
+Dawn Ramos,Psychologist,(609)466-3338,mandy67@example.org,"323 Taylor Greens
+Lake Meganstad, RI 93214",Gallowayhaven,North Carolina,90662,PhD,13,"['Spanish', 'Spanish', 'English']",Afternoon,4.2,58.3182705,82.246503
+Brandon Nguyen,Psychologist,364-711-5976,marvin10@example.org,"592 Jackson Forks Suite 491
+South Robin, DC 63923",Lopezstad,North Carolina,08402,MS,25,"['French', 'English', 'English']",Afternoon,3.1,-20.2131105,-60.571298
+Adam Liu,Psychologist,697-770-1249,wattsdon@example.net,"33778 Luna Bridge Apt. 499
+Robertburgh, MA 82367",Youngport,Virginia,50000,MS,24,['English'],Afternoon,3.7,-67.952607,-115.455270
+Justin Sanchez,Psychiatrist,725-771-9634,petersonrichard@example.net,"2556 Perez View Suite 099
+Sandersfurt, PA 77636",East Jefferyside,Maine,07210,MS,20,['English'],Afternoon,4.5,15.644313,-127.866026
+Allison Howell,Psychiatrist,310.446.5463,rachel10@example.net,"474 Humphrey Field Suite 814
+East Chad, MH 26289",Jonathanberg,South Dakota,84025,MD,5,['French'],Morning,4.4,-55.3354545,37.050145
+Rhonda Carter,Psychologist,736-218-2319,vramirez@example.com,"84300 Johnson Park Suite 082
+West Zachary, ME 50048",Port Kelseyton,Arizona,25714,PhD,26,['French'],Evening,4.0,60.9383385,-161.617000
+Charles Mitchell,Psychiatrist,9905327788,wintersjeffrey@example.net,"PSC 5798, Box 6509
+APO AE 06289",Whiteberg,Virginia,19338,MD,17,"['French', 'Spanish', 'Spanish']",Afternoon,4.9,54.0476995,-59.271940
+Stephen Scott,Therapist,001-650-600-0442,joseph61@example.org,"575 Davis Underpass Suite 056
+West Helenview, MH 40311",Andersonview,New Hampshire,48110,MS,5,['English'],Evening,3.7,-35.8910935,78.411799
+Randall Silva,Psychiatrist,880.366.6315,nfox@example.net,"053 Dana Centers Suite 699
+Smithbury, IL 58841",Jamesville,Illinois,36740,PsyD,20,['French'],Evening,4.8,89.930311,137.340909
+Paul Simon,Psychiatrist,001-989-297-0166x937,faulknermelinda@example.org,"01182 Morris Overpass
+Ellenbury, VT 42873",West Adriana,Alabama,98275,PsyD,17,['French'],Morning,4.8,-31.4091925,-110.186943
+Donald Pearson,Psychiatrist,303.598.5915x792,robertspaula@example.net,"5837 Watson Drive Suite 145
+West Michael, CO 05216",Ryanfort,Colorado,34227,MD,1,['French'],Afternoon,5.0,86.5216565,-117.779066
+Rachel Bird DVM,Therapist,808.823.4751,andersondana@example.org,"USCGC Lynch
+FPO AA 33347",Johnsonshire,Kansas,36699,PsyD,17,"['Hindi', 'English', 'English']",Morning,4.0,31.6826165,-12.585879
+Lisa Bernard,Psychiatrist,(460)424-9294x74961,skinnercrystal@example.net,"23477 Evans Islands Apt. 157
+Wilsonchester, DE 66232",Alvaradochester,Florida,16176,PhD,25,['Spanish'],Evening,4.2,77.5180585,68.988249
+Jessica Aguilar,Psychologist,(716)215-0311x67830,qacosta@example.org,"046 Dawn Cape
+Lindaland, ME 27914",Downsburgh,Texas,00567,MS,8,['Hindi'],Afternoon,4.3,50.4202205,-44.671903
+James Cunningham,Psychiatrist,490-699-8928x3014,millersylvia@example.net,"895 Barron Park
+New Adam, NH 77222",Port Reneefurt,New Jersey,39367,PsyD,2,['Hindi'],Afternoon,5.0,50.6228685,158.889507
+Brian Nguyen,Therapist,001-537-856-8988,selena00@example.com,"6083 Baker Lock Suite 838
+Port Phyllis, AZ 55437",Annatown,Alaska,21842,MD,8,"['Hindi', 'French', 'Hindi']",Morning,3.3,-44.135256,-48.195572
+Andres Villa,Psychiatrist,7474081156,ewest@example.net,"31599 Jenkins Run
+New Tammy, CT 01689",Lake Nicoleville,New Hampshire,40584,PsyD,19,"['English', 'English']",Afternoon,4.5,57.360942,-70.258863
+Deborah Cherry,Therapist,6808215802,debra69@example.com,"477 Strong Prairie Apt. 714
+New David, NJ 48555",South Carriechester,Colorado,32107,PsyD,5,"['Hindi', 'English']",Evening,5.0,50.392047,58.935596
+Tracy Santos,Psychiatrist,305.300.1104,emurphy@example.com,"2591 Smith Tunnel
+West Ethan, WY 46510",Lindseymouth,Nebraska,37043,PhD,28,"['French', 'Spanish', 'English']",Evening,3.8,-12.806677,-73.782391
+Meredith Jennings,Psychiatrist,+1-636-554-1650x7884,troy03@example.org,"903 Graves Place Suite 336
+Kimburgh, WI 55102",North Jennifer,Oklahoma,97127,PsyD,19,"['Hindi', 'English', 'English']",Afternoon,3.8,72.731597,-174.687009
+Cynthia Patterson,Therapist,7378078470,martinezrhonda@example.net,"05504 Katherine Locks
+North Sandra, NC 52733",Simmonsbury,Rhode Island,26629,MD,12,"['Spanish', 'Spanish']",Afternoon,3.7,-65.576662,-87.526473
+Robert Wilson,Therapist,357-868-8547,jonesbrianna@example.net,"659 Foster Forest Apt. 000
+New Desireeside, KY 96783",Jasonfort,Montana,63872,MD,28,"['Hindi', 'Spanish', 'French']",Afternoon,3.9,75.0850675,129.274911
+Michelle Long,Psychologist,001-521-570-5524x86260,tonyfox@example.org,"92905 Gray Ford
+Dorseyton, AL 20226",North Ryanport,Connecticut,79259,MD,20,['English'],Evening,4.3,-44.507151,-163.373735
+Andrea Ramirez,Therapist,6769754579,nicholas25@example.net,"92363 Robert Estate Apt. 523
+Lindafort, FL 89042",Port Mariaberg,Virginia,80099,MS,18,"['Hindi', 'French', 'Spanish']",Afternoon,4.2,5.7218935,-49.786075
+Joanne Pham,Psychiatrist,+1-656-818-9729,kphillips@example.org,"4755 Alexandria Fork
+Lake Jesse, OH 19776",Rebeccaburgh,Indiana,28657,MS,18,['English'],Morning,3.3,-7.8424115,152.743602
+Charles Brown,Psychiatrist,811.624.8915,jennifer25@example.com,"4999 Williams Hills
+South Michael, CT 49667",South Lauraton,New Mexico,05702,MD,12,"['English', 'French', 'Spanish']",Evening,5.0,-63.743736,-56.350865
+Ronnie Perez,Psychiatrist,513-941-0685x572,francisbobby@example.org,"USS Reed
+FPO AE 48594",South Lisaview,Indiana,28980,MD,19,['French'],Afternoon,3.7,-45.432327,14.607638
+Tanya Young,Psychiatrist,812-940-7616x015,uchandler@example.org,"27401 Estes Mount
+East Jason, FM 81772",Arellanoton,Florida,28343,PsyD,10,"['Hindi', 'English']",Evening,3.8,21.2224365,73.495593
+Amber Perez,Therapist,8408903534,alicia28@example.org,"0135 Harris Stream Apt. 173
+Robertsonport, PR 13646",Stephenmouth,Wisconsin,52161,PhD,17,"['English', 'Hindi', 'Spanish']",Afternoon,4.5,70.917747,47.786175
+Stacy Gill,Psychiatrist,9485508177,rthornton@example.org,"USNS Garcia
+FPO AA 96934",South Patricia,Texas,45733,MS,15,"['French', 'Spanish']",Evening,4.6,-0.444602,-51.928266
+Jamie Fischer,Therapist,001-688-662-0128,collin07@example.com,"2148 Fox Streets
+North Jennifermouth, MI 53209",Port Mark,California,29783,PsyD,3,['French'],Afternoon,4.5,55.586607,134.336024
+Joseph Li,Therapist,(403)539-8949,matthew98@example.net,"375 Allen Glen Suite 667
+Gaybury, ID 77712",Craigfurt,Wisconsin,33107,MD,22,['Hindi'],Evening,3.8,63.4027705,26.181349
+Jessica Herrera,Psychiatrist,001-780-244-1026x4594,hoffmanmarc@example.org,"814 Dennis Hill
+North Brianna, MP 01000",Gardnerborough,Maryland,49740,PsyD,1,"['English', 'French']",Morning,3.9,-36.1843535,21.263964
+Roy Williams,Therapist,735-677-3495x542,andrew64@example.org,"032 Jennifer Motorway Suite 192
+North Bruce, PR 55524",Hartfort,Missouri,06248,PhD,22,['French'],Morning,4.0,-18.037034,-123.358994
+Bruce Foster,Psychologist,2439319863,nortontrevor@example.net,"8596 Lewis Mission Apt. 143
+New Lucasview, SD 52990",Snowfort,South Dakota,85419,PhD,19,"['Hindi', 'English', 'English']",Evening,4.9,69.5563555,-21.930706
+Devin Avila,Psychologist,001-913-280-9325x5500,khines@example.net,"774 Pamela Crest
+Cortezfort, GU 49233",East Justin,Kansas,40309,MS,30,"['Hindi', 'Hindi', 'French']",Morning,4.2,-40.2438045,65.673413
+David Jackson,Psychiatrist,+1-640-645-1368x87620,bennettmichael@example.com,"72588 Melissa Parkway
+New Dawn, MS 46140",Shaunview,Utah,60384,PsyD,8,"['French', 'Spanish']",Afternoon,4.7,-71.2305155,-137.552783
+Daniel Jensen,Psychiatrist,6769209982,harriskatherine@example.com,"033 Mejia Forge
+North Joy, UT 83484",Andersonbury,Oregon,41823,MS,4,['French'],Evening,4.1,15.2102745,14.185679
+Kimberly Stephens,Psychiatrist,+1-609-527-0375x19047,gcurtis@example.net,"791 Wendy Extensions Apt. 659
+Garyview, MH 91887",Michaelfort,Idaho,11589,PsyD,29,['English'],Morning,3.6,-40.744515,18.489547
+Adam Huerta,Therapist,+1-578-427-0323,sydney14@example.org,"16650 Anderson Center
+Gilmorebury, TX 73786",East Lori,Vermont,94170,PhD,2,"['French', 'French']",Evening,3.0,-47.9469665,85.108576
+Aaron Gregory,Psychologist,001-524-430-3480x3745,norman04@example.com,"USNV French
+FPO AE 79921",Allenside,Missouri,07406,MD,17,['Spanish'],Morning,3.2,23.504046,165.018652
+Michelle Ortiz,Psychiatrist,7263644497,ipowell@example.net,"815 Odonnell Springs
+North Deniseville, RI 99537",Lake Susan,Minnesota,81261,PhD,9,"['Hindi', 'Hindi']",Morning,3.6,32.189302,-41.734776
+Dr. Savannah Beck,Therapist,736.651.9903,prestonrichard@example.net,"37378 Meza Meadows
+New Russell, CO 92112",East Andrewborough,New Hampshire,97579,PhD,8,['English'],Evening,4.0,86.764667,63.139374
+Jennifer Brown,Psychologist,583-446-5285x820,hcohen@example.org,"7708 Schaefer Points Suite 642
+Angelaview, RI 75186",Walterport,Illinois,87537,MS,5,['Spanish'],Afternoon,4.5,-61.5686595,89.457682
+Jeffrey Hawkins,Psychologist,001-877-810-6314x8619,rwright@example.net,"4367 Jenkins Park
+Thompsonmouth, NH 74301",West Rebeccamouth,Wisconsin,26376,PhD,19,['English'],Evening,4.4,-81.7922895,11.177841
+Tyler Davis,Psychiatrist,8928457215,laura18@example.org,"660 Anderson Wall Apt. 919
+East Alison, OR 69750",Andrewview,Arkansas,33498,MD,21,"['French', 'Hindi', 'Hindi']",Evening,4.4,31.929468,1.780837
+Barbara Smith,Therapist,001-686-648-5519x712,christopherjoyce@example.org,"662 Marcus Springs Suite 790
+Lake Steven, IN 57628",Lake Michaelchester,Utah,67332,PhD,11,"['Hindi', 'Spanish', 'Spanish']",Afternoon,3.2,20.1781835,-142.933376
+Luis Scott,Therapist,001-657-452-1652,aknox@example.org,"7432 Angela Landing Suite 991
+Katherineside, AS 06340",Jacobside,Alaska,65497,PhD,16,"['English', 'Hindi', 'French']",Morning,4.6,11.4124355,-0.476968
+Michael Willis,Psychologist,+1-373-675-7424,christopher17@example.com,"59442 Reyes Roads
+West Williamville, AL 67494",Morgantown,Mississippi,27576,MD,3,['Hindi'],Morning,4.5,-10.320323,70.867851
+Erica Chang,Therapist,001-717-612-6174x018,pittsmark@example.org,"3679 Delacruz Ferry
+North Randallview, IA 02196",North Kelseyton,Iowa,67575,PhD,11,"['Hindi', 'Spanish', 'Spanish']",Afternoon,4.8,47.960662,100.281050
+James Cline,Psychologist,+1-629-625-8704x424,hendrixaustin@example.org,"18402 Nicholas Gardens Suite 636
+North Jamesmouth, FL 42179",Christopherville,New Mexico,76171,PhD,30,"['Spanish', 'French']",Evening,5.0,-40.3175795,141.204613
+Ashlee Patterson,Therapist,(858)824-7762x799,katrina13@example.net,"65400 William Mall Apt. 007
+Kristenside, CA 72922",Markhaven,Kentucky,18819,PsyD,5,"['Hindi', 'Hindi', 'French']",Afternoon,3.9,78.461499,-14.278109
+Steve Warren,Psychiatrist,(397)635-1065x7348,mariomartinez@example.com,"825 Maldonado Wall
+Johnmouth, MO 33477",Lake Michael,Arkansas,20583,PsyD,28,"['Spanish', 'Hindi']",Morning,3.1,6.321579,176.695400
+Tina Ashley,Psychiatrist,(735)382-2658,shellysullivan@example.net,"4925 Kari Mills Apt. 440
+East Dawnport, MP 61230",Keithfurt,Arkansas,50405,PhD,21,"['Hindi', 'Hindi', 'French']",Afternoon,4.1,-86.4592015,120.743839
+Ruben Barnett,Psychiatrist,+1-715-848-2992,mary50@example.com,"267 David Path Apt. 040
+Millermouth, NH 26106",Barbaramouth,Colorado,80554,PhD,9,"['Spanish', 'English', 'Spanish']",Afternoon,4.0,40.680498,-114.587952
+Tracy Hawkins,Psychologist,6426517977,htownsend@example.com,"6317 Pearson Falls Apt. 061
+Hernandezborough, MS 15594",Cunninghamberg,New Jersey,30635,MS,22,"['French', 'Hindi', 'Spanish']",Evening,3.8,-40.9079595,146.874625
+Kenneth Barker,Psychiatrist,362-633-1032x50367,greenbobby@example.org,"385 Maddox Fall Suite 642
+Taylorhaven, NY 87825",West Scott,Indiana,71565,PhD,19,"['Hindi', 'Spanish']",Evening,4.7,-33.100170,24.757820
+Kelsey Stephens,Psychiatrist,001-816-722-2311,espence@example.org,"00217 Perry Prairie
+West Curtisberg, MS 33634",West Anthonyton,Alaska,89216,PsyD,30,"['French', 'Hindi']",Afternoon,3.2,-69.202898,-97.608494
+Brittany Phillips,Therapist,001-569-510-0278x7680,lisa93@example.net,"802 Leslie Ways Suite 615
+Santanaland, OH 91662",East Samanthafort,Georgia,74474,PhD,9,['English'],Afternoon,3.1,-64.3853215,51.761185
+Maxwell Green,Psychologist,+1-954-935-8302,katherine13@example.net,"PSC 2183, Box 9315
+APO AE 08766",Odommouth,Tennessee,29149,MD,28,['Hindi'],Morning,3.8,29.334055,150.916581
+Heather Pena,Therapist,001-932-980-7876x237,lawrencejustin@example.net,"91120 Olsen Field
+Port Steventown, OH 51072",Georgehaven,Tennessee,44279,MD,29,"['English', 'French', 'Spanish']",Afternoon,3.1,-47.343731,-9.116801
+Calvin Mccormick,Psychologist,796.244.0475x2757,leechad@example.com,"0057 Priscilla Course Apt. 354
+South Jameshaven, LA 11839",East Thomasshire,North Dakota,41565,MD,17,"['English', 'English', 'Hindi']",Afternoon,4.6,81.0346535,-124.673364
+Kerri Blackwell,Psychiatrist,(439)763-5029x027,shannonstuart@example.net,"21928 Brian Throughway
+Jessicaborough, UT 34484",Fischerfort,Vermont,51123,MS,6,"['English', 'French', 'English']",Afternoon,4.9,-22.8718755,-39.310173
+John Clay,Psychologist,(299)887-8898x7782,lori36@example.net,"67529 Jones Place
+Jessicahaven, IA 67319",Simstown,Illinois,28581,MD,3,"['Hindi', 'Spanish']",Morning,3.2,-16.186795,92.531886
+Victoria Dougherty,Therapist,815.344.1653,tconway@example.com,"212 Hernandez Run
+Zamorafurt, RI 60822",Ashleyfort,Illinois,96349,MS,20,"['French', 'English', 'Hindi']",Afternoon,4.5,79.629168,-63.595922
+William Mcconnell,Psychologist,+1-711-955-8154,jeffery50@example.com,"079 Jackson Shoals
+East Gary, NH 28616",Nelsonstad,New York,72720,MS,5,"['Spanish', 'English']",Morning,4.2,22.887159,65.954471
+Vincent Garcia,Psychologist,556-460-6844x667,jenningsbenjamin@example.com,"USNV Jensen
+FPO AA 71663",West Chad,Pennsylvania,63903,PhD,19,"['Spanish', 'English']",Morning,4.4,-7.4895515,84.386494
+Jeffrey Nguyen,Psychologist,001-650-931-4174x65527,istrickland@example.net,"9754 Harris Village
+North William, NV 32453",New Kelly,Idaho,70877,MD,16,['French'],Afternoon,3.9,88.3407395,35.225246
+Denise Daniels,Psychologist,284.983.1442,monique97@example.org,"2612 Peterson Ville
+Deborahfort, FL 85690",North Joshua,Michigan,30705,PhD,28,['French'],Evening,4.5,27.920065,-89.836666
+Diana Ramos,Therapist,+1-393-868-1190x428,michellejoseph@example.net,"11684 Anne Junction Apt. 105
+Josephshire, PA 06376",East Jasonstad,Iowa,04557,MS,29,['French'],Afternoon,4.7,16.651592,163.928326
+Gina Ingram DDS,Psychologist,993-614-1098,ostevenson@example.net,"Unit 4462 Box 5836
+DPO AP 75323",Michaelbury,Illinois,97700,MD,4,"['English', 'Spanish']",Afternoon,4.4,15.6704555,0.412333
+Kendra Thompson,Therapist,+1-851-654-8068,knguyen@example.com,"1408 Davis Prairie
+Thomasfurt, DC 04658",Lawsonview,New Jersey,49452,PhD,4,"['Hindi', 'Spanish']",Evening,4.7,47.377172,173.917500
+William Watson,Psychologist,5039422222,jackgonzalez@example.net,"485 Christopher Trafficway
+Bakermouth, OK 28972",Kristopherburgh,Connecticut,13094,PsyD,6,['Spanish'],Afternoon,4.1,66.022074,-66.028886
+Eric Morrison,Psychologist,412-965-1335x409,richardkidd@example.com,"USNS Fuentes
+FPO AE 93230",East Brandonfort,Kansas,58312,MD,26,['French'],Morning,4.5,30.638758,-74.397979
+Kelli Montgomery,Therapist,214-986-9793,megan32@example.net,"Unit 9801 Box 6551
+DPO AP 29902",Simsburgh,Louisiana,88496,PhD,11,"['French', 'Hindi', 'Spanish']",Morning,3.9,-13.035742,-136.671310
+Lisa Brown,Therapist,+1-964-234-3952x560,janewolfe@example.net,"46626 Hess Springs Suite 652
+Stacytown, MT 93107",Danielmouth,South Dakota,23869,PhD,30,"['Spanish', 'Hindi']",Evening,4.8,28.633898,-67.280248
+Sherry Moore,Psychologist,778-407-0902x51958,rlong@example.com,"PSC 7115, Box 2325
+APO AP 29255",Spencerstad,New Mexico,93572,PhD,2,"['Hindi', 'Hindi', 'Spanish']",Afternoon,4.1,20.700183,90.307124
+Leroy Snow,Therapist,805.295.9325x330,owatson@example.net,"92937 Steven Walks Suite 744
+Villarrealfort, KS 45194",South Lisaville,Arizona,48056,MD,10,"['Spanish', 'Spanish']",Evening,3.8,-15.3421815,102.835214
+Shawn Frost,Therapist,+1-313-691-4910x6597,davidbrown@example.com,"0742 Cheryl Flats
+West Laurafort, FM 94571",New Glendabury,Kentucky,62404,MD,2,"['English', 'English']",Afternoon,3.6,-80.502049,95.668662
+Sydney Parker,Therapist,487.930.6620,zacharysmith@example.org,"21078 Amy Crossing
+West Kristenview, VI 30607",Jessicaland,Massachusetts,46880,PsyD,13,"['Spanish', 'Spanish', 'French']",Afternoon,3.2,-89.6202395,-62.118718
+Christopher Owens,Psychiatrist,9667299309,alanfrye@example.org,"51246 Dustin Flat
+North Kellyshire, PW 82553",Stephenland,North Dakota,38995,MS,26,"['Hindi', 'Spanish', 'English']",Morning,4.5,-50.380647,154.644892
+Danielle Leblanc,Psychiatrist,7598004197,cookhannah@example.org,"408 Paul Estate
+Lake Christina, IN 15548",Brandytown,Texas,39003,MD,21,"['Hindi', 'English']",Morning,4.3,-9.3204085,-146.811522
+Holly Lee,Psychologist,694-619-7174,jack78@example.com,"43760 Miller Harbor
+Parkmouth, MN 98324",Natalieborough,New Jersey,76262,PsyD,30,['English'],Afternoon,3.5,81.310509,18.076381
+Penny Garza,Psychologist,783-335-5107x072,vmiller@example.org,"03761 Cox Pass Apt. 790
+West Erikchester, PR 71030",Morenohaven,Ohio,96075,PhD,4,"['Hindi', 'French']",Afternoon,3.2,33.0953995,-136.473761
+Martin Fitzgerald,Psychiatrist,001-680-778-0762x807,dunnjulie@example.net,"18632 Brian Keys Apt. 368
+East Kristin, AS 20984",Williamview,Ohio,94290,PhD,30,"['Spanish', 'French', 'French']",Morning,3.9,-44.8761635,62.911220
+Dr. Donna Patrick,Psychologist,869-740-6539,lpatton@example.com,"7303 Thompson Ridges
+Schmittchester, MT 13461",East Nathaniel,Connecticut,41923,PhD,12,"['English', 'Spanish']",Afternoon,3.0,3.685987,-101.279119
+Robert Richardson,Psychiatrist,652-756-6212,ashley43@example.org,"9008 Jones Streets Suite 578
+North Christinaville, NV 55241",Harmonport,Wisconsin,75890,MD,5,"['Spanish', 'French']",Evening,4.2,24.257770,142.439596
+Ronald Wright Jr.,Therapist,(810)527-6367,jennifermorris@example.org,"PSC 9525, Box 5766
+APO AP 01542",Angelashire,Wisconsin,32807,PsyD,5,"['Hindi', 'French']",Morning,3.5,-57.049923,-150.176904
+Dr. Jerry Hudson,Psychiatrist,518-277-2726,stonederek@example.org,"2057 Grant Views
+Youngton, WI 58812",Jonesberg,Tennessee,92401,MS,18,"['Spanish', 'Spanish', 'Hindi']",Evening,4.6,60.358929,-61.914000
+David George,Therapist,+1-636-943-8907x27498,hshields@example.org,"078 Palmer Ridges Suite 012
+Colechester, WI 70498",Kristinahaven,Oklahoma,46959,PsyD,29,"['Hindi', 'Hindi']",Evening,3.3,40.8314795,130.650304
+Gregory Abbott,Psychologist,803.443.8488x68366,eatontammy@example.com,"4083 Reese Drive Apt. 268
+Youngbury, WA 14644",Port Seanside,Illinois,78589,MD,2,['French'],Morning,4.9,-40.676762,-158.975566
+Debra Cooper,Psychiatrist,487-291-4136x033,shannonklein@example.net,"04327 Jackson Wall Apt. 387
+Timothyton, PA 50883",North Jerryburgh,Missouri,88451,PsyD,18,"['Spanish', 'French', 'Hindi']",Afternoon,4.0,-67.5387445,161.771584
+Emily Coffey,Therapist,001-722-472-3208x34710,justin22@example.net,"77682 Cole Prairie
+Robertfort, PR 43775",Alexandrachester,Montana,73085,MS,25,['Spanish'],Afternoon,3.9,72.596377,115.455612
+Joe Murray,Psychiatrist,218.583.1095x4312,jestrada@example.net,"581 Jones Crossing
+Port Jeremy, MD 72391",Wesleymouth,Alabama,49726,MS,29,"['English', 'English']",Morning,4.5,-73.7151725,-136.435572
+Samuel Hughes,Psychiatrist,+1-364-595-2180,taylormartinez@example.net,"37338 Debbie Loop Suite 883
+Harrisborough, MH 27445",Port Hannah,Texas,88133,MD,28,"['Hindi', 'French', 'Hindi']",Afternoon,4.7,-0.532383,114.122639
+Kendra Lara,Psychiatrist,001-244-386-7614x391,christinejones@example.net,"0582 Wells Skyway
+Barneshaven, SD 26636",Port Craigmouth,Maine,33803,PhD,28,"['Spanish', 'French', 'Spanish']",Afternoon,3.6,-29.759726,-121.932546
+Pamela Cox,Therapist,460-857-0520x56469,baileyhebert@example.com,"4339 Patterson Vista
+Lake Austin, MP 43316",Mcmahonburgh,New Jersey,81497,MD,1,['Spanish'],Morning,5.0,-74.273025,112.435678
+Dominique Greene,Psychologist,253.867.0388x2208,luke85@example.com,"012 Roberts Trafficway Apt. 402
+Lake Sandy, PA 01110",Meyersstad,North Carolina,78546,PsyD,18,['French'],Afternoon,3.0,11.5360475,51.692101
+Elizabeth Johnson,Psychiatrist,353-883-8636,hjackson@example.net,"942 Jones Brook Suite 680
+Port Alisonbury, NY 01032",West Kyle,Alaska,16290,PsyD,24,"['English', 'French']",Afternoon,4.6,-60.147965,174.179803
+Wesley George,Psychiatrist,(530)829-5671x203,olsonkenneth@example.net,"149 Saunders Cliff Apt. 576
+Port Davidbury, MI 80941",West Aaron,Oklahoma,37700,MD,13,"['Hindi', 'French', 'French']",Evening,3.1,-17.4504445,-158.987815
+Gail Hawkins,Therapist,740.396.1362,bryansmith@example.com,"79801 Parker Drives Apt. 431
+Kruegermouth, PA 66193",North Cathyton,Connecticut,09262,MS,12,['English'],Afternoon,3.1,25.778128,178.255188
+Stacy Singh,Psychiatrist,(902)357-6290x67490,pamela14@example.org,"88868 Sharon Estate Suite 761
+New Abigail, KY 15174",Huntport,North Carolina,62685,MS,27,"['Spanish', 'French']",Afternoon,3.8,31.634541,17.703182
+William Vega,Psychologist,+1-492-590-4455x658,cassandra80@example.com,"PSC 7005, Box 7357
+APO AE 71252",North Kathleen,Massachusetts,77676,PsyD,18,"['French', 'English', 'French']",Afternoon,3.0,84.742712,63.539443
+Elizabeth Garcia,Psychologist,780-424-5779x9707,sanchezchristopher@example.org,"55369 Freeman Burgs
+Robertport, TN 86179",Lake Shawnstad,Ohio,89724,PsyD,18,"['English', 'English']",Evening,4.5,-35.8219375,-87.263034
+Bradley Evans,Psychiatrist,(460)541-1032x8929,turnerjackie@example.org,"79287 Shawn Ranch
+Port Jessica, CA 74777",Lake Jonathan,Rhode Island,90978,MS,17,"['Hindi', 'Hindi']",Evening,4.0,58.8737125,-150.894885
+Wesley Fisher,Psychologist,658-815-4189,samanthawilliams@example.org,"PSC 2911, Box 8037
+APO AE 35798",Michelleshire,South Carolina,74833,MS,25,"['Spanish', 'Hindi']",Morning,3.0,30.685284,-4.088911
+Kenneth Ingram,Psychiatrist,826-582-4051,nicole20@example.org,"0951 Jennings Common Apt. 764
+South Kristi, WA 08076",North Ashleyville,Kentucky,96884,MD,26,['English'],Morning,4.2,-68.3648665,-29.540168
+Sarah Campos,Psychologist,961-440-6291,brownkeith@example.net,"Unit 5482 Box 9533
+DPO AA 45671",South Richard,Michigan,69888,MD,10,"['English', 'Hindi']",Afternoon,3.9,-85.968238,-30.613110
+Mr. Jay Washington,Psychiatrist,259-486-4077,seth18@example.net,"3656 Benjamin Square
+Caitlinland, GU 52012",Robertmouth,Texas,40948,PsyD,30,['Spanish'],Morning,3.7,80.332746,136.563029
+Melissa Lutz,Psychiatrist,+1-940-231-9736x4501,derek68@example.net,"8448 Griffin Garden Suite 629
+Port Christina, HI 63792",Kelseyville,Indiana,09443,MD,26,['Hindi'],Morning,3.4,45.9390115,-50.040724
+Regina Webb,Therapist,649.256.0827x843,aaron85@example.com,"8033 Jennifer Parkways
+Lake John, HI 90331",Rogersland,New Mexico,88822,PhD,10,"['French', 'French']",Morning,4.4,46.2860785,89.503119
+Virginia Mills,Therapist,631.559.5938,ghall@example.net,"64542 Berry Ranch
+Charlesport, PA 69510",North Brandon,Georgia,42219,PsyD,7,"['English', 'Hindi', 'Hindi']",Afternoon,3.7,70.9776505,-118.394091
+John Johnson,Psychologist,482-943-8910x16378,kaitlin69@example.net,"2450 Hoover Harbor
+Harmonton, MT 78725",West Danielville,Nebraska,34306,PsyD,19,"['French', 'Spanish']",Afternoon,4.1,20.2663535,90.538936
+Stephanie Garcia,Therapist,(576)448-4105,dustin81@example.net,"56804 Hancock Forks Apt. 383
+North Nicolemouth, IA 73514",Nicholasshire,New Jersey,59286,MD,14,['English'],Evening,4.3,-33.595603,136.782317
+Shawn Prince,Psychologist,001-786-647-5409x0995,deborah93@example.net,"PSC 8244, Box 5742
+APO AE 74809",South Michael,Florida,14609,MD,26,"['English', 'Hindi', 'Hindi']",Afternoon,3.7,69.4451915,-106.990385
+Mariah Cabrera,Psychiatrist,325-833-5548,jamessantos@example.net,"9386 Peter Drive Apt. 619
+North Daniel, IL 73010",Williamside,Colorado,71592,PhD,6,"['English', 'English']",Afternoon,3.9,9.813496,102.655844
+Katelyn Underwood,Psychologist,8437675013,perkinsmarc@example.org,"809 Maria Falls
+Wareport, TN 48587",Jeffreyfort,Kansas,81390,MD,24,"['French', 'French']",Morning,4.1,15.9894715,-93.558574
+Lisa Byrd,Psychologist,+1-450-287-3134,youngkendra@example.org,"640 Larry Tunnel
+Jonesfort, IA 05016",North Heathershire,New Hampshire,16981,PhD,7,"['Hindi', 'Spanish', 'Hindi']",Evening,3.7,66.0757395,133.592783
+Timothy Stanley,Psychologist,001-294-364-9060x7215,xmcmillan@example.net,"567 Mckenzie Turnpike Suite 038
+Scottbury, GU 83592",Frankfort,North Dakota,66696,MD,23,"['French', 'English', 'French']",Evening,3.6,70.3644755,-11.972569
+Joshua King,Psychologist,6843101390,ericbell@example.net,"992 Simmons Corners
+Williamstown, MO 40719",West Derrick,Michigan,44381,MD,15,"['French', 'Spanish']",Morning,4.3,78.763056,2.569640
+Tyrone Mcknight,Therapist,968.387.6685x260,yhernandez@example.com,"752 Edwards Key
+East Angela, MA 29818",Lake Darren,California,09128,PhD,22,['Hindi'],Evening,3.4,44.091480,123.618595
+Nicole Watson,Psychologist,516-644-8719x5866,dansanders@example.org,"254 Smith Valley
+West Edward, TX 41714",East Vincentville,California,13710,PsyD,8,"['English', 'English']",Morning,3.3,-11.6521405,69.682330
+David Johnson,Psychologist,001-963-520-3062,whiterichard@example.net,"9308 Kyle Crest Apt. 670
+Ivanfurt, ID 34884",Julieview,Michigan,86388,MS,25,"['Spanish', 'Spanish']",Evening,4.6,-56.298634,105.457197
+Katherine Garcia,Psychologist,696-908-6703x913,kimberly03@example.org,"6487 Martinez Ridges Apt. 778
+Russellshire, AZ 79625",Port Rebekah,Pennsylvania,66340,PhD,6,['Hindi'],Evening,4.6,-24.284119,85.638690
+Gloria Gibson,Psychiatrist,+1-563-438-8839x8741,david03@example.net,"PSC 4843, Box 3519
+APO AA 51388",South Lindsay,Indiana,73258,PhD,15,"['English', 'Spanish', 'English']",Morning,5.0,-70.258993,-93.847674
+Juan Hayes,Psychiatrist,001-856-496-0017x284,matthew95@example.com,"695 Sheryl Pike Apt. 228
+New Sara, MO 91626",Port Aaron,Indiana,22316,MS,24,"['English', 'Hindi']",Morning,4.7,70.290941,130.869565
+Andrea Day,Therapist,001-232-967-5116x8878,luke13@example.com,"USCGC Smith
+FPO AP 55076",South Latasha,South Dakota,49511,MD,10,"['Spanish', 'Hindi']",Afternoon,3.5,26.361650,-169.878059
+Courtney Russell DVM,Therapist,(883)638-5212x371,bradley09@example.org,"4214 Michael Ville Suite 277
+Alexshire, VA 90490",Johnsonstad,Virginia,58771,MS,2,['English'],Afternoon,3.1,-54.443776,-168.665547
+Charles Thompson,Therapist,535.255.7589x33411,rodriguezsteven@example.com,"496 Sherry Track
+Murphyshire, SD 48208",Jonesborough,Ohio,86566,MS,16,['English'],Afternoon,4.5,-11.6225115,-104.106989
+Carlos Leon,Therapist,645-431-3659x3905,sreid@example.org,"87155 Cheryl Parks
+Davidhaven, ND 99478",New Allenchester,Minnesota,81897,PsyD,28,['English'],Afternoon,3.2,-69.902720,92.659761
+Amanda Robinson,Psychologist,+1-328-259-1884,cartergregory@example.org,"44594 Morales Fords
+West Deannaview, AR 02312",South Anita,Wisconsin,71723,MD,3,"['French', 'English', 'Spanish']",Evening,3.5,53.631036,142.096808
+Benjamin Murphy,Therapist,(442)416-2882x79820,qoconnell@example.com,"PSC 4373, Box 4986
+APO AP 41183",East Keith,Minnesota,01828,PhD,22,"['Hindi', 'Spanish', 'French']",Morning,3.5,-16.2074245,-131.531441
+Amanda Lane,Therapist,998-606-6700x9848,royrodriguez@example.com,"87770 Merritt Trafficway Suite 565
+East Annamouth, DE 83584",Bradleyborough,Arizona,34567,PhD,16,"['Spanish', 'Spanish']",Morning,4.3,78.561630,151.953017
+Danielle Wallace,Therapist,916-626-2508x3936,vdavis@example.net,"177 Hannah Hill
+North Christyberg, NV 63759",Edwardhaven,South Carolina,05159,PsyD,8,"['English', 'English', 'Spanish']",Afternoon,4.1,88.242594,-19.753090
+Sherry Wright,Psychologist,328-470-9745x7076,kimberly93@example.net,"9486 Norton Pike Apt. 971
+Port Stephanie, KS 22076",Amberfort,Arkansas,37233,PhD,24,"['French', 'English', 'English']",Afternoon,4.4,82.228364,-70.428116
+Melody Alexander,Psychiatrist,(985)385-1194,natashacollins@example.com,"38306 Glen Locks
+Kennedyfort, AK 95342",Lake Brian,New Mexico,32551,MD,5,"['Hindi', 'Spanish']",Morning,4.9,48.537568,-20.705303
+Mary Reyes,Psychologist,899.825.8756,rogersrobert@example.net,"3639 Byrd Lane Apt. 081
+South Nicholemouth, NV 58523",Elizabethfurt,Iowa,27524,PsyD,22,"['Hindi', 'French', 'French']",Evening,4.8,70.343402,133.456494
+Michele Woods,Psychologist,6242644315,whiteashley@example.org,"883 Norman Extension Suite 494
+Lake Donnatown, HI 88037",New Michaelville,North Carolina,42855,MS,6,['English'],Afternoon,4.2,-75.1114575,-17.349070
+Andres Davis,Therapist,(332)592-5336x3529,wcampos@example.net,"USCGC Wallace
+FPO AP 60204",Antoniofurt,New Jersey,64970,MD,1,"['Hindi', 'Spanish']",Morning,3.4,69.283830,62.768838
+Rebecca Vasquez,Psychiatrist,(525)594-1508x12736,jessica22@example.com,"3290 Bass Mountains Apt. 588
+Shawnstad, VT 39804",South Jeffreyton,Illinois,07847,MD,29,"['Spanish', 'French']",Afternoon,3.6,-44.553384,-67.142691
+William Meadows,Psychologist,(766)547-7016x3828,osbornalexandra@example.org,"4634 Eric Roads
+Rogersfurt, ND 05936",Lake Jessicaton,Alabama,05678,PhD,29,"['Spanish', 'English', 'Hindi']",Afternoon,3.1,-65.910841,-166.646700
+Roger Glover,Psychologist,427.264.7084x4898,ulyons@example.net,"9287 Kenneth Crossing Suite 668
+Dyerborough, IA 97820",Johnbury,New Mexico,64009,MD,29,"['Spanish', 'French']",Evening,4.6,69.645010,-42.337118
+Karen Logan,Therapist,001-980-915-1768x05970,katherine33@example.net,"PSC 5151, Box 6973
+APO AP 57177",Lynchfort,Pennsylvania,58168,MD,14,['French'],Afternoon,3.4,87.978524,-176.085540
+Amy Brown,Psychologist,636-846-9941x775,rgray@example.com,"56786 Green Centers
+West Carlos, GU 89943",Elliottbury,Maine,19605,MS,28,['Spanish'],Morning,3.6,50.308493,154.858674
+Nicholas Stanley,Therapist,464-953-2956x110,caitlyn04@example.net,"0871 Andrew Knolls
+West Sarah, ME 32264",South Jenniferton,Nevada,17119,MS,21,"['Hindi', 'English']",Afternoon,4.2,-43.1256235,-80.258208
+Shawn Spence,Psychiatrist,(375)948-7607x9374,brian97@example.com,"92402 Ponce Crossroad Apt. 700
+Chanside, FL 58744",Snowhaven,Florida,65930,MS,6,['French'],Evening,4.6,8.6974535,110.283030
+Nicole Lawson,Therapist,001-403-865-1106x953,carlasmith@example.org,"34369 Mcmillan Groves Apt. 992
+Moralesport, NE 98201",West Sabrinafurt,Florida,04264,MD,26,"['English', 'English']",Morning,3.3,17.9238305,-114.624585
+Charles Smith,Psychiatrist,881-966-9423x27134,courtney70@example.net,"1440 Ashley Rest
+Mistyville, IA 90595",Lake William,Arkansas,72150,PhD,14,"['English', 'Hindi']",Morning,3.2,49.316872,51.833482
+Adrienne Farmer,Psychologist,001-429-933-4210x5913,valdezrebecca@example.net,"PSC 5287, Box 1425
+APO AE 93235",Williamfort,Virginia,67908,PhD,19,"['French', 'English']",Morning,3.4,-82.6588285,-177.420660
+Melanie Johnson,Psychologist,+1-870-369-0268x086,kennethgordon@example.net,"51506 Robert Gardens
+East Natalie, WV 05604",Laurachester,North Dakota,17037,MS,5,['French'],Evening,3.6,-25.937876,43.063850
+Nathan Gonzalez,Therapist,2073330077,adam86@example.net,"605 Baker Circles Apt. 756
+Moniquefurt, CT 19448",Amberbury,Arizona,22226,MD,8,"['French', 'English', 'French']",Evening,4.1,-31.7453245,-37.641490
+Trevor Davis,Psychologist,882-730-5738,fparker@example.com,"686 Brooke Mill Suite 556
+Kingchester, MP 42587",Debrafurt,Maine,10807,PsyD,23,"['French', 'Spanish']",Morning,4.8,-41.2545045,-110.135446
+Lindsey Hicks,Therapist,+1-312-317-4433x24468,samanthadaniels@example.org,"89713 Tiffany Flat
+Port William, ID 75919",Williamsshire,Minnesota,09963,PsyD,19,['French'],Evening,4.4,27.9094715,125.154349
+Carl Allen,Psychologist,347.628.2088x297,jamiemoreno@example.com,"USS Snow
+FPO AP 92587",Port Walterborough,Georgia,89207,PsyD,30,['Hindi'],Evening,3.3,-89.372222,-29.744196
+Thomas Russell,Psychologist,001-743-780-8315x9373,xwright@example.org,"800 Wall Street
+Kevinville, WV 82099",Doyleburgh,Kentucky,60096,MS,26,['Hindi'],Morning,4.5,24.7894645,-126.373674
+Robert Moses,Psychologist,+1-212-439-4530x82590,marc91@example.org,"060 Zachary Corner Suite 891
+East Lisaport, PA 58349",Clarkfurt,Maine,95735,PsyD,30,['English'],Evening,3.9,-85.014078,48.773681
+Brian Gregory,Psychiatrist,848.802.3111,vtrujillo@example.org,"33011 Ramos Village
+Johnstonstad, LA 21310",Lopezland,Nebraska,57433,MS,9,['Hindi'],Afternoon,4.3,23.5389835,-96.033380
+Kevin Willis,Psychologist,+1-847-997-1735,ohayes@example.net,"Unit 6944 Box 4957
+DPO AP 16283",Stephenburgh,South Dakota,64925,PhD,21,['Hindi'],Morning,4.7,27.1065555,170.892139
+Debra Kelly,Therapist,204-696-3526x0863,karensexton@example.net,"PSC 9268, Box 1931
+APO AE 02993",Skinnerside,Washington,21113,MD,27,['Spanish'],Morning,3.2,79.3674365,-91.451228
+Robin Mathis,Psychiatrist,(581)231-3280x329,shaneweaver@example.com,"0549 Lisa Glens
+Michaelshire, WV 47872",Geraldville,Missouri,33195,MD,11,"['Spanish', 'Spanish', 'Spanish']",Evening,3.5,-32.1715875,38.525695
+Sandra Page,Psychologist,528-958-5660x47142,katie45@example.com,"3538 Newton Gardens Apt. 925
+South Laurenside, SC 92228",East Noahberg,California,59775,PsyD,7,"['Hindi', 'Hindi']",Morning,4.7,-14.125452,-50.706940
+Matthew Stanley,Therapist,001-313-954-1094x3476,williamslisa@example.com,"USS Mcdonald
+FPO AP 71988",Port Rose,Massachusetts,11836,MS,15,['Hindi'],Afternoon,3.9,-53.0702225,142.020058
+Kimberly Armstrong,Psychiatrist,(631)867-1800x000,laneamy@example.org,"16796 Timothy Courts Suite 753
+Lake Justinfurt, AK 57722",Evansside,Wisconsin,33539,MS,29,"['French', 'French', 'Hindi']",Afternoon,4.3,-23.1799555,-155.974420
+Mr. Nicholas Griffith,Psychiatrist,705-359-2298x05877,rioszachary@example.com,"676 Jennifer Trail Apt. 009
+Tracyshire, GU 33797",Cookton,Arkansas,37586,MD,7,['Spanish'],Morning,3.0,-81.5245425,143.932904
+Stephen Becker,Therapist,(842)467-9343x0858,nwalters@example.org,"11697 Garcia Hills Apt. 878
+Richmouth, FM 56742",Rodrigueztown,Rhode Island,62134,PsyD,30,"['French', 'English', 'English']",Afternoon,3.7,-49.505307,65.855081
+Anthony Smith,Psychologist,848-847-4729x91008,awilson@example.org,"9341 Sean Fall Apt. 757
+North Tammyhaven, CT 14020",North Lindsay,Delaware,54434,PhD,17,['Spanish'],Evening,4.2,-20.1848115,-59.225365
+Michele Lynch,Psychologist,9537602434,omendoza@example.net,"USNS Cook
+FPO AP 46018",West Jessicastad,South Carolina,48051,PhD,13,"['Spanish', 'French']",Afternoon,3.0,-72.013360,-22.492049
+Emily Malone,Psychologist,001-234-412-2768x654,alexander97@example.com,"8126 Flores Islands
+South Hannahchester, MO 96662",Flemingport,Maine,18915,MS,21,"['English', 'English']",Afternoon,5.0,6.2016395,118.687258
+Karen Vargas,Therapist,+1-278-630-7824x70303,thomasswanson@example.org,"6464 Perez Center Apt. 251
+North Andrew, MO 02441",Pennychester,South Carolina,90266,PhD,7,['Hindi'],Afternoon,3.5,-59.8273775,153.413543
+Tina Alexander,Psychiatrist,(924)773-6627x297,thomasdestiny@example.net,"7779 Robinson Coves
+South Aliciatown, GA 60339",Matthewbury,New Jersey,81383,MS,18,"['Hindi', 'Spanish', 'Spanish']",Morning,4.0,33.3212255,-89.514176
+Antonio Heath,Psychiatrist,(796)870-3067,thomas37@example.org,"PSC 4840, Box 2458
+APO AE 66807",Fosterchester,Missouri,50288,PsyD,10,"['Hindi', 'Hindi']",Morning,3.6,3.6925115,75.083911
+Richard Nelson,Psychiatrist,(399)805-2550x008,wkane@example.com,"85483 Howell Spur
+Lake Bryanshire, NH 87371",Lake Peterport,Maryland,19167,PsyD,17,"['Hindi', 'French', 'Spanish']",Afternoon,4.2,58.9429015,-25.017137
+Kristin Carter,Psychiatrist,+1-991-205-9765x93000,willie68@example.net,"17212 Moran Rapid
+New Victoria, OK 15733",South Ryan,North Dakota,87520,PsyD,6,"['English', 'Hindi']",Afternoon,3.1,71.983839,13.614049
+Amy Horne,Psychologist,575.739.8257x45725,fbuckley@example.org,"972 Andrea Lights Apt. 924
+West Shannon, PA 32268",Port Shawnberg,Kansas,37583,PhD,14,['English'],Evening,3.4,41.631128,152.296393
+Darryl Gilmore,Psychiatrist,001-504-200-9479x8921,bmeyer@example.com,"042 Julia Grove Suite 209
+Angelaport, SC 75485",Higginsside,Connecticut,21278,MS,22,"['English', 'Spanish', 'English']",Evening,4.4,88.7188875,-168.050088
+Eric Smith,Therapist,+1-304-843-0192x88544,fleblanc@example.org,"5538 Moss Unions
+Morganborough, NM 69200",New Jacquelineview,California,88886,PhD,6,"['English', 'French', 'English']",Afternoon,4.5,-86.629154,61.419999
+Keith Moore,Therapist,982.409.2906x741,jeanne68@example.com,"41001 Ann Pass
+Curryhaven, NV 31156",North Toddbury,Alaska,89628,PhD,28,"['Spanish', 'English', 'English']",Afternoon,3.6,53.1029905,86.976462
+Pamela Adams,Psychologist,914-962-1368,gloveramanda@example.com,"683 Timothy Lakes
+Kristinstad, WI 54241",Jenniferport,New Jersey,22232,MS,9,['Spanish'],Evening,4.9,-59.863952,-146.824741
+Timothy Clark,Psychiatrist,637.266.9038x55527,robert32@example.net,"05209 Flowers Ports Apt. 256
+Heathermouth, UT 24793",Lake Diana,Georgia,55360,MS,22,"['English', 'French']",Evening,4.4,85.7340825,-179.516310
+Deborah Newton,Psychologist,(598)995-3448x42138,tommymartin@example.net,"1427 Heather Garden
+Lake Michael, WY 32092",Lake Brandon,Montana,48435,MD,25,"['Spanish', 'Spanish']",Evening,3.2,-57.147820,-10.017972
+Hannah Farmer,Therapist,708.660.0760,ypatterson@example.org,"PSC 7305, Box 0268
+APO AP 79941",Port Ianhaven,Missouri,83109,MS,19,['English'],Evening,3.7,-49.825897,3.507467
+Jacqueline Bowman,Psychologist,+1-899-657-5683x9359,hernandeztimothy@example.org,"55043 Kristi Estates Apt. 840
+Williammouth, DC 26755",Baldwinhaven,Texas,91245,MS,15,"['Spanish', 'French', 'Hindi']",Morning,4.4,80.0421715,-165.333722
+Keith Werner,Psychologist,(240)776-2172x958,gabrielle87@example.org,"USNV Chambers
+FPO AP 42526",Lawrencehaven,North Dakota,49197,MS,9,"['French', 'Hindi', 'English']",Morning,3.2,-82.8159805,66.909347
+Collin Whitney,Psychiatrist,+1-912-391-3375x01741,rroberts@example.org,"393 Mitchell Cape Suite 178
+North Douglas, NM 88859",West Josephburgh,Oklahoma,61693,PsyD,12,['French'],Evening,4.2,62.1466315,-91.313526
+Tyler King,Therapist,001-976-870-1662x876,christopher67@example.net,"946 Castro Row
+Tammyborough, KS 18054",North Eric,Tennessee,76135,PhD,3,"['Spanish', 'English', 'French']",Afternoon,3.7,-41.637226,-161.737219
+Ashley Santiago,Therapist,6468035573,moranlisa@example.net,"2010 Jessica Drive Suite 584
+Port Dawnburgh, SD 54520",North Arthurstad,Minnesota,31893,MD,6,"['Hindi', 'Hindi', 'English']",Morning,3.8,-0.3768605,-97.546089
+Heather Jackson,Psychologist,353-221-1226x03319,frankscott@example.org,"853 Matthew Mill Apt. 784
+Wheelerland, MA 84205",Lake Makayla,Iowa,43277,PsyD,21,"['Hindi', 'French']",Evening,3.9,50.015118,22.500054
+Lori Watson,Psychiatrist,001-456-450-5515x8621,regina24@example.org,"1811 Kristen Forks
+West Dakotaside, GU 75276",East Martin,Wisconsin,95988,MS,29,"['French', 'French', 'English']",Evening,4.5,19.6396755,130.307404
+Debra Smith,Psychologist,(491)481-4368x4987,roseisaiah@example.com,"USS Morton
+FPO AE 15576",Jenniferstad,Arkansas,65812,MD,22,['French'],Afternoon,4.6,-73.2067615,25.870856
+Eric Yoder,Therapist,001-934-739-1482x3072,handrews@example.net,"8099 Austin Plains
+Lake Joseland, NM 53751",West Robertshire,Pennsylvania,83817,PsyD,18,['French'],Evening,3.3,-3.7498175,-18.779715
+Mark Terry,Psychologist,552-226-5493,martinnathaniel@example.org,"82973 Ruben Plains
+West Jessica, NE 11545",West Veronica,Idaho,38016,PhD,13,['French'],Afternoon,3.7,44.514032,136.993874
+Antonio Jones,Psychiatrist,636-421-5179,benjamin80@example.net,"01433 Timothy Burgs
+Stephanieland, HI 35740",Bakerstad,Wyoming,66872,PsyD,19,"['Spanish', 'English', 'French']",Evening,3.4,3.6011565,-71.634526
+Monica Harvey,Psychiatrist,869-504-6554,christine87@example.com,"452 Edward Square Suite 467
+Port Richardmouth, ND 86820",Andrewside,Illinois,82470,PhD,12,"['French', 'Spanish']",Afternoon,3.4,-54.479071,32.379879
+Christine Phillips,Therapist,849-996-9432x93446,dixonkelly@example.org,"46943 Peterson Garden
+Lake Richardshire, MO 70889",Smithstad,Texas,39868,MS,29,['Hindi'],Morning,3.5,74.181976,-117.262284
+Samuel Hansen,Psychologist,534-215-8686x325,cwilson@example.com,"506 Jennifer Point Suite 826
+Port Mark, AZ 10261",South Kim,Florida,51663,MD,12,"['English', 'French', 'French']",Afternoon,4.3,-3.3382095,-74.546603
+Kevin Anderson,Therapist,761.830.2945,stephanie01@example.com,"650 Gray Terrace
+Karenland, TX 42345",North Teresa,West Virginia,06216,MD,25,"['Spanish', 'English']",Evening,3.4,66.165283,-13.371110
+Evan Norton,Psychologist,(681)294-7545x386,kgarcia@example.net,"USS Price
+FPO AP 89717",South Stephanie,Iowa,63752,PsyD,16,"['French', 'French', 'Spanish']",Evening,4.7,-48.9961385,-0.031621
+David Perez,Therapist,(632)860-9825x006,jwolf@example.com,"65102 Jonathan Rapids
+East Stephenshire, MO 95321",South Markborough,Ohio,94928,PsyD,25,['Hindi'],Morning,4.8,58.676081,-20.632220
+Amber Gentry,Psychologist,+1-393-389-2410,hudsonkaren@example.com,"8703 Harrison Mission Apt. 726
+Joefurt, TN 48729",East Mariachester,California,68107,PsyD,11,"['Spanish', 'English']",Evening,3.1,-62.6441235,7.215890
+Charles Lambert,Psychiatrist,405.668.8315x4507,kyle64@example.com,"040 Stephanie Shores Apt. 376
+Maryville, HI 01207",East Paula,Illinois,46826,MD,19,"['Hindi', 'English']",Afternoon,4.7,48.769854,105.307472
+Crystal Johnson,Psychiatrist,+1-214-662-5117x43020,johnthomas@example.net,"15100 Kathleen Throughway Apt. 462
+Ericfort, LA 09876",Bradshire,Alabama,60064,PhD,17,"['English', 'Hindi', 'Hindi']",Afternoon,3.9,-56.606497,-103.598758
+Tracy Robinson,Therapist,773.584.2634,thomasgarcia@example.net,"837 Nguyen Lodge Apt. 720
+Huffmanfort, MO 52729",Stewartburgh,South Dakota,20433,PsyD,27,['Spanish'],Afternoon,3.6,2.6137725,-128.785702
+Michele Ford,Psychiatrist,802-494-6429x754,andersonmark@example.org,"6059 Montoya Estates Apt. 258
+Port Nicole, MH 09395",Burnettburgh,New York,97865,MS,18,"['French', 'French']",Afternoon,4.5,-55.464181,-14.674722
+Mary Barnes,Psychiatrist,854-711-2550x880,ulopez@example.net,"873 Kirsten Wall Apt. 642
+West Michaelton, IL 52309",New Juan,Alaska,20225,PsyD,13,"['Spanish', 'Hindi', 'English']",Evening,4.6,-76.8826035,58.787866
+Charles Gill,Psychiatrist,+1-755-471-0801,tateryan@example.com,"9900 Tucker Fords
+West Wendyberg, NJ 37743",South Williamview,West Virginia,85342,PsyD,2,"['Hindi', 'English']",Morning,3.7,5.736408,-62.734077
+Olivia Johnson,Psychiatrist,+1-608-521-3542,josephweber@example.com,"019 Lisa Avenue Apt. 760
+New Timothytown, RI 79139",East Ariel,Ohio,05502,MS,20,"['English', 'Hindi', 'English']",Afternoon,3.4,-37.2483515,-52.970045
+Jennifer Mcfarland,Therapist,001-787-268-3277x27787,fishermichael@example.com,"10302 Joseph Highway Suite 240
+Riveraport, RI 22026",Amberview,West Virginia,77126,MS,15,"['English', 'Hindi', 'Spanish']",Afternoon,3.7,-65.171883,-79.318847
+Mrs. Rachel Wright,Therapist,001-309-354-8309x63957,brandonfrederick@example.com,"04671 Robbins Rapids
+Zacharyburgh, UT 89283",Port Andrewburgh,Vermont,23888,PhD,23,"['English', 'English']",Morning,4.7,-26.873404,0.247877
+Joseph Wall,Therapist,(363)552-2190x585,swood@example.org,"524 Carlson Parkway
+South Kathymouth, MN 09056",Kimberlyport,Michigan,95084,MD,6,"['Hindi', 'Spanish']",Afternoon,4.6,-59.150496,37.993675
+Sarah Ross,Psychiatrist,(292)732-3494,carolmorgan@example.net,"450 Horton Club Apt. 102
+New Robinport, MI 21248",Kellytown,Texas,99363,MS,30,"['French', 'Hindi', 'Spanish']",Evening,4.8,-66.4728705,-44.518692
+Jackie Blanchard,Psychologist,+1-793-646-4469x29900,pharris@example.net,"64875 Ashley Plaza
+East Kathy, IN 28596",North Derrickburgh,Texas,66313,PsyD,26,"['Hindi', 'Hindi', 'French']",Evening,4.8,41.7835885,-64.280025
+Brendan Ballard,Psychiatrist,899.600.5988,robertsawyer@example.net,"775 Fuller Corners
+New Johnbury, GA 92889",Sarahfort,Minnesota,55386,MD,25,"['English', 'French']",Afternoon,3.9,-20.5581865,124.992859
+Stacy Moss,Therapist,394.630.0445,andre38@example.net,"3131 Jennifer Roads
+Ryanstad, NY 03342",Robinsonberg,Kansas,16018,PsyD,6,"['English', 'French']",Morning,3.1,77.610774,44.513358
+Tyler Cooley,Psychiatrist,+1-616-850-4553,christinesimpson@example.com,"4498 Lane Via Suite 342
+East Adammouth, WI 28379",Chadburgh,New Hampshire,65384,PhD,17,"['English', 'English']",Morning,3.6,30.041970,-25.698663
+Ronald Rogers,Psychiatrist,001-885-220-3817,thompsonscott@example.net,"73005 Curtis Flats
+Wrightville, GU 39811",Huertaland,Oklahoma,40711,PhD,27,['Hindi'],Afternoon,3.9,60.9120785,-77.616582
+Adam Vasquez,Psychologist,621.242.2797x75367,lynnbruce@example.com,"USNV Zavala
+FPO AP 40329",Banksmouth,Massachusetts,26693,MD,11,['French'],Afternoon,4.8,6.4167835,-126.750359
+Keith Barrera,Psychiatrist,001-374-955-1368x60321,vasquezjulian@example.org,"15723 Baird Court
+West Tiffany, IN 37389",East Sharon,Minnesota,79109,MS,19,['French'],Morning,4.1,-25.032708,-50.284388
+David Buckley,Psychiatrist,(374)326-9980x22085,hjones@example.org,"373 Billy Brook Apt. 201
+East Rachael, VA 27883",Port Jeffreyborough,Kentucky,65310,PsyD,13,['Hindi'],Afternoon,4.9,65.352745,-130.857500
+Rachel Hill,Psychiatrist,+1-361-660-2087x4063,calhounmichael@example.com,"7608 Stephanie Groves Suite 800
+Port Michaelstad, NM 17639",Alyssaborough,Maryland,53152,PhD,29,"['French', 'Hindi', 'Spanish']",Evening,4.8,-72.049385,-106.142585
+Paul Hester,Psychiatrist,7687556968,jacob00@example.org,"9887 Larry Gardens Apt. 230
+Hammondberg, IN 73803",North Johnfort,Indiana,88030,MS,4,"['English', 'English', 'Hindi']",Morning,4.1,29.693115,150.099088
+Alan Brooks,Psychiatrist,+1-946-507-2997x3816,iterrell@example.org,"5450 Adam Crest Apt. 857
+Lake Erin, PR 23080",Port Elizabethchester,South Carolina,56949,MS,4,"['Hindi', 'Hindi', 'Hindi']",Evening,4.2,25.501574,-30.183844
+Benjamin Johnson,Psychiatrist,+1-389-275-6267,robert05@example.com,"PSC 1099, Box 7070
+APO AA 88422",Figueroafort,West Virginia,87470,PsyD,12,"['Spanish', 'Hindi', 'Spanish']",Evening,4.4,11.1014155,-159.514440
+Brenda Clark,Psychiatrist,8335298983,chavezsamantha@example.com,"67378 Susan Wells
+Port Michaelshire, GU 49659",Lake Cathyview,Georgia,60991,PsyD,28,"['French', 'French', 'Hindi']",Evening,3.6,-34.512875,-23.839538
+Charles Taylor,Psychiatrist,(728)909-7797x37920,ryan51@example.com,"7932 Katie Harbors Suite 931
+Chelseaview, NV 80677",Port Travis,Nevada,15937,PsyD,30,"['French', 'Spanish']",Evening,4.7,72.6178655,-44.734563
+Denise Holt,Psychologist,(223)970-4134,ksmith@example.com,"731 Jody Ramp Apt. 028
+Frankton, VA 34109",North Melanieport,Nebraska,31384,PsyD,21,['Hindi'],Evening,3.3,-58.599069,-131.576998
+Tanya Hardy,Psychiatrist,001-484-510-5772,chelseamorgan@example.com,"7849 Maddox Pike Suite 834
+Willisfort, MT 31130",Zamorastad,Oklahoma,98565,MD,9,['Spanish'],Afternoon,4.1,-14.5752365,-162.784293
+Connie Horn,Psychologist,001-743-685-8168x84234,iskinner@example.com,"Unit 9687 Box 3294
+DPO AA 09270",Teresatown,Oregon,24434,PhD,6,"['French', 'French', 'English']",Evening,4.0,-81.6975795,-97.608813
+Wendy Tran,Psychologist,+1-441-349-3734,bennettcraig@example.net,"968 Sheryl Square Suite 014
+Mitchellside, AR 23785",New Deborahport,Maryland,24513,PsyD,9,"['Spanish', 'French']",Afternoon,3.8,41.2651885,130.818551
+Jason Beltran,Psychiatrist,539-826-5402x4253,matthewhall@example.com,"272 Herrera Alley
+Wellsshire, NM 34170",Lake Ruth,Oregon,56912,MD,9,['English'],Afternoon,3.8,60.0157435,-122.232284
+Steven Cummings,Psychologist,810.706.3276,lespinoza@example.org,"847 Nicholas Islands
+West Jimmymouth, MA 31796",New Danielchester,Minnesota,88401,MD,12,"['French', 'French', 'French']",Afternoon,4.9,46.757909,-116.522079
+Jerry Hughes,Psychiatrist,(601)502-2288x534,vincent39@example.net,"93830 Eugene Station Apt. 971
+Port Christopherland, DE 11439",Lake Crystalmouth,Texas,66503,PhD,19,['French'],Afternoon,3.4,-2.903477,155.919430
+Earl Brennan,Psychologist,9784819267,drakeelizabeth@example.com,"611 Donna Harbor
+West Kristen, SD 01293",Kimberlychester,South Dakota,88475,PhD,6,"['French', 'Spanish']",Morning,4.4,-57.9084255,-35.435554
+Linda Jacobs,Therapist,845.425.4675,justin85@example.org,"837 Wilcox Locks
+South Christopherfort, NJ 90893",Port Andrewbury,Utah,05582,MD,18,"['Hindi', 'English']",Evening,4.0,-58.081208,-161.635317
+Jeremiah Butler,Psychologist,653-470-2996,shirleyscott@example.net,"8461 Jennifer Wells
+Garciaburgh, DC 27529",Lake Sara,New Jersey,80023,MD,10,"['English', 'Hindi', 'Hindi']",Afternoon,3.6,54.014010,133.819629
+Kenneth Lara,Therapist,458-263-8279,michaelwhite@example.com,"116 Perez Road
+South Julie, VI 82338",New Veronicaland,California,49261,MS,28,"['French', 'Spanish']",Afternoon,3.7,-80.923288,-24.778075
+Dr. Brianna Brown,Psychiatrist,819.649.7872x7588,njones@example.com,"01022 Collins Locks
+Leview, VA 75992",Collinstown,Rhode Island,65095,MS,12,['French'],Morning,3.8,-46.749890,91.456819
+William Harding,Psychiatrist,001-637-351-0052x189,jeremy56@example.org,"68675 Steven Parkway Apt. 206
+East Crystal, DC 03303",Hannahside,Connecticut,75034,PhD,11,"['English', 'English']",Evening,3.0,9.152841,-69.086260
+Elizabeth Ramirez,Psychologist,001-298-924-2438,benjamin72@example.com,"Unit 6542 Box 4737
+DPO AA 60696",Gregorychester,North Carolina,98627,PsyD,29,"['Spanish', 'English']",Morning,4.6,-57.070976,-179.913969
+Justin Martin,Psychiatrist,+1-533-525-6205x978,jennamitchell@example.org,"095 Baird Gardens
+Mcdanielview, GA 48432",Stephaniemouth,Kentucky,34219,MS,29,"['French', 'French', 'Spanish']",Morning,5.0,23.7130555,79.211955
+Mark Hughes,Psychologist,+1-630-715-1242,gfletcher@example.net,"046 Johnson Centers Suite 516
+Wattsmouth, NE 41364",New Richard,New York,16780,PsyD,29,"['Hindi', 'Hindi']",Evening,4.5,70.090546,-116.946084
+Kyle Carr,Psychologist,001-573-502-2408x6187,robert95@example.com,"8199 Jeffery Rest
+Port Gregory, RI 59126",New Scottland,Kansas,73363,MD,19,"['English', 'Spanish', 'French']",Morning,4.5,-34.413628,89.231022
+Charles Guzman,Psychiatrist,+1-761-416-8001x35662,ysanchez@example.org,"USCGC Lara
+FPO AA 21282",Alisonborough,Pennsylvania,63241,PhD,11,"['Hindi', 'French', 'Spanish']",Evening,4.6,45.8873575,61.671082
+Brad Pace,Therapist,(997)332-5063,garciashaun@example.com,"86999 Morrow Spurs
+South Dianastad, MH 80949",South Tonyafort,Utah,10100,PhD,13,['French'],Morning,3.6,86.4337505,2.039000
+Justin Baker,Psychologist,001-211-233-2566x479,earldyer@example.net,"840 Jennifer Underpass Suite 658
+Carrollshire, SC 76737",North Josephmouth,New Hampshire,91464,MS,9,['English'],Afternoon,4.9,-35.517165,175.043571
+Bryan Mayer,Therapist,318-982-2806,hernandezcrystal@example.org,"96244 Steele Port
+Garyside, RI 07064",Reyeschester,New Mexico,38118,MD,23,['Hindi'],Morning,4.9,68.2381185,125.877871
+Stephen Burns,Psychiatrist,001-741-439-2055x630,barrerafrederick@example.net,"61427 Susan Mountains
+Leonardburgh, MN 93129",North Christy,Wyoming,34050,MD,25,['French'],Morning,4.7,1.9684295,51.694419
+Randy Pineda,Psychiatrist,(599)838-8826,zjohnson@example.org,"07658 Lopez Ports Apt. 074
+Crystalshire, MD 42943",Clarkport,Louisiana,43888,MD,13,"['English', 'French']",Morning,4.1,0.061672,-165.768684
+Crystal Allen,Therapist,(754)476-8793,daniel85@example.com,"46661 Wallace Prairie Apt. 899
+Russellfort, MD 25817",North Beverlyfort,Georgia,83115,PsyD,20,"['English', 'Spanish', 'Spanish']",Morning,4.2,-70.5203475,-174.552838
+Adam Gilbert,Therapist,328.634.7070x4260,richardmurray@example.net,"PSC 3534, Box 3098
+APO AP 02889",Cunninghamside,Florida,40755,MS,3,"['Spanish', 'Spanish', 'Hindi']",Afternoon,3.6,0.6313785,-174.857826
+Jason Fuentes,Psychologist,500-677-4156x629,jimenezstephanie@example.org,"USNV Anderson
+FPO AA 58085",West Cristinaport,Ohio,59488,MD,29,['Spanish'],Evening,4.8,74.2455235,-162.853620
+Anthony Gomez,Psychologist,001-210-216-0376x2600,benjamin01@example.net,"6769 Matthew Plaza Apt. 437
+West Linda, DE 74790",Fisherhaven,Tennessee,27820,PhD,2,"['English', 'Hindi', 'Spanish']",Morning,4.4,86.530778,-119.769951
+Brooke Hurley,Therapist,854.532.4097x6954,mhenry@example.com,"5479 Sarah Turnpike Suite 552
+New Erin, UT 51263",East Anneview,Nebraska,66135,PhD,5,['Hindi'],Morning,3.9,39.263773,-85.516348
+Margaret Rodriguez,Therapist,417.391.7351,ushaw@example.net,"2619 Zachary Ramp
+South Andrewshire, AL 93934",Shawnborough,Alaska,97135,PsyD,18,"['English', 'English', 'Hindi']",Afternoon,3.1,33.403530,-40.781094
+Andrew Raymond,Therapist,(474)247-3193,moorebryce@example.net,"08685 Thompson Flat Suite 468
+Butlerberg, HI 96398",Jamesmouth,Ohio,06396,MD,1,"['Hindi', 'English', 'Hindi']",Afternoon,3.9,-67.759517,-79.768057
+Brandon Chambers,Psychologist,(585)809-5593,rebecca91@example.net,"32730 Jon Radial
+East Loriview, MN 71459",Dickersonville,South Dakota,62887,MD,27,"['Hindi', 'English']",Evening,3.0,53.7043345,65.649287
+Evelyn Johnson,Psychiatrist,605.933.5867x347,jonathanwebb@example.com,"21403 Mitchell Key
+Jacobview, KY 93233",South Brenda,Virginia,84562,PhD,2,"['Spanish', 'French']",Morning,3.6,55.3361865,18.273729
+Michelle Blake,Psychologist,(358)517-4822x74361,pinedacatherine@example.org,"4770 Aguilar Port
+Lake Priscillaland, NM 35363",Jamestown,Hawaii,28807,MS,20,"['French', 'French', 'English']",Afternoon,3.2,46.217139,138.658526
+Jane Navarro,Psychiatrist,668-871-8905x248,turnerbilly@example.net,"590 Mendez Lodge Apt. 236
+Port Kevinborough, NC 27776",Stephenborough,Pennsylvania,76267,MS,6,"['Spanish', 'French', 'Hindi']",Evening,4.0,83.603430,-44.327301
+Jose Webb,Psychologist,+1-708-879-7101x6391,jodi19@example.org,"41397 Juarez Glen Apt. 702
+Connormouth, MA 10637",New James,Texas,74882,MD,22,"['Spanish', 'Spanish', 'French']",Morning,3.8,-15.4616315,171.887173
+Samuel Vazquez,Psychiatrist,387-710-4460,harrellchad@example.org,"622 Daniels Trafficway Suite 741
+Williamsview, MN 89415",Kennedystad,Maine,15515,MD,28,['Hindi'],Afternoon,4.4,-64.793155,46.090448
+Molly Johnson,Psychologist,001-523-942-6136x27271,kyle27@example.net,"2444 Wendy Island
+Nicolefort, UT 88860",Port Isabellashire,South Dakota,80490,MD,17,['Spanish'],Afternoon,4.5,-7.295186,154.421713
+Heather Clark,Therapist,9004232692,xrodriguez@example.org,"32388 Beth Squares Suite 296
+Stevensstad, AS 19857",Stephensborough,Missouri,23170,MS,1,"['French', 'English']",Evening,3.8,-63.2643265,133.761447
+Elizabeth Orozco,Therapist,433.313.3538x68302,mortonstephanie@example.net,"05194 Richmond Summit
+Bakerton, FM 34793",New Gregoryhaven,Virginia,50339,PsyD,10,['French'],Evening,4.8,65.1962715,159.190160
+Anthony Peters,Psychologist,393.431.7402,katherinemolina@example.net,"9892 Patricia Walks
+Joville, SD 13350",Cobbfurt,Hawaii,89670,PsyD,4,"['English', 'Spanish', 'Hindi']",Morning,3.1,86.274450,-52.673103
+Vincent Watkins,Psychologist,001-415-218-6243x9366,stevensonandrea@example.net,"689 Janet Village
+Castanedamouth, IL 36626",East Brenda,Oklahoma,30171,MS,27,['Hindi'],Evening,3.4,50.7161745,-61.845131
+Cynthia Montes,Psychologist,001-272-466-6989x093,nathanwatkins@example.net,"9375 Rebecca Cliffs
+Johnsonfort, GU 49147",West Thomas,Alaska,49170,MD,12,"['Spanish', 'French', 'French']",Afternoon,3.7,24.607277,162.774611
+Meagan Walker,Therapist,001-610-776-5035,awiggins@example.org,"6259 John Passage Apt. 160
+West William, ME 08691",New Heather,North Dakota,44460,MS,28,"['Spanish', 'English']",Afternoon,4.0,35.7176465,-133.334275
+Eric Roberts,Psychiatrist,883.665.8051,christianlisa@example.com,"314 Elliott Mills
+Grahamchester, PR 43483",New Michael,Alaska,57721,MS,28,"['French', 'Hindi', 'French']",Morning,3.3,-6.191390,141.663355
+Amber Martin,Therapist,(220)231-2800x548,mitchelljennifer@example.net,"Unit 5482 Box 3768
+DPO AE 95964",East David,Kentucky,87942,MS,3,['Hindi'],Afternoon,3.2,-70.4228615,3.318497
+Nancy Ross,Psychiatrist,(418)209-6777,robleskayla@example.net,"424 Brian Station Apt. 200
+Smithton, CO 27896",Powellside,Maryland,59153,PsyD,16,"['French', 'French']",Evening,4.3,20.727705,170.683363
+Meredith Mckinney,Psychologist,796.620.7343,carol97@example.org,"268 Brenda Curve
+New Richard, NM 63805",New Katherine,Nevada,05622,PhD,24,"['Hindi', 'French']",Morning,3.7,-48.2580945,179.686675
+Ashley Schroeder,Psychiatrist,+1-748-715-7687x73030,zbrown@example.org,"513 Scott Mountains Apt. 889
+South Michaelshire, GA 20448",Sparkstown,Alaska,72856,MD,23,"['French', 'Spanish', 'Spanish']",Afternoon,4.9,-42.7613345,173.510830

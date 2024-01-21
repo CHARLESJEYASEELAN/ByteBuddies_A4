@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+           body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f1f1f100; /* Set a background color */
+        }
+
+        form {
+            width: 300px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333; /* Adjust the heading color */
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff; /* Adjust the button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(2px); /* Add a slight blur to the video */
+        }
+        @media (max-width: 768px) {
+            form {
+                width: 90%; /* Adjust width for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="{{ url_for('static', filename='videos/loginbg.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="login-container">
+        <div class="existing-user-form">
+            <form action="/login" method="post" id="loginForm">
+                <h2>Login</h2>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+              <button id="login-button" type="submit">Login</button>
+
+            </form>
+           
+        </div>
+                  <p><i><b>or</b></i></p>
+        <div class="new-user-form">
+            <form action="{{ url_for('register') }}" method="post" id="registerForm">
+                <h2>Register</h2>
+                <label for="new-username">New Username</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">New Password</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Register</button>
+            </form>
+           
+        </div>
+    </div>
+    <script>
+        // JavaScript to handle redirection after clicking the login button
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Assuming you have a JavaScript function to submit the form
+            // This might involve AJAX or other methods if needed
+            // For simplicity, I'm using the fetch API here
+            fetch('/login', {
+                method: 'POST',
+                body: new FormData(document.getElementById('loginForm'))
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Redirect to the home page after successful form submission
+                        window.location.href = '/home';
+                    } else {
+                        console.error('Form submission failed.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

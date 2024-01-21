@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Interface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #003180;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .ai-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .welcome-message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .chat-container {
+            border: 1px solid #ece7e7;
+            border-radius: 30px;
+            overflow: hidden;
+            background-color: #eff0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .chat-box {
+            flex-grow: 1;
+            overflow-y: scroll;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .input-group {
+            padding: 15px;
+            border-top: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #060606;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            border-radius: 5px;
+            color: white;
+        }
+
+        .chat-message {
+            margin-bottom: 10px;
+            word-wrap: break-word;
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-picture {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        .chat-bot-message {
+            background-color: #bdd8ff;
+            color: #060606;
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 70%;
+            align-self: flex-start;
+        }
+
+        .chat-user-message {
+            background-color: #e2f0cb;
+            color: #060606;
+            padding: 10px;
+            max-width: 70%;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- AI Image -->
+        <img src="{{ url_for('static', filename='images/Bliss robo.png') }}" alt="AI Image" class="ai-image">
+        <p>Hello! I'm Blissy, your friendly bunny chatbot. 🐇
+            I'm here to lend a listening ear, provide support, and brighten your day!
+            Whether you need someone to talk to or just want a virtual friend, I'm here for you.
+            How can I assist you today?</p>
+        <!-- Welcome Message -->
+        <div class="welcome-message">Welcome to the Bliss Bot Interface!</div>
+
+        <!-- Chatbot Interface -->
+        <div class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <!-- Initial message with profile picture -->
+                <div class="chat-message chat-bot-message">
+                    <img src="{{ url_for('static', filename='images/Bliss robo.png') }}" alt="Profile"
+                        class="profile-picture">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+                <br><br><br>
+                <button class="btn btn-primary" onclick="startVoiceRecognition()">Voice Typing</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById('userInput').value;
+            if (userInput.trim() === "") return;
+
+            appendMessage('user', userInput);
+
+            // Replace this with your chatbot logic
+            $.post('/get_response', { userInput: userInput }, function (data) {
+                var botResponse = data.response;
+                appendMessage('bot', botResponse);
+            });
+
+            // Clear input
+            document.getElementById('userInput').value = '';
+
+            window.addEventListener('DOMContentLoaded', (event) => {
+                // Scroll to the bottom of the chat box
+                var chatBox = document.getElementById('chatBox');
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+        }
+
+        function appendMessage(sender, message) {
+            var chatBox = document.getElementById('chatBox');
+            var messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message ' + (sender === 'bot' ? 'chat-bot-message' : 'chat-user-message');
+
+            // Add profile picture for bot messages
+            if (sender === 'bot') {
+                var profilePicture = document.createElement('img');
+                profilePicture.src = "{{ url_for('static', filename='images/Bliss robo.png') }}";
+                profilePicture.alt = 'Profile';
+                profilePicture.className = 'profile-picture';
+                messageDiv.appendChild(profilePicture);
+            }
+
+            messageDiv.innerHTML += message;
+            chatBox.appendChild(messageDiv);
+        }
+
+        function startVoiceRecognition() {
+            var recognition = new webkitSpeechRecognition() || recognition();
+            recognition.onresult = function (event) {
+                var result = event.results[event.resultIndex];
+                var transcript = result[0].transcript;
+                document.getElementById('userInput').value = transcript;
+            };
+
+            recognition.start();
+        }
+    </script>
+
+</body>
+
+</html>

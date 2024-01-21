@@ -1,0 +1,35 @@
+    chatSentiScores = analyzer.polarity_scores(chatResponse)
+    lstScores = [chatSentiScores['pos'], chatSentiScores['neu'], chatSentiScores['neg']]
+
+    user_object_id = session.get('user_ID')
+
+    emotionalScore = mongo.db.points.find_one(
+        {'user_ID': user_object_id},
+        projection={'emotional_score': 1}
+    )
+
+    t = 0
+
+    if 0.0 <= emotionalScore <= 0.3:
+        t = 0
+    elif 0.4 <= emotionalScore <= 0.7:
+        t = 1
+    elif 0.8 <= emotionalScore <= 1.0:
+        t = 2
+
+    while True:
+        if t == 2:
+            if lstScores[0] > lstScores[1] and lstScores[0] > lstScores[2]:
+                return chatResponse
+            else:
+                chatResponse = get_response(intents_list, intents_json)
+        elif t == 1:
+            if lstScores[0] > lstScores[2] and lstScores[1] > lstScores[2]:
+                return chatResponse
+            else:
+                chatResponse = get_response(intents_list, intents_json)
+        else:
+            if lstScores[0] > lstScores[2] and lstScores[1] > lstScores[2]:
+                return chatResponse
+            else:
+                chatResponse = get_response(intents_list, intents_json)

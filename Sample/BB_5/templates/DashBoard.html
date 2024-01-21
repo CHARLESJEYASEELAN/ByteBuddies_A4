@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Include Plotly JS for interactive graphs -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 30px;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(173, 216, 230, 1));
+
+        }
+
+        .container {
+            max-width: 1200px;
+
+        }
+
+        .quote-container {
+            background-color: white;
+            margin-top: 35px;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: auto;
+        }
+
+        h4 {
+            margin-top: 0;
+            /* Removes top margin */
+            padding-top: 0;
+            /* Removes top padding */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>User Dashboard</h1>
+
+
+        <div class="quote-container">
+            <h4>How well are you Performing in your Portal</h4>
+            {{ graph_html | safe }}
+            <div id="bar-graph"></div>
+        </div>
+        <div class="quote-container">
+            <h4>How was your Mood</h4>
+            {{ pie | safe }}
+            <div id="pie-chart"></div>
+        </div>
+        <div class="quote-container">
+            <h4>How long were you positive</h4>
+            {{ line | safe }}
+            <div id="line-plot"></div>
+        </div>
+        <div class="quote-container">
+            <h4>Let's check your affirmation status</h4>
+            {{ affirmation | safe}}
+            <div id="bar-affirmation"></div>
+        </div>
+
+
+
+    </div>
+
+    <!-- Display the graphs -->
+
+
+    <!-- Include the Plotly figures -->
+    <!-- Include the Plotly figures -->
+    <!-- Include the Plotly figures -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+
+        document.getElementById('GraphForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Assuming you have a JavaScript function to submit the form
+            // This might involve AJAX or other methods if needed
+            // For simplicity, I'm using the fetch API here
+            fetch("{{ url_for('graphs') }}", {
+                method: 'POST',
+                body: new FormData(document.getElementById('GraphForm'))
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Redirect to the home page after successful form submission
+                        var bar_fig_json = '{{ bar_fig | default ("{}") | safe }}';
+                        console.log('bar_fig_json:', bar_fig_json);
+
+                        var bar_fig = null;
+                        try {
+                            bar_fig = JSON.parse(bar_fig_json);
+                            console.log('Parsed bar_fig:', bar_fig);
+                        } catch (error) {
+                            console.error('Error parsing bar_fig_json:', error);
+                        }
+
+                        // Check if the figure is not null before creating the plot
+                        if (bar_fig) {
+                            Plotly.ready(function () {
+                                Plotly.newPlot('bar-graph', bar_fig);
+                            });
+                        }
+                    } else {
+                        console.error('Some Problem');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+
+
+</body>
+
+</html>

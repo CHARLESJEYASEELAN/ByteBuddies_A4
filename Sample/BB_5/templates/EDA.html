@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trend Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body{
+            background: radial-gradient(white,rgb(91, 186, 224));
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .custom-div {
+            background-color: white;
+            width: 400px;
+            height: 420px;
+            border: 0px solid black;
+            margin: 10px;
+            align-items: center;
+            align-content: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 400px;
+             /* Adjust height as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center mt-5" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+        <h1>Trend Page</h1>
+        <p>In the intricate tapestry of mental health, depressive disorders and anxiety disorders emerge as profound threads, weaving through the global psyche. 
+            These conditions, prevalent on a staggering scale, are often influenced by multifaceted factors. Firstly, the relentless modern pace and societal pressures can act as catalysts, fostering a breeding ground for depressive disorders and anxiety disorders. The relentless pursuit of unattainable standards and the pervasive influence of social media contribute to a pervasive sense of inadequacy, fueling these conditions. Moreover, genetic predispositions and neurochemical imbalances play crucial roles, turning these disorders into formidable adversaries. 
+            The repercussions on the global population are significant and foreboding. Beyond the immediate personal toll, the societal fabric may fray as productivity diminishes, relationships strain, and the burden on healthcare systems burgeons. To navigate this complex landscape, fostering mental health awareness, destigmatization, and accessible support becomes paramount for a resilient and thriving global community.</p>
+    </div>
+    <div class="row">
+        <div class="col custom-div">
+            <iframe src="{{ url_for('static', filename='html/viz1.html') }}" title="W3Schools Free Online Web Tutorials"></iframe>
+        </div>
+        <div class="col custom-div">
+            <iframe src="{{ url_for('static', filename='html/viz2.html') }}" title="W3Schools Free Online Web Tutorials"></iframe>
+        </div>
+        
+    </div>
+    <div class="row">
+        
+        
+        <div class="col custom-div">
+            <iframe src="{{ url_for('static', filename='html/viz3.html') }}" title="W3Schools Free Online Web Tutorials"></iframe>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col custom-div">
+            <div class="col custom-div">
+                <iframe src="{{ url_for('static', filename='html/pie5.html') }}" title="W3Schools Free Online Web Tutorials"></iframe>
+            </div>
+        </div>
+        <div class="col custom-div">
+            <div class="col custom-div">
+                <iframe src="{{ url_for('static', filename='html/pie3.html') }}" title="W3Schools Free Online Web Tutorials"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

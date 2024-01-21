@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Doctor List</title>
+    <!-- Bootstrap CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+
+
+    <script src="https://unpkg.com/leaflet-search"></script>
+
+
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+    <style>
+        .table-container {
+            width: 1100px;
+            height: 400px;
+            overflow: auto;
+        }
+
+        #map-container {
+            width: 800px;
+            height: 300px;
+            overflow: auto;
+
+        }
+
+        #container {
+            height: 80vh;
+            /* 80% of the viewport height */
+            overflow: auto;
+        }
+
+        #map {
+            width: 100%;
+            height: 40vh;
+            /* 40% of the viewport height */
+        }
+    </style>
+</head>
+
+<body>             
+                  
+    <div class="container mt-4 w-1000">
+        <h2>Doctor List</h2>
+
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Specialization</th>
+                        <th>Contact Number</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Zip Code</th>
+                        <th>Education</th>
+                        <th>Experience (Years)</th>
+                        <th>Languages Spoken</th>
+                        <th>Availability</th>
+                        <th>Rating</th>
+                        <th>Latitude</th>
+                        <th>Logitude</th>
+                    </tr>
+                </thead>
+                <tbody id="doctorTableBody">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <h2>Search Doctors by Location</h2>
+            <input type="text" id="searchLocation" class="form-control mt-2" placeholder="Enter location..."
+                onkeyup="searchOnLocationChange(event)">
+
+        </div>
+        <div id="map" class="mt-5 mb-5">
+            <h2>Map</h2>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+
+    <script src="https://unpkg.com/leaflet-search"></script>
+
+    <!-- Custom JavaScript to load CSV data -->
+    <script>
+
+        var doctorsData;
+
+        function searchOnLocationChange(event) {
+            // Check if the pressed key is Enter (key code 13)
+            if (event.keyCode === 13) {
+                var searchValue = document.getElementById('searchLocation').value;
+                searchDoctors(searchValue);
+            }
+        }
+
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "{{ url_for('static', filename='csv/doctors_data.csv') }}",
+                dataType: "text",
+                success: function (data) {
+                    parseCsvData(data);
+                }
+            });
+        });
+
+        function parseCsvData(csvData) {
+            Papa.parse(csvData, {
+                header: true,
+                complete: function (results) {
+                    doctorsData = results.data;
+                    displayDoctorData(results.data);
+                }
+            });
+        }
+
+        function displayDoctorData(data) {
+            var html = '';
+            for (var i = 0; i < data.length; i++) {
+                html += '<tr>';
+                for (var key in data[i]) {
+                    if (data[i].hasOwnProperty(key)) {
+                        html += '<td>' + data[i][key] + '</td>';
+                    }
+                }
+                html += '</tr>';
+            }
+            $('#doctorTableBody').html(html);
+        }
+
+
+        var map = L.map('map').setView([20.5937, 78.9629], 5); // Default center (India)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        var searchControl = new L.Control.Search({
+            position: 'topright',
+            layer: L.geoJSON(), // Empty layer initially
+            propertyName: 'location',
+            marker: false,
+            moveToLocation: function (latlng, title, map) {
+                map.setView(latlng, 15); // Set the zoom level as needed
+            }
+        });
+
+        map.addControl(searchControl);
+
+        // Event listener for the search input
+        $('#searchLocation').on('keyup', function (e) {
+            if (e.which === 13) { // Check if Enter key was pressed
+                var searchValue = $(this).val();
+                searchDoctors(searchValue);
+            }
+        });
+
+        function searchDoctors(location) {
+            var foundDoctors = [];
+
+            // Check if doctorsData is defined and not empty
+            if (doctorsData && doctorsData.length > 0) {
+                // Your logic to search in the loaded CSV data
+                for (var i = 0; i < doctorsData.length; i++) {
+                    var doctor = doctorsData[i];
+                    // Check if the 'City' property is present in the doctor object
+                    if (doctor && doctor.city && doctor.city.toLowerCase() === location.toLowerCase()) {
+                        foundDoctors.push(doctor);
+                    }
+                }
+            }
+
+            // Display doctors on the map if found
+            if (foundDoctors.length > 0) {
+                displayDoctorsOnMap(foundDoctors);
+            } else {
+                // Show a popup message if no doctors are found
+                alert('No doctors found in the specified city.');
+            }
+        }
+
+        function displayDoctorsOnMap(doctors) {
+            // Clear existing markers on the map
+            map.eachLayer(function (layer) {
+                if (layer instanceof L.Marker) {
+                    map.removeLayer(layer);
+                }
+            });
+
+            // Add markers for the found doctors
+            for (var i = 0; i < doctors.length; i++) {
+                var doctor = doctors[i];
+                var latlng = [parseFloat(doctor.latitude), parseFloat(doctor.longitude)];
+                var marker = L.marker(latlng).addTo(map);
+                marker.bindPopup('<b>' + doctor.name + '</b><br>' + doctor.specialization);
+
+                // Automatically zoom to the location of the found doctor
+                map.setView(latlng, 7); // Adjust the zoom level as needed
+            }
+        }
+    </script>
+
+</body>
+
+</html>
